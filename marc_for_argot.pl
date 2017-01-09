@@ -202,6 +202,89 @@ RECORD: while (<INFILE>) {
     }
     $ldr_sth->finish();
 
+    #Get and write control fields
+    #MARC-XML defines control fields as MARC21 Fields 001-009
+    #Helpfully, Sierra puts 006, 007, and 008 in the control_fields table, but leaves the other 00X
+    #  fields in the variable fields table.
+    #TODO: Maybe: sort these better
+    #For now: any 006s, 007s, and 008s are output first, then the other 00X fields follow.
+    my $cf_sql = "
+           select LPAD(control_num::TEXT, 3, '0'),
+           coalesce(nullif(p00, ''), '#') ||
+           coalesce(nullif(p01, ''), '#') ||
+           coalesce(nullif(p02, ''), '#') ||
+           coalesce(nullif(p03, ''), '#') ||
+           coalesce(nullif(p04, ''), '#') ||
+           coalesce(nullif(p05, ''), '#') ||
+           coalesce(nullif(p06, ''), '#') ||
+           coalesce(nullif(p07, ''), '#') ||
+           coalesce(nullif(p08, ''), '#') ||
+           coalesce(nullif(p09, ''), '#') ||
+           coalesce(nullif(p10, ''), '#') ||
+           coalesce(nullif(p11, ''), '#') ||
+           coalesce(nullif(p12, ''), '#') ||
+           coalesce(nullif(p13, ''), '#') ||
+           coalesce(nullif(p14, ''), '#') ||
+           coalesce(nullif(p15, ''), '#') ||
+           coalesce(nullif(p16, ''), '#') ||
+           coalesce(nullif(p17, ''), '#') ||
+           coalesce(nullif(p18, ''), '#') ||
+           coalesce(nullif(p19, ''), '#') ||
+           coalesce(nullif(p20, ''), '#') ||
+           coalesce(nullif(p21, ''), '#') ||
+           coalesce(nullif(p22, ''), '#') ||
+           coalesce(nullif(p23, ''), '#') ||
+           coalesce(nullif(p24, ''), '#') ||
+           coalesce(nullif(p25, ''), '#') ||
+           coalesce(nullif(p26, ''), '#') ||
+           coalesce(nullif(p27, ''), '#') ||
+           coalesce(nullif(p28, ''), '#') ||
+           coalesce(nullif(p29, ''), '#') ||
+           coalesce(nullif(p30, ''), '#') ||
+           coalesce(nullif(p31, ''), '#') ||
+           coalesce(nullif(p32, ''), '#') ||
+           coalesce(nullif(p33, ''), '#') ||
+           coalesce(nullif(p34, ''), '#') ||
+           coalesce(nullif(p35, ''), '#') ||
+           coalesce(nullif(p36, ''), '#') ||
+           coalesce(nullif(p37, ''), '#') ||
+           coalesce(nullif(p38, ''), '#') ||
+           coalesce(nullif(p39, ''), '#')
+           from sierra_view.control_field
+           where record_id = $bib_id
+           order by occ_num ASC
+           ";
+
+    my $cf_sth = $dbh->prepare($cf_sql);
+    $cf_sth->execute();
+    my ($marc_tag, $data);
+    $cf_sth->bind_columns (undef, \$marc_tag, \$data);
+
+  CTRLFIELD: while ($cf_sth->fetch()) {
+        $data =~ s/#/ /g;
+        if ($marc_tag =~ m/00[67]/) {
+            $data =~ s/ *$//;
+        }
+        print OUTFILE "      <controlfield tag='$marc_tag'>$data</controlfield>\n";
+    } #end CTRLFIELD
+
+    #Now, handle the control fields stored as variable fields in Sierra
+        my $vcf_sql = "
+           select marc_tag, field_content
+           from sierra_view.varfield
+           where record_id = $bib_id
+           and marc_tag IN ('001', '003', '005')
+           order by marc_tag, occ_num ASC
+           ";
+
+    my $vcf_sth = $dbh->prepare($vcf_sql);
+    $vcf_sth->execute();
+    my ($marc_tag, $data);
+    $vcf_sth->bind_columns (undef, \$marc_tag, \$data);
+
+  VCTRLFIELD: while ($vcf_sth->fetch()) {
+        print OUTFILE "      <controlfield tag='$marc_tag'>$data</controlfield>\n";
+    } #end VCTRLFIELD
 
   #   #Set up to grab the rest of the fields and process them
   #   my $bib_sql = "select marc_tag, rec_data, indicator1, indicator2
