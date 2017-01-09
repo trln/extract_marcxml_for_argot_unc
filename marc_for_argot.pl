@@ -153,15 +153,15 @@ RECORD: while (<INFILE>) {
         if ($testing) {
             print "BibID: $bib_id\n";
         }
-        } elsif ($ct_ids == 0) {
-            print WARN "$bnum \tThere is no bib record with this bib record id. Perhaps the full record id from Millennium was entered (check digit should be omitted), or there was a copy/paste error?\n";
-            $warning_ct += 1;
-            next RECORD;
-        } else {
-            print WARN "$bnum \tThere is somehow more than one record with this bib record id.\n";
-            $warning_ct += 1;
-            next RECORD;
-        }
+    } elsif ($ct_ids == 0) {
+        print WARN "$bnum \tThere is no bib record with this bib record id. Perhaps the full record id from Millennium was entered (check digit should be omitted), or there was a copy/paste error?\n";
+        $warning_ct += 1;
+        next RECORD;
+    } else {
+        print WARN "$bnum \tThere is somehow more than one record with this bib record id.\n";
+        $warning_ct += 1;
+        next RECORD;
+    }
 
     #Make sure record has 1 and only 1 LDR field. If so, write Leader.
     #TODO: Do this later. For now we assume each existing record has the Leader it should
@@ -266,10 +266,10 @@ RECORD: while (<INFILE>) {
             $data =~ s/ *$//;
         }
         print OUTFILE "      <controlfield tag='$marc_tag'>$data</controlfield>\n";
-    } #end CTRLFIELD
+    }                           #end CTRLFIELD
 
     #Now, handle the control fields stored as variable fields in Sierra
-        my $vcf_sql = "
+    my $vcf_sql = "
            select marc_tag, field_content
            from sierra_view.varfield
            where record_id = $bib_id
@@ -284,159 +284,135 @@ RECORD: while (<INFILE>) {
 
   VCTRLFIELD: while ($vcf_sth->fetch()) {
         print OUTFILE "      <controlfield tag='$marc_tag'>$data</controlfield>\n";
-    } #end VCTRLFIELD
+    }                           #end VCTRLFIELD
 
-  #   #Set up to grab the rest of the fields and process them
-  #   my $bib_sql = "select marc_tag, rec_data, indicator1, indicator2
-  #                   from var_fields2
-  #                   where rec_key = '$bnum' and iii_tag != '_' and marc_tag IS NOT NULL
-  #                   order by marc_tag, rec_seq";
+    #Set up to grab the rest of the fields and process them
+    my $bib_sql = "select marc_tag, field_content, marc_ind1, marc_ind2
+                    from sierra_view.varfield
+                    where record_id = $bib_id
+                    and marc_tag NOT IN ('001', '003', '005')
+                    order by marc_tag, occ_num";
 
-  #   my $bib_sth = $dbh->prepare($bib_sql);
-  #   $bib_sth->execute();
-  #   my ($marc_tag, $rec_data, $ind1, $ind2) = ('', '', '', '');
-  #   $bib_sth->bind_columns (undef, \$marc_tag, \$rec_data, \$ind1, \$ind2 );
+    my $bib_sth = $dbh->prepare($bib_sql);
+    $bib_sth->execute();
+    my ($marc_tag, $rec_data, $ind1, $ind2) = ('', '', '', '');
+    $bib_sth->bind_columns (undef, \$marc_tag, \$rec_data, \$ind1, \$ind2 );
 
-  #   #Set up counters and things for verification
-  #   my $oclc035 = 0; #set to 1 if 035 contains OCoLC
-  #   my $ct008 = 0;   #each 008 field increments count by 1
-  #   my $ct245 = 0;   #each 245 field increments count by 1
-  #   my $ct245ak = 0; #incremented by 1 if 245 contains subfield a or k
-  #   my $orig001 = ""; #hold the value from the 001 field in case there's no 035 with OCLC num
-  #   my $orig003 = ""; #hold the record source code to determine if $orig001 is an OCLC num or not
+  FIELD: while ($bib_sth->fetch()) {
+        #Escape XML-reserved characters in the data
+        if ($rec_data =~ m/[<>&"']/) {
+            $rec_data = escape_xml_reserved ($rec_data);
+        }
 
-  #   #provide Hathi-specific 001 and 003
-  #   #Hathi ingests from IA provided bnum without check digit in the 001
-  #   print OUTFILE "      <controlfield tag='001'>$bnum</controlfield>\n";
-  #   print OUTFILE "      <controlfield tag='003'>NcU</controlfield>\n";
+        print OUTFILE "      <datafield ind1='$ind1' ind2='$ind2' tag='$marc_tag'>\n";
+        my @subfields = split /\|/, "$rec_data";
+        # need to get ordered list of delimiters in fields so we can throw errors
+        #  if some fields don't start with (or contain) required subfields
+        my @delimiters = ();
+        foreach my $subfield (@subfields) {
+            if ($subfield) {
+                my $delimiter = substr ($subfield, 0, 1);
+                my $data = trim (substr ($subfield, 1));
+                print OUTFILE "        <subfield code='$delimiter'>$data</subfield>\n";
+                push @delimiters, $delimiter;
+            }
+        }
+        print OUTFILE "      </datafield>\n";
+    }
 
-  # FIELD: while ($bib_sth->fetch()) {
-  #       #Escape XML-reserved characters in the data
-  #       if ($rec_data =~ m/[<>&"']/) {
-  #           $rec_data = escape_xml_reserved ($rec_data);
-  #       }
+    $bib_sth->finish();
 
-  #       #Process control fields
-  #       if ($marc_tag =~ m/00\d/) {
-  #           if ($marc_tag =~ m/001/) {
-  #               $orig001 = $rec_data;
-  #           } elsif ($marc_tag =~ m/003/) {
-  #               $orig003 = $rec_data;
-  #           } else {
-  #               if ($marc_tag == '008') {
-  #                   $ct008 += 1;
-  #                   #III for some ridiculous reason chooses to output the 6 editable LDR bytes on the end of the 008
-  #                   #So those need to be deleted to create valid MARC
-  #                   $rec_data =~ s/^(.*)......$/\1/;
-  #                   my $length008 = length($rec_data);
-  #                   if ($length008 != 40) {
-  #                       print WARN "$bnum_full\tThis bib record's 008 does not have 40 byte positions. Report to cataloging staff to correct 008.\n";
-  #                       $warning_ct += 1;
-  #                   }
-  #               }
-  #               print OUTFILE "      <controlfield tag='$marc_tag'>$rec_data</controlfield>\n";
-  #           }
-  #       }
+    # print OUTFILE "      <datafield ind1=' ' ind2=' ' tag='955'>\n";
+    # print OUTFILE "        <subfield code='b'>$barcode</subfield>\n";
+    # if ($volume) {
+    #     print OUTFILE "        <subfield code='v'>$volume</subfield>\n";
+    # }
+    # print OUTFILE "      </datafield>\n";
 
-  #       #Hathi doesn't need our 9XX fields
-  #       elsif ( $marc_tag =~ m/^9/ ) {
-  #           next FIELD;
-  #       }
+    #Get counts of unsuppressed item, holdings, and order records
+    my (@items, @holdings, @orders);
 
-  #       #Process variable fields
-  #       else {
-  #           print OUTFILE "      <datafield ind1='$ind1' ind2='$ind2' tag='$marc_tag'>\n";
-  #           my @subfields = split /\|/, "$rec_data";
-  #           # need to get ordered list of delimiters in fields so we can throw errors
-  #           #  if some fields don't start with (or contain) required subfields
-  #           my @delimiters = ();
-  #           foreach my $subfield (@subfields) {
-  #               if ($subfield) {
-  #                   my $delimiter = substr ($subfield, 0, 1);
-  #                   my $data = trim (substr ($subfield, 1));
-  #                   print OUTFILE "        <subfield code='$delimiter'>$data</subfield>\n";
-  #                   push @delimiters, $delimiter;
-  #               }
-  #           }
-  #           print OUTFILE "      </datafield>\n";
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    # ITEMS
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    my $item_ct_sql = "SELECT
+                         lr.item_record_id
+                       FROM
+                         sierra_view.bib_record_item_record_link lr,
+                         sierra_view.item_record i
+                       WHERE
+                         lr.bib_record_id = $bib_id
+                       AND lr.item_record_id = i.record_id
+                       AND i.icode2 != 'n'
+                       ORDER BY
+                         lr.items_display_order ASC";
+    my $item_ct_sth = $dbh->prepare($item_ct_sql);
+    $item_ct_sth->execute();
+    $item_ct_sth->bind_columns (undef, \$item_id );
 
-  #           if ($marc_tag == '245') {
-  #               $ct245 += 1;
-  #               if (first { $_ eq ('a' || 'k') } @delimiters) {
-  #                   $ct245ak += 1;
-  #               }
-  #           }
-  #           if ($marc_tag == '035' && $rec_data =~ m/\|a\(OCoLC\)/) {
-  #               $oclc035 += 1;
-  #           }
-  #       }
-  #   }
-  #   $bib_sth->finish();
+    while ($item_ct_sth->fetch()) {
+        push @items, $item_id;
+    }
+    $item_ct_sth->finish();
+    my $item_ct = scalar @items;
 
-  #   print OUTFILE "      <datafield ind1=' ' ind2=' ' tag='955'>\n";
-  #   print OUTFILE "        <subfield code='b'>$barcode</subfield>\n";
-  #   if ($volume) {
-  #       print OUTFILE "        <subfield code='v'>$volume</subfield>\n";
-  #   }
-  #   print OUTFILE "      </datafield>\n";
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    # HOLDINGS
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    my $holdings_ct_sql = "SELECT
+                             lr.holding_record_id
+                           FROM
+                             sierra_view.bib_record_holding_record_link lr,
+                             sierra_view.holding_record h
+                           WHERE
+                             lr.bib_record_id = $bib_id
+                           AND lr.holding_record_id = h.record_id
+                           AND h.scode2 != 'n'
+                           ORDER BY
+                             lr.holdings_display_order ASC";
+    my $holdings_ct_sth = $dbh->prepare($holdings_ct_sql);
+    $holdings_ct_sth->execute();
+    my ($holdings_ct);
+    $holdings_ct_sth->bind_columns (undef, \$holding_id );
+    while ($holdings_ct_sth->fetch()) {
+        push @holdings, $holding_id
+    }
+    $holdings_ct_sth->finish();
+    my $holding_ct = scalar @holdings;
 
-  #   #Check counts of certain fields and write warnings accordingly.
-  #   if ($oclc035 == 0) {
-  #       # If there is no OCLC 035, determine whether 001 is an OCLC number and provide it if possible.
-  #       my $oclcnum;
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    # ORDERS - only if there are no unsuppressed items
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    if ($item_ct == 1) {
+        my $orders_ct_sql = "SELECT
+                             lr.order_record_id
+                           FROM
+                             sierra_view.bib_record_order_record_link lr,
+                             sierra_view.order_record h
+                           WHERE
+                             lr.bib_record_id = $bib_id
+                           AND lr.order_record_id = h.record_id
+                           AND h.ocode3 != 'n'
+                           ORDER BY
+                             lr.orders_display_order ASC";
+        my $orders_ct_sth = $dbh->prepare($orders_ct_sql);
+        $orders_ct_sth->execute();
+        my ($orders_ct);
+        $orders_ct_sth->bind_columns (undef, \$order_id );
+        while ($orders_ct_sth->fetch()) {
+            push @orders, $order_id
+        }
+        $orders_ct_sth->finish();
+    }
+    my $order_ct = scalar @orders;
 
-  #       # If 001 consists only of digits...
-  #       if ( $orig001 =~ m/^\d+$/ ) {
-  #           #  ...and 003 is blank, then 001 is an OCLC number
-  #           if ( $orig003 =~ m/^$/ ) {
-  #               $oclcnum = $orig001;
-  #           } else {           #  ...and 003 is not blank, then if...
-  #               #   ...003 is OCoLC, 001 is OCLC number
-  #               if ( $orig003 =~ m/OCoLC/i ) {
-  #                   $oclcnum = $orig001;
-  #               }
-  #               #   ...003 is not OCoLC, 001 is NOT OCLC number
-  #           }
-  #       } else {        # If 001 has characters that are not digits...
-  #           #  ...and 003 is blank, 001 is NOT OCLC number
-  #           #  ...and 003 is not blank, then if...
-  #           unless ( $orig003 =~ m/^$/ ) {
-  #               #   ...003 is OCoLC, remove non-digits and call it OCLC number
-  #               if ( $orig003 =~ m/OCoLC/i ) {
-  #                   $orig001 =~ s/\D//g;
-  #                   $oclcnum = $orig001;
-  #               }
-  #               #   ...003 is not OCoLC, 001 is NOT OCLC number
-  #           }
-  #       }
+    if ($testing) {
+        print "Attached items: $item_ct; Attached holdings: $holding_ct; Attached orders: $order_ct\n";
+    }
 
-  #       if ( $oclcnum ) {
-  #           print OUTFILE "      <datafield ind1=' ' ind2=' ' tag='035'>\n";
-  #           print OUTFILE "        <subfield code='a'>(OCoLC)$oclcnum</subfield>\n";
-  #           print OUTFILE "      </datafield>\n";
-  #       } else {
-  #           print WARN "$bnum_full\tThis bib does not contain an 035 field with an OCLC number. Report to cataloging staff to have an OCLC number added in an 035 field.\n";
-  #           $warning_ct += 1;
-  #       }
-  #   } elsif ($oclc035 > 1) {
-  #       print WARN "$bnum_full\tThis bib contains more than 035 field with an OCLC number. Report to cataloging staff to have an OCLC numbers checked/corrected.\n";
-  #       $warning_ct += 1;
-  #   }
-
-  #   if ($ct008 == 0) {
-  #       print WARN "$bnum_full\tThis bib does not contain an 008 field, which is a required field. Report to cataloging staff to fix 008 field.\n";
-  #       $warning_ct += 1;
-  #   }
-
-  #   if ($ct245 > 1) {
-  #       print WARN "$bnum_full\tThis bib contains more than one 245 field, which is a non-repeatable field. Report to cataloging staff to fix.\n";
-  #       $warning_ct += 1;
-  #   }
-
-  #   if ($ct245ak == 0) {
-  #       print WARN "$bnum_full\tThis bib does not contain a subfield a or k in the 245. Report to cataloging staff to fix.\n";
-  #       $warning_ct += 1;
-  #   }
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    # PROCESS ITEM RECORD DATA
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
     print OUTFILE "  </record>\n";
 }                               #end RECORD
