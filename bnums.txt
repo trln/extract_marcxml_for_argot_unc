@@ -1,6 +1,7 @@
+b1304177 #proto-argot example, Rusian vernacular
+b7420979 #proto-argot example, streaming video
 b5209801 #due date, on 2017-01-09
-b1002574 #public item note
-b1794029 #print journal record with items, order, and holdings attached
-#b1794029999 #invalid bnum
-#b1306193 #HT test bib for comparison
-#b8190227 #streaming video bib for multiple control field testing
+b8696797 #multiple public item notes
+#b1002574 #public item note
+#b1794029 #print journal record with items, order, and holdings attached
+#b1794029999 #invalid bnum test
