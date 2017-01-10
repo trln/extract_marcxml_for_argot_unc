@@ -12,5 +12,6 @@ perl marc_for_argot.pl [path to input file] [path to output file]
 Options: 
 - --testing : prints extra info to STDOUT for checking out how things are being processed
 
-- bnums.txt - example input file
+Input/output:
+- bnums.txt - example input file - list of bib record numbers (no check digit). Comments after bnums ignored. Commented lines ignored.
 - out.xml - example output file
