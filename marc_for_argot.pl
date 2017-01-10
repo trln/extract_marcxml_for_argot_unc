@@ -572,13 +572,8 @@ RECORD: while (<INFILE>) {
                         } elsif ($code eq 'c') {
                             #call number
                             print OUTFILE "        <subfield code='p'>$tag</subfield>\n";
-                            $data =~ s/\|./ /g;
                             $data = trim($data);
-                            @subfields = split / /, $data;
-                            my $classno = shift @subfields;
-                            print OUTFILE "        <subfield code='q'>$classno</subfield>\n";
-                            my $cutter = join ' ', @subfields;
-                            print OUTFILE "        <subfield code='r'>$cutter</subfield>\n";
+                            print OUTFILE "        <subfield code='q'>$data</subfield>\n";
                         } elsif ($code eq 'v') {
                             print OUTFILE "        <subfield code='v'>$data</subfield>\n";
                         } elsif ($code eq 'z') {
