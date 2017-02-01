@@ -7,10 +7,22 @@ MARC tag,Ind 1,Ind 2,Record type,Subfield code,Subfield type,Repeats? ,Notes
 999,9,1,Item,n,Public Item Note,y,.
 999,9,1,Item,o,Total Checkouts,n,.
 999,9,1,Item,p,Call number tag,n,"Shouldn't repeat, but could. We have never checked for repeated item call numbers. The way I'm breaking this down assumes there is only one per item record. --- Gives indication of which Classification Scheme is being used, in particular, LC vs. NLM"
-999,9,1,Item,q,Classification number,n,"Shouldn't repeat, but could. We have never checked for repeated item call numbers. The way I'm breaking this down assumes there is only one per item record."
+999,9,1,Item,q,Call number,n,"Shouldn't repeat, but could. We have never checked for repeated item call numbers. The way I'm breaking this down assumes there is only one per item record."
 999,9,1,Item,s,Status,n,"Does not change when checked out! If there is a due date, item is checked out, and thus not currently available."
 999,9,1,Item,t,Item Type,n,.
 999,9,1,Item,v,Volume,,"Shouldn't repeat, but could. We have never checked for repeated volume values."
-999,9,2,Holdings,,ILS holdings record number,n,
-,,,,,Location code,n,
-,,,,,Holdings card count,n,
+999,9,2,Holdings-Record info,a,ILS holdings record number,n,
+999,9,2,Holdings-Record info,b,Location code,n,
+999,9,2,Holdings-Record info,c,Holdings card count,n,"Just the holdings record number? Presence or absence of this may trigger link to ""Recent volumes"" view in Classic Catalog"
+999,9,3,Holdings-Field,0,ILS holdings record number,n,
+999,9,3,Holdings-Field,2,Holdings field tag,n,
+999,9,3,Holdings-Field,3,III tag,n,
+999,9,3,Holdings-Field,[5-9a-z],Subfield as defined in MARC holdings format,y,
+,,,,,,,
+,,,,,852,,
+,,,,,h863,,
+,,,,,864,,
+,,,,,865,,
+,,,,,h866,,
+,,,,,867,,
+,,,,,868,,
