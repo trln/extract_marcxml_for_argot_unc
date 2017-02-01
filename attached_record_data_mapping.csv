@@ -18,3 +18,10 @@ MARC tag,Ind 1,Ind 2,Record type,Subfield code,Subfield type,Repeats? ,Notes
 999,9,3,Holdings-Field,2,Holdings field tag,n,
 999,9,3,Holdings-Field,3,III tag,n,
 999,9,3,Holdings-Field,[5-9a-z],Subfield as defined in MARC holdings format,y,"Any 852 field is extracted. 86[345678] fields with III tag = h are extracted. According to Kurt Blythe, if these fields are coded otherwise (usually g for DRA Holdings), they should NOT display to the public."
+999,9,4,Order,a,Order record number,n,
+999,9,4,Order,b,Order code 3,n,"Look this up and name it better."
+999,9,4,Order,c,Number of copies,n,
+999,9,4,Order,d,Received date,n,
+999,9,4,Order,e,Cat date,n,
+999,9,4,Order,f,Location,n,
+999,9,4,Order,g,Order status code,n,
