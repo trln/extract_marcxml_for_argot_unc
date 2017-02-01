@@ -533,7 +533,7 @@ RECORD: while (<INFILE>) {
             print OUTFILE "      <datafield ind1='9' ind2='2' tag='999'>\n";
             print OUTFILE "        <subfield code='a'>$hnum</subfield>\n";
             print OUTFILE "        <subfield code='b'>$h_location_code</subfield>\n";
-            print OUTFILE "        <subfield code='a'>$hcard_ct</subfield>\n";
+            print OUTFILE "        <subfield code='c'>$hcard_ct</subfield>\n";
             print OUTFILE "      </datafield>\n";
 
             my $hfield_sql = "SELECT
@@ -544,9 +544,9 @@ RECORD: while (<INFILE>) {
                                 sierra_view.varfield
                               WHERE
                                 record_id = '$hrec_id'
-                                and ( marc_tag IN ('852', '864', '865', '867', '868')
+                                and ( marc_tag = '852'
                                       OR
-                                      marc_tag IN ('863', '866') AND varfield_type_code = 'h'
+                                      marc_tag IN ('863', '864', '865', '866', '867', '868') AND varfield_type_code = 'h'
                                     )
                               ORDER BY varfield_type_code, occ_num ASC";
 
