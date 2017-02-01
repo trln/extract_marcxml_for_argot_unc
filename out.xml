@@ -1,6 +1,402 @@
 <?xml version='1.0'?>
 <collection xmlns='http://www.loc.gov/MARC21/slim' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd'>
   <record>
+    <leader>00000cas  2200589 a 4500</leader>
+      <controlfield tag='008'>950215d19962007cauqr p       0   a0eng d</controlfield>
+      <controlfield tag='001'>31995961</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20080509074556.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>96656165</subfield>
+        <subfield code='z'>sn 95001453</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='022'>
+        <subfield code='a'>1081-180X</subfield>
+        <subfield code='2'>1</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)31995961</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='037'>
+        <subfield code='b'>Sage Publications, 2455 Teller Road, Thousand Oaks, CA 91320</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>NSD</subfield>
+        <subfield code='c'>NSD</subfield>
+        <subfield code='d'>HUL</subfield>
+        <subfield code='d'>DLC</subfield>
+        <subfield code='d'>GUA</subfield>
+        <subfield code='d'>DLC</subfield>
+        <subfield code='d'>NSD</subfield>
+        <subfield code='d'>IUL</subfield>
+        <subfield code='d'>EYM</subfield>
+        <subfield code='d'>CUS</subfield>
+        <subfield code='d'>OCL</subfield>
+        <subfield code='d'>SYS</subfield>
+        <subfield code='d'>HUL</subfield>
+        <subfield code='d'>IUL</subfield>
+        <subfield code='d'>OCLCQ</subfield>
+        <subfield code='d'>CUS</subfield>
+        <subfield code='d'>GUA</subfield>
+        <subfield code='d'>OCL</subfield>
+        <subfield code='d'>NLGGC</subfield>
+        <subfield code='d'>LVB</subfield>
+        <subfield code='d'>UQ1</subfield>
+        <subfield code='d'>DOS</subfield>
+        <subfield code='d'>CLU</subfield>
+        <subfield code='d'>NYP</subfield>
+        <subfield code='d'>NSD</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='042'>
+        <subfield code='a'>nsdp</subfield>
+        <subfield code='a'>lc</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='049'>
+        <subfield code='a'>NOCC</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='050'>
+        <subfield code='a'>PN4751</subfield>
+        <subfield code='b'>.H37</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='082'>
+        <subfield code='a'>070.4/49324</subfield>
+        <subfield code='2'>21</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='210'>
+        <subfield code='a'>Harvard int. j. press/polit.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='222'>
+        <subfield code='a'>Harvard international journal of press/politics</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='245'>
+        <subfield code='a'>Harvard international journal of press/politics</subfield>
+        <subfield code='h'>[serial].</subfield>
+      </datafield>
+      <datafield ind1='3' ind2=' ' tag='246'>
+        <subfield code='a'>Press politics</subfield>
+      </datafield>
+      <datafield ind1='3' ind2='0' tag='246'>
+        <subfield code='a'>Press/politics</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Cambridge, MA :</subfield>
+        <subfield code='b'>MIT Press,</subfield>
+        <subfield code='c'>1995-2007.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>v. :</subfield>
+        <subfield code='b'>ill. ;</subfield>
+        <subfield code='c'>23 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='310'>
+        <subfield code='a'>Quarterly</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='362'>
+        <subfield code='a'>Vol. 1, no. 1 (winter 1996)-v. 12, no. 4 (fall 2007).</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Title from cover.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Latest issue consulted: Vol. 2, no. 4 (fall 1997).</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Final issue consulted.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='550'>
+        <subfield code='a'>Issued by: Joan Shorenstein Center on the Press, Politics and Public Policy at the Kennedy School of Government, Harvard University.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='550'>
+        <subfield code='a'>Published by: MIT Press, 1996-2000; Sage Publications, 2001-</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Press and politics</subfield>
+        <subfield code='v'>Periodicals.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Government and the press</subfield>
+        <subfield code='v'>Periodicals.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Journalism</subfield>
+        <subfield code='x'>Political aspects</subfield>
+        <subfield code='v'>Periodicals.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Joan Shorenstein Center on the Press, Politics, and Public Policy.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='776'>
+        <subfield code='i'>Also issued online:</subfield>
+        <subfield code='t'>Harvard international journal of press/politics (Online)</subfield>
+        <subfield code='x'>1531-328X</subfield>
+        <subfield code='w'>(DLC)sn 99023448</subfield>
+        <subfield code='w'>(OCoLC)42899908</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='785'>
+        <subfield code='t'>International journal of press/politics</subfield>
+        <subfield code='x'>1940-1612</subfield>
+        <subfield code='w'>(DLC) 2007213329</subfield>
+        <subfield code='w'>(OCoLC)173275455</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>.b42683828</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='915'>
+        <subfield code='9'>Baseline 9_2013</subfield>
+        <subfield code='9'>Under Authority Control</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='935'>
+        <subfield code='a'>BHI-1768</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='935'>
+        <subfield code='a'>.b8545224</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i5839275</subfield>
+        <subfield code='l'>dhca</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00023177125</subfield>
+        <subfield code='p'>090</subfield>
+        <subfield code='q'>|aPN4751|b.H37</subfield>
+        <subfield code='v'>v.1:no.1(1996)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i5839276</subfield>
+        <subfield code='l'>dhca</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00043368854</subfield>
+        <subfield code='p'>090</subfield>
+        <subfield code='q'>|aPN4751|b.H37</subfield>
+        <subfield code='v'>v.8(2003)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i9485706</subfield>
+        <subfield code='l'>dhca</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00043368863</subfield>
+        <subfield code='p'>090</subfield>
+        <subfield code='q'>|aPN4751|b.H37</subfield>
+        <subfield code='v'>v.9(2004)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i9485707</subfield>
+        <subfield code='l'>dhca</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00043368872</subfield>
+        <subfield code='p'>090</subfield>
+        <subfield code='q'>|aPN4751|b.H37</subfield>
+        <subfield code='v'>v.10(2005)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i6555928</subfield>
+        <subfield code='l'>dhca</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00027170846</subfield>
+        <subfield code='p'>090</subfield>
+        <subfield code='q'>|aPN4751|b.H37</subfield>
+        <subfield code='v'>v.11(2006)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7360533</subfield>
+        <subfield code='l'>dhca</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00030705041</subfield>
+        <subfield code='p'>090</subfield>
+        <subfield code='q'>|aPN4751|b.H37</subfield>
+        <subfield code='v'>v.12(2007)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10156266</subfield>
+        <subfield code='l'>ydha</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>PL00015730</subfield>
+        <subfield code='v'>v.2:no.1-4 (1997)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10156268</subfield>
+        <subfield code='l'>ydha</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>PL00015731</subfield>
+        <subfield code='v'>v.3:no.2-3 (1998)</subfield>
+        <subfield code='n'>Loose issue: v.3:no.1 (1998)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10156269</subfield>
+        <subfield code='l'>ydha</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>PL00015732</subfield>
+        <subfield code='v'>v.4:no.2-4 (1999)</subfield>
+        <subfield code='n'>Loose issue: v.4:no.1 (1999)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10156270</subfield>
+        <subfield code='l'>ydha</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>PL00015733</subfield>
+        <subfield code='v'>v.5:no.1-4 (2000)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10156271</subfield>
+        <subfield code='l'>ydha</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>PL00015734</subfield>
+        <subfield code='v'>v.6:no.4 (2001)</subfield>
+        <subfield code='n'>Unbound</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10156274</subfield>
+        <subfield code='l'>ydha</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>PL00015735</subfield>
+        <subfield code='v'>v.7:no.1-4 (2002)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10156275</subfield>
+        <subfield code='l'>ydha</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>PL00015736</subfield>
+        <subfield code='v'>v.8:no.1-4 (2003)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10156276</subfield>
+        <subfield code='l'>ydha</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>PL00015737</subfield>
+        <subfield code='v'>v.9:no.1-4 (2004)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10156279</subfield>
+        <subfield code='l'>ydha</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>PL00015738</subfield>
+        <subfield code='v'>v.10:no.1-4 (2005)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10156280</subfield>
+        <subfield code='l'>ydha</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>PL00015739</subfield>
+        <subfield code='v'>v.11:no.1-4 (2006)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10156281</subfield>
+        <subfield code='l'>ydha</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>PL00015740</subfield>
+        <subfield code='v'>v.12:no.1-4 (2007)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='2' tag='999'>
+        <subfield code='a'>c2805284</subfield>
+        <subfield code='b'>dhca</subfield>
+        <subfield code='c'>1</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c2805284</subfield>
+        <subfield code='2'>852</subfield>
+        <subfield code='3'>c</subfield>
+        <subfield code='b'>555521</subfield>
+        <subfield code='h'>PN4751</subfield>
+        <subfield code='i'>.H37</subfield>
+        <subfield code='x'>Later titles exist.</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c2805284</subfield>
+        <subfield code='2'>853</subfield>
+        <subfield code='3'>y</subfield>
+        <subfield code='8'>1</subfield>
+        <subfield code='a'>v.</subfield>
+        <subfield code='b'>no.</subfield>
+        <subfield code='i'>(year)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c2805284</subfield>
+        <subfield code='2'>863</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>1.1</subfield>
+        <subfield code='a'>1</subfield>
+        <subfield code='b'>1</subfield>
+        <subfield code='i'>1996</subfield>
+        <subfield code='w'>g</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c2805284</subfield>
+        <subfield code='2'>863</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>1.2</subfield>
+        <subfield code='a'>8-12</subfield>
+        <subfield code='i'>2003-2007</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='2' tag='999'>
+        <subfield code='a'>c4979639</subfield>
+        <subfield code='b'>ydha</subfield>
+        <subfield code='c'>0</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c4979639</subfield>
+        <subfield code='2'>852</subfield>
+        <subfield code='3'>c</subfield>
+        <subfield code='i'>Shelved in serials stacks by title: HARVARD INTERNATIONAL JOURNAL OF PRESS/POLITICS       </subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c4979639</subfield>
+        <subfield code='2'>866</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>0</subfield>
+        <subfield code='a'>v.2-12(1997-2007)</subfield>
+      </datafield>
+  </record>
+  <record>
     <leader>00000nam  2200000 a 4500</leader>
       <datafield ind1=' ' ind2=' ' tag='100'>
         <subfield code='a'>Dallapiccola, Luigi</subfield>
@@ -22,6 +418,990 @@
         <subfield code='e'></subfield>
         <subfield code='f'>mm</subfield>
         <subfield code='g'>1</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cas a2200553 a 4500</leader>
+      <controlfield tag='008'>740904c19319999ne qr p       0   b0eng c</controlfield>
+      <controlfield tag='001'>997482</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20140108085932.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>54034542</subfield>
+        <subfield code='z'>sf 98086176</subfield>
+        <subfield code='z'>sn 80011656</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='019'>
+        <subfield code='a'>44040177</subfield>
+        <subfield code='a'>47221389</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='022'>
+        <subfield code='a'>0016-7746</subfield>
+        <subfield code='l'>0016-7746</subfield>
+        <subfield code='2'>z</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='030'>
+        <subfield code='a'>GEMIAA</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='032'>
+        <subfield code='a'>753030</subfield>
+        <subfield code='b'>USPS</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)997482</subfield>
+        <subfield code='z'>(OCoLC)44040177</subfield>
+        <subfield code='z'>(OCoLC)47221389</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='037'>
+        <subfield code='b'>Veen Drukkers, P.O. Box 18, 6710 BA Ede, The Netherlands</subfield>
+        <subfield code='c'>$265.00</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>DRB</subfield>
+        <subfield code='b'>eng</subfield>
+        <subfield code='c'>DRB</subfield>
+        <subfield code='d'>NSD</subfield>
+        <subfield code='d'>IUL</subfield>
+        <subfield code='d'>SER</subfield>
+        <subfield code='d'>AIP</subfield>
+        <subfield code='d'>NSD</subfield>
+        <subfield code='d'>NST</subfield>
+        <subfield code='d'>NSD</subfield>
+        <subfield code='d'>NST</subfield>
+        <subfield code='d'>HUL</subfield>
+        <subfield code='d'>NST</subfield>
+        <subfield code='d'>CAS</subfield>
+        <subfield code='d'>WAU</subfield>
+        <subfield code='d'>DLC</subfield>
+        <subfield code='d'>OCL</subfield>
+        <subfield code='d'>DLC</subfield>
+        <subfield code='d'>EBZ</subfield>
+        <subfield code='d'>DLC</subfield>
+        <subfield code='d'>RBN</subfield>
+        <subfield code='d'>DLC</subfield>
+        <subfield code='d'>OCLCQ</subfield>
+        <subfield code='d'>CAW</subfield>
+        <subfield code='d'>OCLCQ</subfield>
+        <subfield code='d'>DLC</subfield>
+        <subfield code='d'>CLU</subfield>
+        <subfield code='d'>NLGGC</subfield>
+        <subfield code='d'>OCLCQ</subfield>
+        <subfield code='d'>MYG</subfield>
+        <subfield code='d'>OCLCQ</subfield>
+        <subfield code='d'>OCLCF</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='041'>
+        <subfield code='a'>engdutfreger</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='042'>
+        <subfield code='a'>nsdp</subfield>
+        <subfield code='a'>pcc</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='043'>
+        <subfield code='a'>e-ne---</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='049'>
+        <subfield code='a'>NOCC</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='050'>
+        <subfield code='a'>QE1</subfield>
+        <subfield code='b'>.N34922</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='210'>
+        <subfield code='a'>Geol. mijnb.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='222'>
+        <subfield code='a'>Geologie en mijnbouw</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='245'>
+        <subfield code='a'>Geologie en mijnbouw</subfield>
+        <subfield code='h'>[serial] :</subfield>
+        <subfield code='b'>tijdschrift van het Nederlandsch Geologisch-Mijnbouwkundig Genootschap.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='246'>
+        <subfield code='i'>Issues for 2000- have also English title:</subfield>
+        <subfield code='a'>Netherlands journal of geosciences</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='3' tag='246'>
+        <subfield code='a'>NJG</subfield>
+        <subfield code='f'>2000-</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>S&apos;Gravenhage :</subfield>
+        <subfield code='b'>G.A. Tiesing</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>v. :</subfield>
+        <subfield code='b'>ill. ;</subfield>
+        <subfield code='c'>28-30 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='310'>
+        <subfield code='a'>Quarterly,</subfield>
+        <subfield code='b'>&lt;1996-2000&gt;</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='321'>
+        <subfield code='a'>Frequency varies,</subfield>
+        <subfield code='b'>&lt;1950-&gt;</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='362'>
+        <subfield code='a'>Began with jaarg. 10 in 1931; nieuwe ser., 1. jaarg. began in 1939.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Issues for &lt;1974&gt;-1999 have as other title information: International journal of the Royal Geological and Mining Society of the Netherlands - KNGMG.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Published: Utrecht : Netherlands Journal of Geosciences&apos; Foundation, 2000-</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='510'>
+        <subfield code='a'>Chemical abstracts</subfield>
+        <subfield code='x'>0009-2258</subfield>
+        <subfield code='b'>-1992</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='515'>
+        <subfield code='a'>Vols. 18-39 called new series vols. 1-22.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='530'>
+        <subfield code='a'>Also issued via World Wide Web;</subfield>
+        <subfield code='b'>OCLC FirstSearch Electronic Collections Online;</subfield>
+        <subfield code='c'>Subscription required for access to abstracts and full text.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='546'>
+        <subfield code='a'>Text in English, Dutch, French, and German; summaries in English; in English, &lt;1995-2000&gt;</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='588'>
+        <subfield code='a'>Description based on: Nieuwe ser. 12. jaarg., no. 7 (juli 1950); title from cover.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='588'>
+        <subfield code='a'>Latest issue consulted: Vol. 79, no. 1 (Mar. 2000).</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Geology</subfield>
+        <subfield code='v'>Periodicals.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Geology</subfield>
+        <subfield code='z'>Netherlands</subfield>
+        <subfield code='v'>Periodicals.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Mines and mineral resources</subfield>
+        <subfield code='v'>Periodicals.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Koninklijk Nederlands Geologisch Mijnbouwkundig Genootschap.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Stichting Netherlands Journal of Geosciences.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='8' tag='776'>
+        <subfield code='i'>Online version:</subfield>
+        <subfield code='t'>Geologie en mijnbouw</subfield>
+        <subfield code='w'>(OCoLC)613889156</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='780'>
+        <subfield code='t'>Mijnwezen (The Hague, Netherlands : 1928)</subfield>
+        <subfield code='w'>(DLC)sn 97048901</subfield>
+        <subfield code='w'>(OCoLC)6125168</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='5' tag='780'>
+        <subfield code='t'>Mededelingen Nederlands Instituut voor Toegepaste Geowetenschappen TNO</subfield>
+        <subfield code='g'>2000</subfield>
+        <subfield code='x'>1388-3453</subfield>
+        <subfield code='w'>(DLC)   00207055</subfield>
+        <subfield code='w'>(OCoLC)38723161</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='915'>
+        <subfield code='9'>Baseline 09_2016</subfield>
+        <subfield code='9'>Under Authority Control</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='935'>
+        <subfield code='a'>AAW-1933</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='935'>
+        <subfield code='a'>.b1141922</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='994'>
+        <subfield code='a'>C0</subfield>
+        <subfield code='b'>NOC</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384497</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779295</subfield>
+        <subfield code='v'>nieuwe ser.:deel 1(1939)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7870972</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779302</subfield>
+        <subfield code='v'>nieuwe ser.:deel 2(1940)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7870974</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779311</subfield>
+        <subfield code='v'>nieuwe ser.:deel 3(1941)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7870977</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779320</subfield>
+        <subfield code='v'>nieuwe ser.:deel 4-6(1942-1944)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871021</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779419</subfield>
+        <subfield code='v'>nieuwe ser.:jaagr.17(1955)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871029</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779446</subfield>
+        <subfield code='v'>nieuwe ser.:jaagr.20(1958)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7870993</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779339</subfield>
+        <subfield code='v'>nieuwe ser.:jaarg.8-9(1946-1947)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7870998</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779348</subfield>
+        <subfield code='v'>nieuwe ser.:jaarg.10(1948)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384498</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779357</subfield>
+        <subfield code='v'>nieuwe ser.:jaarg.11(1949)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384499</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779366</subfield>
+        <subfield code='v'>nieuwe ser.:jaarg.12(1950)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384500</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779375</subfield>
+        <subfield code='v'>nieuwe ser.:jaarg.13(1951)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871007</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779384</subfield>
+        <subfield code='v'>nieuwe ser.:jaarg.14(1952)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871010</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779393</subfield>
+        <subfield code='v'>nieuwe ser.:jaarg.15(1953)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871020</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779400</subfield>
+        <subfield code='v'>nieuwe ser.:jaarg.16(1954)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871024</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779428</subfield>
+        <subfield code='v'>nieuwe ser.:jaarg.18(1956)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871025</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779437</subfield>
+        <subfield code='v'>nieuwe ser.:jaarg.19(1957)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871030</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779455</subfield>
+        <subfield code='v'>nieuwe ser.:jaarg.21(1959)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871031</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779464</subfield>
+        <subfield code='v'>nieuwe ser.:jaarg.22(1960)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871033</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779473</subfield>
+        <subfield code='v'>jaarg.40(1961)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7882267</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00035706101</subfield>
+        <subfield code='v'>jaarg.41(1962)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871036</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779482</subfield>
+        <subfield code='v'>jaarg.42(1963)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871037</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779491</subfield>
+        <subfield code='v'>jaarg.43(1964)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871038</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779507</subfield>
+        <subfield code='v'>jaarg.44(1965)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871040</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779516</subfield>
+        <subfield code='v'>jaarg.45(1965)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871047</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779525</subfield>
+        <subfield code='v'>jaarg.46:nr.1,3-12(1967)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871051</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>10001712149</subfield>
+        <subfield code='v'>v.47:nr.1-4(1968)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871054</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779534</subfield>
+        <subfield code='v'>v.47:nr.5-6(1968)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871055</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779543</subfield>
+        <subfield code='v'>v.48(1969)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871061</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779552</subfield>
+        <subfield code='v'>v.49(1970)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871065</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779561</subfield>
+        <subfield code='v'>v.50(1971)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871067</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779687</subfield>
+        <subfield code='v'>v.51(1972)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871069</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779678</subfield>
+        <subfield code='v'>v.52(1973)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7871071</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779669</subfield>
+        <subfield code='v'>v.53(1974)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384509</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>6</subfield>
+        <subfield code='b'>10002046867</subfield>
+        <subfield code='v'>v.54-55(1975-1976)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384510</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>2</subfield>
+        <subfield code='b'>10002429294</subfield>
+        <subfield code='v'>v.56(1977)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384511</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10002044958</subfield>
+        <subfield code='v'>v.57(1978)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384512</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10002361515</subfield>
+        <subfield code='v'>v.58(1979)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384513</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>10002585230</subfield>
+        <subfield code='v'>v.59(1980)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384514</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00034779650</subfield>
+        <subfield code='v'>v.60:no.1-3(1981)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384515</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>10002585132</subfield>
+        <subfield code='v'>v.60:no.4(1981)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384516</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>2</subfield>
+        <subfield code='b'>10002269304</subfield>
+        <subfield code='v'>v.61(1982)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384517</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10001712354</subfield>
+        <subfield code='v'>v.62(1983)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384518</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>10001918436</subfield>
+        <subfield code='v'>v.63(1984)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384519</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>10002585034</subfield>
+        <subfield code='v'>v.64(1985)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384520</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10002585258</subfield>
+        <subfield code='v'>v.65(1986)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384521</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>3</subfield>
+        <subfield code='b'>10002426590</subfield>
+        <subfield code='v'>v.66(1987)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384522</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>10002585150</subfield>
+        <subfield code='v'>v.67(1988)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384523</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>10001714931</subfield>
+        <subfield code='v'>v.68(1989)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i4279492</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>4</subfield>
+        <subfield code='b'>10000980324</subfield>
+        <subfield code='v'>v.69(1990)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i4279493</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10000979719</subfield>
+        <subfield code='v'> v.70(1991)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i4279494</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>10000551751</subfield>
+        <subfield code='v'> v.71(1992-1993)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i4279495</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10001324773</subfield>
+        <subfield code='v'> v.72-73(1993-1995)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i4279496</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>10002116149</subfield>
+        <subfield code='v'> v.74(1995-1996)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384504</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>2</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>10003074254</subfield>
+        <subfield code='v'> v.80(2001)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i4279497</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>3</subfield>
+        <subfield code='b'>10002271685</subfield>
+        <subfield code='v'> v.75(1996-1997)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i4279498</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10002667892</subfield>
+        <subfield code='v'> v.76(1997-1998)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384501</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>2</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10002663627</subfield>
+        <subfield code='v'> v.77(1998-1999)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384502</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>2</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10002916052</subfield>
+        <subfield code='v'> v.78(1999)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384503</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>2</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>10002915632</subfield>
+        <subfield code='v'> v.79(2000)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1384505</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>2</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>2</subfield>
+        <subfield code='b'>10003102919</subfield>
+        <subfield code='v'> v.81(2002)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i6274896</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>2</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10003211677</subfield>
+        <subfield code='v'> v.82(2003)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i6290754</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>2</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10003224663</subfield>
+        <subfield code='v'> v.83(2004)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i6400763</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>2</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>2</subfield>
+        <subfield code='b'>10003236810</subfield>
+        <subfield code='v'> v.84(2005)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i6830073</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>2</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>10003274341</subfield>
+        <subfield code='v'> v.85(2006)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7468815</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>2</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>10003272352</subfield>
+        <subfield code='v'> v.86(2007)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i8275490</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>2</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00035274354</subfield>
+        <subfield code='v'> v.87(2008)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i8464927</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00039353252</subfield>
+        <subfield code='v'>v.88(2009)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i9874196</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00045798840</subfield>
+        <subfield code='v'>v.89(2010)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i9874199</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00045798859</subfield>
+        <subfield code='v'>v.90(2011)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10098141</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00046901806</subfield>
+        <subfield code='v'>v.91(2012)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10230763</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>3</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00047521680</subfield>
+        <subfield code='v'>v.92(2013)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='2' tag='999'>
+        <subfield code='a'>c1262195</subfield>
+        <subfield code='b'>trln</subfield>
+        <subfield code='c'>0</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1262195</subfield>
+        <subfield code='2'>853</subfield>
+        <subfield code='3'>y</subfield>
+        <subfield code='8'>1</subfield>
+        <subfield code='a'>nieuwe ser.:deel </subfield>
+        <subfield code='b'></subfield>
+        <subfield code='i'>(year)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1262195</subfield>
+        <subfield code='2'>853</subfield>
+        <subfield code='3'>y</subfield>
+        <subfield code='8'>2</subfield>
+        <subfield code='a'>nieuwe ser:jaarg.</subfield>
+        <subfield code='b'>nr.</subfield>
+        <subfield code='i'>(year)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1262195</subfield>
+        <subfield code='2'>853</subfield>
+        <subfield code='3'>y</subfield>
+        <subfield code='8'>3</subfield>
+        <subfield code='a'>jaarg.</subfield>
+        <subfield code='b'>nr.</subfield>
+        <subfield code='i'>(year)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1262195</subfield>
+        <subfield code='2'>853</subfield>
+        <subfield code='3'>y</subfield>
+        <subfield code='8'>4</subfield>
+        <subfield code='a'>v.</subfield>
+        <subfield code='b'>no.</subfield>
+        <subfield code='i'>(year)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1262195</subfield>
+        <subfield code='2'>866</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>1</subfield>
+        <subfield code='a'>nieuwe ser.:deel 1(1939)-nieuwe ser.:deel 6(1944),</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1262195</subfield>
+        <subfield code='2'>866</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>2</subfield>
+        <subfield code='a'>nieuwe ser:jaarg.8(1946)-nieuwe ser:jaarg.22(1960),</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1262195</subfield>
+        <subfield code='2'>866</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>3</subfield>
+        <subfield code='a'>jaarg.40:nr.1(1961)-jaarg.46:nr.1(1967), jaarg.46:nr.3(1967)-jaarg.46:nr.12(1967),</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1262195</subfield>
+        <subfield code='2'>866</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>4</subfield>
+        <subfield code='a'>v.47(1962)-v.92(2013)</subfield>
       </datafield>
   </record>
   <record>
@@ -2032,24 +3412,26 @@
       </datafield>
       <datafield ind1='9' ind2='3' tag='999'>
         <subfield code='0'>c1370653</subfield>
-        <subfield code='2'>866</subfield>
-        <subfield code='3'>h</subfield>
+        <subfield code='2'>853</subfield>
+        <subfield code='3'>y</subfield>
         <subfield code='8'>1</subfield>
-        <subfield code='a'>v.82(1975)-v.100(1994)</subfield>
+        <subfield code='a'>v.</subfield>
+        <subfield code='b'>no.</subfield>
+        <subfield code='i'>(year)</subfield>
       </datafield>
       <datafield ind1='9' ind2='3' tag='999'>
         <subfield code='0'>c1370653</subfield>
-        <subfield code='2'>867</subfield>
-        <subfield code='3'>h</subfield>
+        <subfield code='2'>854</subfield>
+        <subfield code='3'>y</subfield>
         <subfield code='8'>1</subfield>
-        <subfield code='a'>1979</subfield>
+        <subfield code='a'>(year)</subfield>
       </datafield>
       <datafield ind1='9' ind2='3' tag='999'>
         <subfield code='0'>c1370653</subfield>
-        <subfield code='2'>868</subfield>
-        <subfield code='3'>h</subfield>
+        <subfield code='2'>855</subfield>
+        <subfield code='3'>y</subfield>
         <subfield code='8'>1</subfield>
-        <subfield code='a'>1923/1932, 1941-1955, 1975/1979, 1987/1991 </subfield>
+        <subfield code='a'>(year)</subfield>
       </datafield>
       <datafield ind1='9' ind2='3' tag='999'>
         <subfield code='0'>c1370653</subfield>
@@ -2074,6 +3456,27 @@
         <subfield code='8'>1.4</subfield>
         <subfield code='a'>1987/1991</subfield>
       </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1370653</subfield>
+        <subfield code='2'>866</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>1</subfield>
+        <subfield code='a'>v.82(1975)-v.100(1994)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1370653</subfield>
+        <subfield code='2'>867</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>1</subfield>
+        <subfield code='a'>1979</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1370653</subfield>
+        <subfield code='2'>868</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>1</subfield>
+        <subfield code='a'>1923/1932, 1941-1955, 1975/1979, 1987/1991 </subfield>
+      </datafield>
       <datafield ind1='9' ind2='2' tag='999'>
         <subfield code='a'>c1406276</subfield>
         <subfield code='b'>wcda</subfield>
@@ -2090,10 +3493,12 @@
       </datafield>
       <datafield ind1='9' ind2='3' tag='999'>
         <subfield code='0'>c1406276</subfield>
-        <subfield code='2'>866</subfield>
-        <subfield code='3'>h</subfield>
+        <subfield code='2'>853</subfield>
+        <subfield code='3'>y</subfield>
         <subfield code='8'>1</subfield>
-        <subfield code='a'>v. 1 (1895)-v. 100 (1994)</subfield>
+        <subfield code='a'>v.</subfield>
+        <subfield code='i'>(year)</subfield>
+        <subfield code='t'>c.</subfield>
       </datafield>
       <datafield ind1='9' ind2='3' tag='999'>
         <subfield code='0'>c1406276</subfield>
@@ -2895,6 +4300,13 @@
         <subfield code='a'>100</subfield>
         <subfield code='i'>1994</subfield>
       </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1406276</subfield>
+        <subfield code='2'>866</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>1</subfield>
+        <subfield code='a'>v. 1 (1895)-v. 100 (1994)</subfield>
+      </datafield>
       <datafield ind1='9' ind2='2' tag='999'>
         <subfield code='a'>c2794361</subfield>
         <subfield code='b'>wcca</subfield>
@@ -2911,17 +4323,22 @@
       </datafield>
       <datafield ind1='9' ind2='3' tag='999'>
         <subfield code='0'>c2794361</subfield>
-        <subfield code='2'>866</subfield>
-        <subfield code='3'>h</subfield>
+        <subfield code='2'>853</subfield>
+        <subfield code='3'>y</subfield>
         <subfield code='8'>1</subfield>
-        <subfield code='a'>v. 101 (1995)-  </subfield>
+        <subfield code='a'>v.</subfield>
+        <subfield code='i'>(year)</subfield>
+        <subfield code='t'>c.</subfield>
       </datafield>
       <datafield ind1='9' ind2='3' tag='999'>
         <subfield code='0'>c2794361</subfield>
-        <subfield code='2'>866</subfield>
-        <subfield code='3'>h</subfield>
+        <subfield code='2'>853</subfield>
+        <subfield code='3'>y</subfield>
         <subfield code='8'>2</subfield>
-        <subfield code='a'>Index v. 22-97 (1916/1922-1987/1991)</subfield>
+        <subfield code='a'>(unit)</subfield>
+        <subfield code='b'>(year)</subfield>
+        <subfield code='c'>(pt.)</subfield>
+        <subfield code='t'>c.</subfield>
       </datafield>
       <datafield ind1='9' ind2='3' tag='999'>
         <subfield code='0'>c2794361</subfield>
@@ -3179,6 +4596,20 @@
         <subfield code='b'>1987-1991</subfield>
         <subfield code='c'>C-Z</subfield>
         <subfield code='z'>covers v. 94-97</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c2794361</subfield>
+        <subfield code='2'>866</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>1</subfield>
+        <subfield code='a'>v. 101 (1995)-  </subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c2794361</subfield>
+        <subfield code='2'>866</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>2</subfield>
+        <subfield code='a'>Index v. 22-97 (1916/1922-1987/1991)</subfield>
       </datafield>
   </record>
   <record>
@@ -4259,6 +5690,15 @@
       </datafield>
       <datafield ind1='9' ind2='3' tag='999'>
         <subfield code='0'>c1350029</subfield>
+        <subfield code='2'>853</subfield>
+        <subfield code='3'>y</subfield>
+        <subfield code='8'>1</subfield>
+        <subfield code='a'>t.</subfield>
+        <subfield code='b'>vyp.</subfield>
+        <subfield code='i'>(year)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1350029</subfield>
         <subfield code='2'>863</subfield>
         <subfield code='3'>h</subfield>
         <subfield code='8'>1.1</subfield>
@@ -4277,6 +5717,22 @@
         <subfield code='3'>c</subfield>
         <subfield code='h'>QA273</subfield>
         <subfield code='i'>.T4</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c2788358</subfield>
+        <subfield code='2'>853</subfield>
+        <subfield code='3'>y</subfield>
+        <subfield code='8'>1</subfield>
+        <subfield code='a'>t.</subfield>
+        <subfield code='b'>vyp.</subfield>
+        <subfield code='i'>(year)</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c2788358</subfield>
+        <subfield code='2'>855</subfield>
+        <subfield code='3'>y</subfield>
+        <subfield code='8'>2</subfield>
+        <subfield code='a'>t.</subfield>
       </datafield>
       <datafield ind1='9' ind2='3' tag='999'>
         <subfield code='0'>c2788358</subfield>
