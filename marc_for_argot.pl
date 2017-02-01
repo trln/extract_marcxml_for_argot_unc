@@ -557,7 +557,6 @@ RECORD: while (<INFILE>) {
             $hfield_sth->bind_columns (undef, \$h_marc_tag, \$h_rec_data, \$h_iii_tag);
 
             while ($hfield_sth->fetch()) {
-                if (($h_marc_tag =~ m/86[36]/ && $h_iii_tag eq 'h') || $h_marc_tag =~ m/852|86[4578]/) {
                     print OUTFILE "      <datafield ind1='9' ind2='3' tag='999'>\n";
                     print OUTFILE "        <subfield code='0'>$hnum</subfield>\n";
                     print OUTFILE "        <subfield code='2'>$h_marc_tag</subfield>\n";
@@ -576,10 +575,54 @@ RECORD: while (<INFILE>) {
                         }
                     }
                     print OUTFILE "      </datafield>\n";
-                }
             }
         }                       #end HOLDINGSREC
-    }
+    }                           # end All Holdings processing
+
+    if ($order_ct > 0) {
+        my $order_sql = "SELECT
+                            'o' || rm.record_num AS onum,
+                            o.ocode3 AS ord_proj,
+                            om.copies,
+                            TO_CHAR(o.received_date_gmt, 'YYYY-MM-DD') AS rcvdate,
+                            TO_CHAR(o.catalog_date_gmt, 'YYYY-MM-DD') AS catdate,
+                            TRIM(
+                              TRAILING ' '
+                              FROM
+                                om.location_code
+                            )AS LOCATION,
+                            o.order_status_code AS status
+                          FROM
+                            sierra_view.bib_record_order_record_link bo
+                          INNER JOIN sierra_view.order_record o ON o.record_id = bo.order_record_id
+                          AND o.ocode3 != 'n'
+                          INNER JOIN sierra_view.record_metadata rm ON o.record_id = rm.id
+                          INNER JOIN (
+                          SELECT DISTINCT ON (cmf.order_record_id) * from sierra_view.order_record_cmf cmf
+                           ORDER BY cmf.order_record_id, cmf.id ASC
+                          ) AS om
+                          on bo.order_record_id = om.order_record_id
+                          WHERE
+                            bo.bib_record_id = '$bib_id'";
+
+        my $order_sth = $dbh->prepare($order_sql);
+        $order_sth->execute();
+
+        my ($onum, $code3, $copies, $rcvdate, $catdate, $location, $status);
+        $order_sth->bind_columns (undef, \$onum, \$code3, \$copies, \$rcvdate, \$catdate, \$location, \$status );
+
+      ORDERREC: while ($order_sth->fetch()) {
+            print OUTFILE "      <datafield ind1='9' ind2='4' tag='999'>\n";
+            print OUTFILE "        <subfield code='a'>$onum</subfield>\n";
+            print OUTFILE "        <subfield code='b'>$code3</subfield>\n";
+            print OUTFILE "        <subfield code='c'>$copies</subfield>\n";
+            print OUTFILE "        <subfield code='d'>$rcvdate</subfield>\n";
+            print OUTFILE "        <subfield code='e'>$catdate</subfield>\n";
+            print OUTFILE "        <subfield code='f'>$location</subfield>\n";
+            print OUTFILE "        <subfield code='g'>$status</subfield>\n";
+            print OUTFILE "      </datafield>\n";
+        }                       #end ORDERREC
+    }                           # end All order processing
     print OUTFILE "  </record>\n";
 }                               #end RECORD
 

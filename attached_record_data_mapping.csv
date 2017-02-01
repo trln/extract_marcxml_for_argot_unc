@@ -1,27 +1,27 @@
-MARC tag,Ind 1,Ind 2,Record type,Subfield code,Subfield type,Repeats? ,Notes
-999,9,1,Item,b,Barcode,y,"Shouldn't repeat, but can and does. "
-999,9,1,Item,c,Copy number,n,.
-999,9,1,Item,d,Due Date,n,Will be blank if not checked out.
-999,9,1,Item,i,ILS item record number (without check digit),n,Used to link back into Classic system for some functionality
-999,9,1,Item,l,Location code,n,.
-999,9,1,Item,n,Public Item Note,y,.
-999,9,1,Item,o,Total Checkouts,n,.
-999,9,1,Item,p,Call number tag,n,"Shouldn't repeat, but could. We have never checked for repeated item call numbers. The way I'm breaking this down assumes there is only one per item record. --- Gives indication of which Classification Scheme is being used, in particular, LC vs. NLM"
-999,9,1,Item,q,Call number,n,"Shouldn't repeat, but could. We have never checked for repeated item call numbers. The way I'm breaking this down assumes there is only one per item record."
-999,9,1,Item,s,Status,n,"Does not change when checked out! If there is a due date, item is checked out, and thus not currently available."
-999,9,1,Item,t,Item Type,n,.
-999,9,1,Item,v,Volume,,"Shouldn't repeat, but could. We have never checked for repeated volume values."
-999,9,2,Holdings-Record info,a,ILS holdings record number,n,
-999,9,2,Holdings-Record info,b,Location code,n,
-999,9,2,Holdings-Record info,c,Holdings card count,n,"Just the holdings record number? Presence or absence of this may trigger link to ""Recent volumes"" view in Classic Catalog"
-999,9,3,Holdings-Field,0,ILS holdings record number,n,
-999,9,3,Holdings-Field,2,Holdings field tag,n,
-999,9,3,Holdings-Field,3,III tag,n,
-999,9,3,Holdings-Field,[5-9a-z],Subfield as defined in MARC holdings format,y,"Any 852 field is extracted. 86[345678] fields with III tag = h are extracted. According to Kurt Blythe, if these fields are coded otherwise (usually g for DRA Holdings), they should NOT display to the public."
-999,9,4,Order,a,Order record number,n,
-999,9,4,Order,b,Order code 3,n,"Look this up and name it better."
-999,9,4,Order,c,Number of copies,n,
-999,9,4,Order,d,Received date,n,
-999,9,4,Order,e,Cat date,n,
-999,9,4,Order,f,Location,n,
-999,9,4,Order,g,Order status code,n,
+MARC tag,Ind 1,Ind 2,Record type,Subfield code,Subfield type,Repeats?,Notes,Transformation notes
+999,9,1,Item,b,Barcode,y,"Shouldn't repeat, but can and does.",.
+999,9,1,Item,c,Copy number,n,.,.
+999,9,1,Item,d,Due Date,n,Will be blank if not checked out.,.
+999,9,1,Item,i,ILS item record number (without check digit),n,Used for linking back into Classic system for some functionality,.
+999,9,1,Item,l,Location code,n,.,.
+999,9,1,Item,n,Public Item Note,y,.,.
+999,9,1,Item,o,Total Checkouts,n,.,.
+999,9,1,Item,p,Call number tag,n,"Shouldn't repeat, but could. We have never checked for repeated item call numbers. The way I'm breaking this down assumes there is only one per item record. --- Gives indication of which Classification Scheme is being used, in particular, LC vs. NLM",.
+999,9,1,Item,q,Call number,n,"Shouldn't repeat, but could. We have never checked for repeated item call numbers. The way I'm breaking this down assumes there is only one per item record.","Currently outputs multiple subfields (with subfield delimiter |) from the call number field, which will need to be split apart for processing/transformation. I could have it output the expected |a and |b to separate Class number and Cutter number subfields in this 999 91, but sometimes the subfield coding is missing, or there is other weirdness, in the original data."
+999,9,1,Item,s,Status,n,"Does not change when checked out! If there is a due date, item is checked out, and thus not currently available.",.
+999,9,1,Item,t,Item Type,n,.,.
+999,9,1,Item,v,Volume,,"Shouldn't repeat, but could. We have never checked for repeated volume values.",.
+999,9,2,Holdings-Record info,a,ILS holdings record number,n,.,"Because of the complexity of holdings records, these are exported differently. There is one 999 92 per holdings record, with the basic info about that holdings record. Then, there are multiple 999 93 fields associated with each 999 92, linked by the holdings record number in the 999 92 $a and 999 93 $0. Each 999 93 represents one variable field from the holdings record specified. Initial logic for processing these fields is specified in holdings_data_logic.org."
+999,9,2,Holdings-Record info,b,Location code,n,.,.
+999,9,2,Holdings-Record info,c,Holdings card count,n,"Just the holdings record number? Presence or absence of this may trigger link to ""Recent volumes"" view in Classic Catalog",.
+999,9,3,Holdings-Field,0,ILS holdings record number,n,.,.
+999,9,3,Holdings-Field,2,Holdings field tag,n,"The MARC holdings format variable field tag for the data in this 999 93",.
+999,9,3,Holdings-Field,3,III tag,n,"The III field tag of the variable field represented by the 999 93",.
+999,9,3,Holdings-Field,[5-9a-z],Subfield as defined in MARC holdings format,y,"Any 852 field is extracted. 86[345678] fields with III tag = h are extracted. According to Kurt Blythe, if these fields are coded otherwise (usually g for DRA Holdings), they should NOT display to the public.",.
+999,9,4,Order,a,Order record number,n,.,.
+999,9,4,Order,b,Order code 3,n,"Look this up and name it better.",.
+999,9,4,Order,c,Number of copies,n,.,.
+999,9,4,Order,d,Received date,n,.,.
+999,9,4,Order,e,Cat date,n,.,.
+999,9,4,Order,f,Location,n,.,.
+999,9,4,Order,g,Order status code,n,.,.
