@@ -1,4 +1,5 @@
 b8529581 #order record
+b1303709 #the dreaded Nature serial
 b1219534 #holdings record w/multiple 866s
 b1327446 #4 holdings records
 b1304177 #proto-argot example, Russian vernacular
