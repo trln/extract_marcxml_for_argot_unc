@@ -544,11 +544,11 @@ RECORD: while (<INFILE>) {
                                 sierra_view.varfield
                               WHERE
                                 record_id = '$hrec_id'
-                                and ( marc_tag = '852'
+                                and ( marc_tag IN ('852', '853', '854', '855')
                                       OR
                                       marc_tag IN ('863', '864', '865', '866', '867', '868') AND varfield_type_code = 'h'
                                     )
-                              ORDER BY varfield_type_code, occ_num ASC";
+                              ORDER BY marc_tag, occ_num ASC";
 
             my $hfield_sth = $dbh->prepare($hfield_sql);
             $hfield_sth->execute();
