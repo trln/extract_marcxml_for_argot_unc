@@ -1,7 +1,7 @@
 MARC tag,Ind 1,Ind 2,Record type,Subfield code,Subfield type,Repeats? ,Notes
 999,9,1,Item,b,Barcode,y,"Shouldn't repeat, but can and does. "
 999,9,1,Item,c,Copy number,n,.
-999,9,1,Item,d,Due Date,n,Will be blank if not checked out. 
+999,9,1,Item,d,Due Date,n,Will be blank if not checked out.
 999,9,1,Item,i,ILS item record number (without check digit),n,Used to link back into Classic system for some functionality
 999,9,1,Item,l,Location code,n,.
 999,9,1,Item,n,Public Item Note,y,.
@@ -17,12 +17,4 @@ MARC tag,Ind 1,Ind 2,Record type,Subfield code,Subfield type,Repeats? ,Notes
 999,9,3,Holdings-Field,0,ILS holdings record number,n,
 999,9,3,Holdings-Field,2,Holdings field tag,n,
 999,9,3,Holdings-Field,3,III tag,n,
-999,9,3,Holdings-Field,[5-9a-z],Subfield as defined in MARC holdings format,y,
-,,,,,,,
-,,,,,852,,
-,,,,,h863,,
-,,,,,864,,
-,,,,,865,,
-,,,,,h866,,
-,,,,,867,,
-,,,,,868,,
+999,9,3,Holdings-Field,[5-9a-z],Subfield as defined in MARC holdings format,y,"Any 852 field is extracted. 86[345678] fields with III tag = h are extracted. According to Kurt Blythe, if these fields are coded otherwise (usually g for DRA Holdings), they should NOT display to the public."
