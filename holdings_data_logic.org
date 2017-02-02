@@ -102,3 +102,49 @@ Would become the following summary holdings statement:
 #+BEGIN_SRC
 nieuwe ser.:deel 1(1939)-nieuwe ser.:deel 6(1944), nieuwe ser:jaarg.8(1946)-nieuwe ser:jaarg.22(1960), jaarg.40:nr.1(1961)-jaarg.46:nr.1(1967), jaarg.46:nr.3(1967)-jaarg.46:nr.12(1967) (Some issues missing), v.47(1962)-v.92(2013)
 #+END_SRC
+**** If there is no 866, but there is one or more 863
+#+BEGIN_SRC xml
+<datafield ind1='9' ind2='2' tag='999'>
+  <subfield code='a'>c2805284</subfield>
+  <subfield code='b'>dhca</subfield>
+  <subfield code='c'>1</subfield>
+</datafield>
+<datafield ind1='9' ind2='3' tag='999'>
+  <subfield code='0'>c2805284</subfield>
+  <subfield code='2'>852</subfield>
+  <subfield code='3'>c</subfield>
+  <subfield code='b'>555521</subfield>
+  <subfield code='h'>PN4751</subfield>
+  <subfield code='i'>.H37</subfield>
+  <subfield code='x'>Later titles exist.</subfield>
+</datafield>
+<datafield ind1='9' ind2='3' tag='999'>
+  <subfield code='0'>c2805284</subfield>
+  <subfield code='2'>853</subfield>
+  <subfield code='3'>y</subfield>
+  <subfield code='8'>1</subfield>
+  <subfield code='a'>v.</subfield>
+  <subfield code='b'>no.</subfield>
+  <subfield code='i'>(year)</subfield>
+</datafield>
+<datafield ind1='9' ind2='3' tag='999'>
+  <subfield code='0'>c2805284</subfield>
+  <subfield code='2'>863</subfield>
+  <subfield code='3'>h</subfield>
+  <subfield code='8'>1.1</subfield>
+  <subfield code='a'>1</subfield>
+  <subfield code='b'>1</subfield>
+  <subfield code='i'>1996</subfield>
+  <subfield code='w'>g</subfield>
+</datafield>
+<datafield ind1='9' ind2='3' tag='999'>
+  <subfield code='0'>c2805284</subfield>
+  <subfield code='2'>863</subfield>
+  <subfield code='3'>h</subfield>
+  <subfield code='8'>1.2</subfield>
+  <subfield code='a'>8-12</subfield>
+  <subfield code='i'>2003-2007</subfield>
+</datafield>
+#+END_SRC
+
+- match 853 $8 with 863(s) $8 (before the .)
