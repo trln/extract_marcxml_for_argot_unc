@@ -1,0 +1,150 @@
+#+TITLE:     Transformation logic for extracted MARC holdings data
+#+DATE:      2017-02-01 Wed
+#+DESCRIPTION: Steps for transforming the 999 92 and 999 93 fields in extracted MARC-XML into Argot
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:
+#+LINK_HOME:
+#+XSLT:
+
+See [[https://github.com/trln/extract_marcxml_for_argot_unc/blob/master/attached_record_data_mapping.csv][attached_record_data_mapping.csv]] for definitions of individual 999 92 and 999 93 subfields.
+
+* Get your list/hash of the holdings records you are dealing with, if any
+** The basic info for each attached holdings record is in its own 999 92 field
+** 999 92 fields are extracted in their "catalog display order" -- holdings data in the public catalog should remain in the same order.
+
+* For each distinct holdings record number, get all the holdings variable fields from that record (where 999 93 $0 == 999 92 $a)
+
+* Processing the variable fields for each holdings record
+** Call number info
+ - 999 93 $2 == 852 AND 999 93 $3 = c
+ - 999 93 $h : classification number
+ - 999 93 $i : cutter number
+ - $h + $i = call number
+ - 999 93 $x : public note
+
+
+** Deriving the holdings statement from the variable fields for a single holdings record
+Endeca doesn't do this right at all, according to Kurt Blythe. This is an initial attempt at the logic, as it /should/ work, based on discussions with Kurt and the knowledge that a lot of holdings records are coded incorrectly (data cleanup is in progress, but will take a long time) and that we'll likely have to tweak this a lot.
+
+*** Structure of holdings data (basic bib vs. supplement vs. index)
+Data about the following are encoded in different fields in the holdings record:
+ - Basic bibliographic unit - i.e. the main thing -- the volumes/issues etc. of the serial described in the bib record (866, or 853 + 863)
+ - Supplementary material - other than indexes to the material described in basic bib unit (867, or 854 + 864)
+ - Indexes - indexes to the material described in basic bib unit (868, or 855 + 865)
+
+
+*** Preferred fields
+Creating a human readable summary holdings field by combining the relevant Captions and Pattern field (853, 854, 855) with the relevant Enumeration and Chronology fields (863, 864, 865) is possible, but the Endeca extract code has treated this extremely poorly for years.
+
+For this reason, serials catalogers have made efforts to create nice, human-readable fields in many (most?) holdings records for serials. These are:
+ - 866 : basic bib
+ - 867 : supplements
+ - 868 : indexes
+
+We prefer these where they exist. You will see why.
+
+However, when there is no such preferred human-readable holdings field, we need to create one from the combined Captions and Pattern + Enumeration and Chronology fields, preferably in a better way than Endeca has (it has ignored Captions and Pattern altogether).
+
+Unfortunately there are tens of thousands of records that still don't have the preferred fields.
+
+
+*** The logic
+I'm going to spell this out using the basic bib fields, but it's the same for all 3 types of holding statements -- just plug in the relevant fields
+**** If number of 866s > 0
+ - take $a value
+ - strip /, *$/ from $a
+ - if there is a $z, append " (" + $z value + ")" to $a value
+ - if there is more than 1 866 field, concatenate all, retaining order of extracted fields. Separate with ", "
+
+#+BEGIN_SRC xml
+      <datafield ind1='9' ind2='2' tag='999'>
+        <subfield code='a'>c1262195</subfield>
+        <subfield code='b'>trln</subfield>
+        <subfield code='c'>0</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1262195</subfield>
+        <subfield code='2'>866</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>1</subfield>
+        <subfield code='a'>nieuwe ser.:deel 1(1939)-nieuwe ser.:deel 6(1944),</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1262195</subfield>
+        <subfield code='2'>866</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>2</subfield>
+        <subfield code='a'>nieuwe ser:jaarg.8(1946)-nieuwe ser:jaarg.22(1960),</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1262195</subfield>
+        <subfield code='2'>866</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>3</subfield>
+        <subfield code='a'>jaarg.40:nr.1(1961)-jaarg.46:nr.1(1967), jaarg.46:nr.3(1967)-jaarg.46:nr.12(1967),</subfield>
+        <subfield code='z'>Some issues missing</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c1262195</subfield>
+        <subfield code='2'>866</subfield>
+        <subfield code='3'>h</subfield>
+        <subfield code='8'>4</subfield>
+        <subfield code='a'>v.47(1962)-v.92(2013)</subfield>
+#+END_SRC
+
+Would become the following summary holdings statement:
+
+#+BEGIN_SRC
+nieuwe ser.:deel 1(1939)-nieuwe ser.:deel 6(1944), nieuwe ser:jaarg.8(1946)-nieuwe ser:jaarg.22(1960), jaarg.40:nr.1(1961)-jaarg.46:nr.1(1967), jaarg.46:nr.3(1967)-jaarg.46:nr.12(1967) (Some issues missing), v.47(1962)-v.92(2013)
+#+END_SRC
+**** If there is no 866, but there is one or more 863
+#+BEGIN_SRC xml
+<datafield ind1='9' ind2='2' tag='999'>
+  <subfield code='a'>c2805284</subfield>
+  <subfield code='b'>dhca</subfield>
+  <subfield code='c'>1</subfield>
+</datafield>
+<datafield ind1='9' ind2='3' tag='999'>
+  <subfield code='0'>c2805284</subfield>
+  <subfield code='2'>852</subfield>
+  <subfield code='3'>c</subfield>
+  <subfield code='b'>555521</subfield>
+  <subfield code='h'>PN4751</subfield>
+  <subfield code='i'>.H37</subfield>
+  <subfield code='x'>Later titles exist.</subfield>
+</datafield>
+<datafield ind1='9' ind2='3' tag='999'>
+  <subfield code='0'>c2805284</subfield>
+  <subfield code='2'>853</subfield>
+  <subfield code='3'>y</subfield>
+  <subfield code='8'>1</subfield>
+  <subfield code='a'>v.</subfield>
+  <subfield code='b'>no.</subfield>
+  <subfield code='i'>(year)</subfield>
+</datafield>
+<datafield ind1='9' ind2='3' tag='999'>
+  <subfield code='0'>c2805284</subfield>
+  <subfield code='2'>863</subfield>
+  <subfield code='3'>h</subfield>
+  <subfield code='8'>1.1</subfield>
+  <subfield code='a'>1</subfield>
+  <subfield code='b'>1</subfield>
+  <subfield code='i'>1996</subfield>
+  <subfield code='w'>g</subfield>
+</datafield>
+<datafield ind1='9' ind2='3' tag='999'>
+  <subfield code='0'>c2805284</subfield>
+  <subfield code='2'>863</subfield>
+  <subfield code='3'>h</subfield>
+  <subfield code='8'>1.2</subfield>
+  <subfield code='a'>8-12</subfield>
+  <subfield code='i'>2003-2007</subfield>
+</datafield>
+#+END_SRC
+
+- match 853 $8 with 863(s) $8 (before the .)

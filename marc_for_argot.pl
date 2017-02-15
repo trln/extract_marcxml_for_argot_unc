@@ -421,92 +421,92 @@ RECORD: while (<INFILE>) {
     # #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     # # PROCESS ITEM RECORD DATA
     # #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-    # if ($item_ct > 0) {
-    #     foreach my $item_id (@items) {
-    #         my $item_sql = "SELECT
-    #                        (SELECT 'i' || rm.record_num from sierra_view.record_metadata rm
-    #                          where rm.id = i.record_id) AS inum,
-    #                        i.copy_num,
-    #                        i.location_code,
-    #                        i.item_status_code,
-    #                        TO_CHAR(c.due_gmt, 'YYYYMMDD'),
-    #                        i.checkout_total,
-    #                        i.itype_code_num
-    #                      FROM
-    #                        sierra_view.item_record i
-    #                        LEFT OUTER JOIN sierra_view.checkout c
-    #                          ON i.record_id = c.item_record_id
-    #                      WHERE
-    #                      i.record_id = $item_id";
-    #         my $item_sth = $dbh->prepare($item_sql);
-    #         $item_sth->execute();
+    if ($item_ct > 0) {
+        foreach my $item_id (@items) {
+            my $item_sql = "SELECT
+                           (SELECT 'i' || rm.record_num from sierra_view.record_metadata rm
+                             where rm.id = i.record_id) AS inum,
+                           i.copy_num,
+                           i.location_code,
+                           i.item_status_code,
+                           TO_CHAR(c.due_gmt, 'YYYYMMDD'),
+                           i.checkout_total,
+                           i.itype_code_num
+                         FROM
+                           sierra_view.item_record i
+                           LEFT OUTER JOIN sierra_view.checkout c
+                             ON i.record_id = c.item_record_id
+                         WHERE
+                         i.record_id = $item_id";
+            my $item_sth = $dbh->prepare($item_sql);
+            $item_sth->execute();
 
-    #         my ($item_num, $copy_num, $location, $status, $due_date, $tot_chkout, $i_type);
-    #         $item_sth->bind_columns (undef, \$item_num, \$copy_num, \$location, \$status, \$due_date, \$tot_chkout, \$i_type );
+            my ($item_num, $copy_num, $location, $status, $due_date, $tot_chkout, $i_type);
+            $item_sth->bind_columns (undef, \$item_num, \$copy_num, \$location, \$status, \$due_date, \$tot_chkout, \$i_type );
 
-    #       ITEMREC: while ($item_sth->fetch()) {
-    #             print OUTFILE "      <datafield ind1='9' ind2='1' tag='999'>\n";
-    #             print OUTFILE "        <subfield code='i'>$item_num</subfield>\n";
-    #             print OUTFILE "        <subfield code='l'>$location</subfield>\n";
-    #             print OUTFILE "        <subfield code='s'>$status</subfield>\n";
-    #             print OUTFILE "        <subfield code='t'>$i_type</subfield>\n";
-    #             print OUTFILE "        <subfield code='c'>$copy_num</subfield>\n";
-    #             print OUTFILE "        <subfield code='o'>$tot_chkout</subfield>\n";
-    #             if ($due_date ne '') {
-    #                 print OUTFILE "        <subfield code='d'>$due_date</subfield>\n";
-    #             }
+          ITEMREC: while ($item_sth->fetch()) {
+                print OUTFILE "      <datafield ind1='9' ind2='1' tag='999'>\n";
+                print OUTFILE "        <subfield code='i'>$item_num</subfield>\n";
+                print OUTFILE "        <subfield code='l'>$location</subfield>\n";
+                print OUTFILE "        <subfield code='s'>$status</subfield>\n";
+                print OUTFILE "        <subfield code='t'>$i_type</subfield>\n";
+                print OUTFILE "        <subfield code='c'>$copy_num</subfield>\n";
+                print OUTFILE "        <subfield code='o'>$tot_chkout</subfield>\n";
+                if ($due_date ne '') {
+                    print OUTFILE "        <subfield code='d'>$due_date</subfield>\n";
+                }
 
-    #             #Get variable data for items
-    #             my @ivarfields;
-    #             my $ivar_sql = "SELECT
-    #                                varfield_type_code,
-    #                                marc_tag,
-    #                                field_content
-    #                              FROM
-    #                                sierra_view.varfield
-    #                              WHERE
-    #                                record_id = $item_id
-    #                              AND varfield_type_code IN ('b', 'c', 'v', 'z')
-    #                              ORDER BY varfield_type_code, occ_num ASC";
-    #             my $ivar_sth = $dbh->prepare($ivar_sql);
-    #             $ivar_sth->execute();
-    #             my ($vtype, $mtag, $data);
-    #             $ivar_sth->bind_columns (undef, \$vtype, \$mtag, \$data );
-    #             while ($ivar_sth->fetch()) {
-    #                 my $catch = "$vtype\t$mtag\t$data";
-    #                 push @ivarfields, $catch;
-    #             }
-    #             $ivar_sth->finish();
-    #             if (scalar @ivarfields > 0) {
+                #Get variable data for items
+                my @ivarfields;
+                my $ivar_sql = "SELECT
+                                   varfield_type_code,
+                                   marc_tag,
+                                   field_content
+                                 FROM
+                                   sierra_view.varfield
+                                 WHERE
+                                   record_id = $item_id
+                                 AND varfield_type_code IN ('b', 'c', 'v', 'z')
+                                 ORDER BY varfield_type_code, occ_num ASC";
+                my $ivar_sth = $dbh->prepare($ivar_sql);
+                $ivar_sth->execute();
+                my ($vtype, $mtag, $data);
+                $ivar_sth->bind_columns (undef, \$vtype, \$mtag, \$data );
+                while ($ivar_sth->fetch()) {
+                    my $catch = "$vtype\t$mtag\t$data";
+                    push @ivarfields, $catch;
+                }
+                $ivar_sth->finish();
+                if (scalar @ivarfields > 0) {
 
-    #                 foreach my $ivar (@ivarfields) {
-    #                     my @broken = split /\t/, $ivar;
-    #                     my $code = $broken[0];
-    #                     my $tag = $broken[1];
-    #                     my $data = $broken[2];
-    #                     if ($data =~ m/[<>&"']/) {
-    #                         $data = escape_xml_reserved($data);
-    #                     }
+                    foreach my $ivar (@ivarfields) {
+                        my @broken = split /\t/, $ivar;
+                        my $code = $broken[0];
+                        my $tag = $broken[1];
+                        my $data = $broken[2];
+                        if ($data =~ m/[<>&"']/) {
+                            $data = escape_xml_reserved($data);
+                        }
 
-    #                     #barcode
-    #                     if ($code eq 'b') {
-    #                         print OUTFILE "        <subfield code='b'>$data</subfield>\n";
-    #                     } elsif ($code eq 'c') {
-    #                         #call number
-    #                         print OUTFILE "        <subfield code='p'>$tag</subfield>\n";
-    #                         $data = trim($data);
-    #                         print OUTFILE "        <subfield code='q'>$data</subfield>\n";
-    #                     } elsif ($code eq 'v') {
-    #                         print OUTFILE "        <subfield code='v'>$data</subfield>\n";
-    #                     } elsif ($code eq 'z') {
-    #                         print OUTFILE "        <subfield code='n'>$data</subfield>\n";
-    #                     }
-    #                 }
-    #             }
-    #             print OUTFILE "      </datafield>\n";
-    #         }                   #END ITEMREC
-    #     }
-    # }                           #END processing of item data
+                        #barcode
+                        if ($code eq 'b') {
+                            print OUTFILE "        <subfield code='b'>$data</subfield>\n";
+                        } elsif ($code eq 'c') {
+                            #call number
+                            print OUTFILE "        <subfield code='p'>$tag</subfield>\n";
+                            $data = trim($data);
+                            print OUTFILE "        <subfield code='q'>$data</subfield>\n";
+                        } elsif ($code eq 'v') {
+                            print OUTFILE "        <subfield code='v'>$data</subfield>\n";
+                        } elsif ($code eq 'z') {
+                            print OUTFILE "        <subfield code='n'>$data</subfield>\n";
+                        }
+                    }
+                }
+                print OUTFILE "      </datafield>\n";
+            }                   #END ITEMREC
+        }
+    }                           #END processing of item data
 
     #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     # PROCESS HOLDINGS RECORD DATA
@@ -542,7 +542,7 @@ RECORD: while (<INFILE>) {
             print OUTFILE "      <datafield ind1='9' ind2='2' tag='999'>\n";
             print OUTFILE "        <subfield code='a'>$hnum</subfield>\n";
             print OUTFILE "        <subfield code='b'>$h_location_code</subfield>\n";
-            print OUTFILE "        <subfield code='a'>$hcard_ct</subfield>\n";
+            print OUTFILE "        <subfield code='c'>$hcard_ct</subfield>\n";
             print OUTFILE "      </datafield>\n";
 
             my $hfield_sql = "SELECT
@@ -553,11 +553,11 @@ RECORD: while (<INFILE>) {
                                 sierra_view.varfield
                               WHERE
                                 record_id = '$hrec_id'
-                                and ( marc_tag IN ('852', '864', '865', '867', '868')
+                                and ( marc_tag IN ('852', '853', '854', '855')
                                       OR
-                                      marc_tag IN ('863', '866') AND varfield_type_code = 'h'
+                                      marc_tag IN ('863', '864', '865', '866', '867', '868') AND varfield_type_code = 'h'
                                     )
-                              ORDER BY varfield_type_code, occ_num ASC";
+                              ORDER BY marc_tag, occ_num ASC";
 
             my $hfield_sth = $dbh->prepare($hfield_sql);
             $hfield_sth->execute();
@@ -566,7 +566,6 @@ RECORD: while (<INFILE>) {
             $hfield_sth->bind_columns (undef, \$h_marc_tag, \$h_rec_data, \$h_iii_tag);
 
             while ($hfield_sth->fetch()) {
-                if (($h_marc_tag =~ m/86[36]/ && $h_iii_tag eq 'h') || $h_marc_tag =~ m/852|86[4578]/) {
                     print OUTFILE "      <datafield ind1='9' ind2='3' tag='999'>\n";
                     print OUTFILE "        <subfield code='0'>$hnum</subfield>\n";
                     print OUTFILE "        <subfield code='2'>$h_marc_tag</subfield>\n";
@@ -585,10 +584,54 @@ RECORD: while (<INFILE>) {
                         }
                     }
                     print OUTFILE "      </datafield>\n";
-                }
             }
         }                       #end HOLDINGSREC
-    }
+    }                           # end All Holdings processing
+
+    if ($order_ct > 0) {
+        my $order_sql = "SELECT
+                            'o' || rm.record_num AS onum,
+                            o.ocode3 AS ord_proj,
+                            om.copies,
+                            TO_CHAR(o.received_date_gmt, 'YYYY-MM-DD') AS rcvdate,
+                            TO_CHAR(o.catalog_date_gmt, 'YYYY-MM-DD') AS catdate,
+                            TRIM(
+                              TRAILING ' '
+                              FROM
+                                om.location_code
+                            )AS LOCATION,
+                            o.order_status_code AS status
+                          FROM
+                            sierra_view.bib_record_order_record_link bo
+                          INNER JOIN sierra_view.order_record o ON o.record_id = bo.order_record_id
+                          AND o.ocode3 != 'n'
+                          INNER JOIN sierra_view.record_metadata rm ON o.record_id = rm.id
+                          INNER JOIN (
+                          SELECT DISTINCT ON (cmf.order_record_id) * from sierra_view.order_record_cmf cmf
+                           ORDER BY cmf.order_record_id, cmf.id ASC
+                          ) AS om
+                          on bo.order_record_id = om.order_record_id
+                          WHERE
+                            bo.bib_record_id = '$bib_id'";
+
+        my $order_sth = $dbh->prepare($order_sql);
+        $order_sth->execute();
+
+        my ($onum, $code3, $copies, $rcvdate, $catdate, $location, $status);
+        $order_sth->bind_columns (undef, \$onum, \$code3, \$copies, \$rcvdate, \$catdate, \$location, \$status );
+
+      ORDERREC: while ($order_sth->fetch()) {
+            print OUTFILE "      <datafield ind1='9' ind2='4' tag='999'>\n";
+            print OUTFILE "        <subfield code='a'>$onum</subfield>\n";
+            print OUTFILE "        <subfield code='b'>$code3</subfield>\n";
+            print OUTFILE "        <subfield code='c'>$copies</subfield>\n";
+            print OUTFILE "        <subfield code='d'>$rcvdate</subfield>\n";
+            print OUTFILE "        <subfield code='e'>$catdate</subfield>\n";
+            print OUTFILE "        <subfield code='f'>$location</subfield>\n";
+            print OUTFILE "        <subfield code='g'>$status</subfield>\n";
+            print OUTFILE "      </datafield>\n";
+        }                       #end ORDERREC
+    }                           # end All order processing
     print OUTFILE "  </record>\n";
 }                               #end RECORD
 

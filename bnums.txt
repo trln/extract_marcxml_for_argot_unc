@@ -1,9 +1,12 @@
-b7901925 #344
-#b1327446 #4 holdings records
-#b1304177 #proto-argot example, Russian vernacular
-#b7420979 #proto-argot example, streaming video
-#b5209801 #due date, on 2017-01-09
-#b8696797 #multiple public item notes
+b4268382 #holdings, no 866, multiple 863s
+b8529581 #order record
+#b1303709 #the dreaded Nature serial
+b1219534 #holdings record w/multiple 866s
+b1327446 #4 holdings records
+b1304177 #proto-argot example, Russian vernacular
+b7420979 #proto-argot example, streaming video
+b5209801 #due date, on 2017-01-09
+b8696797 #multiple public item notes
 #b1002574 #public item note
 #b1794029 #print journal record with items, order, and holdings attached
 #b1794029999 #invalid bnum test
