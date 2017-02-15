@@ -302,31 +302,40 @@ RECORD: while (<INFILE>) {
     $bib_sth->bind_columns (undef, \$marc_tag, \$rec_data, \$ind1, \$ind2 );
 
   FIELD: while ($bib_sth->fetch()) {
-        #Escape XML-reserved characters in the data
-        if ($rec_data =~ m/[<>&"']/) {
-            $rec_data = escape_xml_reserved ($rec_data);
-        }
-
-        print OUTFILE "      <datafield ind1='$ind1' ind2='$ind2' tag='$marc_tag'>\n";
-        if ($rec_data =~ m/^[^|]/) {
-            $rec_data = '|a' . $rec_data;
-        }
-        my @subfields = split /\|/, "$rec_data";
-        # need to get ordered list of delimiters in fields so we can throw errors
-        #  if some fields don't start with (or contain) required subfields
-        my @delimiters = ();
-        foreach my $subfield (@subfields) {
-            if ($subfield) {
-                my $delimiter = substr ($subfield, 0, 1);
-                my $data = trim (substr ($subfield, 1));
-                print OUTFILE "        <subfield code='$delimiter'>$data</subfield>\n";
-                push @delimiters, $delimiter;
+        if ($marc_tag =~ m/9(1[^9]|[023456789])/) {
+            next FIELD;
+        } else {
+            #Escape XML-reserved characters in the data
+            if ($rec_data =~ m/[<>&"']/) {
+                $rec_data = escape_xml_reserved ($rec_data);
             }
+
+            print OUTFILE "      <datafield ind1='$ind1' ind2='$ind2' tag='$marc_tag'>\n";
+            if ($rec_data =~ m/^[^|]/) {
+                $rec_data = '|a' . $rec_data;
+            }
+            my @subfields = split /\|/, "$rec_data";
+            # need to get ordered list of delimiters in fields so we can throw errors
+            #  if some fields don't start with (or contain) required subfields
+            my @delimiters = ();
+            foreach my $subfield (@subfields) {
+                if ($subfield) {
+                    my $delimiter = substr ($subfield, 0, 1);
+                    my $data = trim (substr ($subfield, 1));
+                    print OUTFILE "        <subfield code='$delimiter'>$data</subfield>\n";
+                    push @delimiters, $delimiter;
+                }
+            }
+            print OUTFILE "      </datafield>\n";
         }
-        print OUTFILE "      </datafield>\n";
     }
 
     $bib_sth->finish();
+
+    #Insert 907 with bnum in $a. Not all records export with a 907.
+    print OUTFILE "      <datafield ind1='$ind1' ind2='$ind2' tag='907'>\n";
+    print OUTFILE "        <subfield code='a'>$bnum</subfield>\n";
+    print OUTFILE "      </datafield>\n";
 
     #Get counts of unsuppressed item, holdings, and order records
     my (@items, @holdings, @orders);
