@@ -40,11 +40,11 @@ Split giant output file into 10,000 record files:
 awk '/^ +<record>$/ { delim++ } { file = sprintf("splitfile%s.xml", int(delim / 10000)); print >> file; }' < output.xml
 ```
 
-Rename the split files representing the head and tail of the original file:
+Rename the split files representing the head and tail of the original file (replace 9999 with largest number assigned to a split file name):
 
 ``` bash
-mv splitfile10.txt lastfile.xml
-mv splitfile1.txt firstfile.xml
+mv splitfile0.txt split_head.xml
+mv splitfile99999.txt split_tail.xml
 ```
 
 Add the xml declaration and collection opening element to the beginning of all splitfile files and the tail file: 
