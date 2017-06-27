@@ -20,7 +20,7 @@ perl marc_for_argot.pl [path to input file] [path to output file]
 - attached_record_data_mapping.csv - defines the custom 999 fields containing data from item, holdings, and (in some cases) order records attached to the bib record in the ILS.
 - holdings_data_logic.org - instructions for transforming extracted MARC holdings data for use in public catalog
 
-## Notes on preparing files: 
+## Notes on preparing input file: 
 
 SQL to select 100,000 random unsuppressed bibs from ILS:
 
@@ -33,7 +33,7 @@ where b.is_suppressed = 'f'
 order by random()
 LIMIT 100000;
 ```
-
+## Notes on processing output file: 
 Split giant output file into 10,000 record files: 
 
 ``` awk
