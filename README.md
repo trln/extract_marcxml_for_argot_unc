@@ -62,6 +62,3 @@ for file in splitfile*.xml; do echo '</collection>' >> "$file"; done
 
 echo '</collection>' >> split_head.xml
 ```
-
-
-
