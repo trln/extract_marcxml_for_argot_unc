@@ -208,7 +208,7 @@ RECORD: while (<INFILE>) {
     #Get and write control fields
     #MARC-XML defines control fields as MARC21 Fields 001-009
     #Helpfully, Sierra puts 006, 007, and 008 in the control_fields table, but leaves the other 00X
-    #  fields in the variable fields table.
+    #  fields in the variable fields table. /sarcasm
     #TODO: Maybe: sort these better
     #For now: any 006s, 007s, and 008s are output first, then the other 00X fields follow.
     my $cf_sql = "
@@ -341,7 +341,7 @@ RECORD: while (<INFILE>) {
     my (@items, @holdings, @orders);
 
     #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-    # ITEMS
+    # GET AND COUNT ITEM IDS
     #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     my $item_ct_sql = "SELECT
                          lr.item_record_id
@@ -365,7 +365,7 @@ RECORD: while (<INFILE>) {
     my $item_ct = scalar @items;
 
     #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-    # HOLDINGS
+    # GET AND COUNT HOLDINGS IDS
     #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     my $holdings_ct_sql = "SELECT
                              lr.holding_record_id
@@ -389,7 +389,7 @@ RECORD: while (<INFILE>) {
     my $holding_ct = scalar @holdings;
 
     #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-    # ORDERS - only if there are no unsuppressed items
+    # GET AND COUNT ORDER IDS - only if there are no unsuppressed items
     #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     if ($item_ct == 0) {
         my $orders_ct_sql = "SELECT
@@ -566,24 +566,24 @@ RECORD: while (<INFILE>) {
             $hfield_sth->bind_columns (undef, \$h_marc_tag, \$h_rec_data, \$h_iii_tag);
 
             while ($hfield_sth->fetch()) {
-                    print OUTFILE "      <datafield ind1='9' ind2='3' tag='999'>\n";
-                    print OUTFILE "        <subfield code='0'>$hnum</subfield>\n";
-                    print OUTFILE "        <subfield code='2'>$h_marc_tag</subfield>\n";
-                    print OUTFILE "        <subfield code='3'>$h_iii_tag</subfield>\n";
+                print OUTFILE "      <datafield ind1='9' ind2='3' tag='999'>\n";
+                print OUTFILE "        <subfield code='0'>$hnum</subfield>\n";
+                print OUTFILE "        <subfield code='2'>$h_marc_tag</subfield>\n";
+                print OUTFILE "        <subfield code='3'>$h_iii_tag</subfield>\n";
 
-                    @h_subfields = split /\|/, "$h_rec_data";
-                    foreach $h_subfield (@h_subfields) {
-                        if ($h_subfield ne "" ) {
-                            $h_delimiter = substr ($h_subfield, 0, 1);
-                            $h_data = substr ($h_subfield, 1);
-                            if ($h_data =~ m/[<>&"']/) {
-                                $h_data = escape_xml_reserved($h_data);
-                            }
-
-                            print OUTFILE "        <subfield code='$h_delimiter'>$h_data</subfield>\n";
+                @h_subfields = split /\|/, "$h_rec_data";
+                foreach $h_subfield (@h_subfields) {
+                    if ($h_subfield ne "" ) {
+                        $h_delimiter = substr ($h_subfield, 0, 1);
+                        $h_data = substr ($h_subfield, 1);
+                        if ($h_data =~ m/[<>&"']/) {
+                            $h_data = escape_xml_reserved($h_data);
                         }
+
+                        print OUTFILE "        <subfield code='$h_delimiter'>$h_data</subfield>\n";
                     }
-                    print OUTFILE "      </datafield>\n";
+                }
+                print OUTFILE "      </datafield>\n";
             }
         }                       #end HOLDINGSREC
     }                           # end All Holdings processing
@@ -632,6 +632,32 @@ RECORD: while (<INFILE>) {
             print OUTFILE "      </datafield>\n";
         }                       #end ORDERREC
     }                           # end All order processing
+
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    # GET AND OUTPUT CATDATE
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    my $cat_date_sql = "SELECT
+                      b.cataloging_date_gmt
+                    FROM
+                      sierra_view.bib_record b
+                    WHERE
+                      b.record_id = '$bib_id'";
+    my $cat_date_sth = $dbh->prepare($cat_date_sql);
+    $cat_date_sth->execute();
+    $cat_date_sth->bind_columns (undef, \$dategmt );
+    while ($cat_date_sth->fetch()) {
+        print OUTFILE "      <datafield ind1='0' ind2='0' tag='999'>\n";
+        print OUTFILE "        <subfield code='a'>$dategmt</subfield>\n";
+        print OUTFILE "      </datafield>\n";
+    }
+    $cat_date_sth->finish();
+    #end cat_date stuff
+
+
+    if ($testing) {
+        print "Attached items: $item_ct; Attached holdings: $holding_ct; Attached orders: $order_ct\n";
+    }
+
     print OUTFILE "  </record>\n";
 }                               #end RECORD
 

@@ -1,4 +1,5 @@
 MARC tag,Ind 1,Ind 2,Record type,Subfield code,Subfield type,Repeats?,Notes,Transformation notes
+999,0,0,Bib,a,Date Cataloged,n,.,.
 999,9,1,Item,b,Barcode,y,"Shouldn't repeat, but can and does.",.
 999,9,1,Item,c,Copy number,n,.,.
 999,9,1,Item,d,Due Date,n,Will be blank if not checked out.,.
