@@ -637,17 +637,24 @@ RECORD: while (<INFILE>) {
     # GET AND OUTPUT CATDATE
     #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     my $cat_date_sql = "SELECT
-                      b.cataloging_date_gmt
+                      b.cataloging_date_gmt,
+                      rm.creation_date_gmt,
+                      rm.record_last_updated_gmt
                     FROM
                       sierra_view.bib_record b
+                    INNER JOIN
+                      sierra_view.record_metadata rm
+                      ON rm.id = b.id
                     WHERE
                       b.record_id = '$bib_id'";
     my $cat_date_sth = $dbh->prepare($cat_date_sql);
     $cat_date_sth->execute();
-    $cat_date_sth->bind_columns (undef, \$dategmt );
+    $cat_date_sth->bind_columns (undef, \$cataloged, \$created, \$updated );
     while ($cat_date_sth->fetch()) {
         print OUTFILE "      <datafield ind1='0' ind2='0' tag='999'>\n";
-        print OUTFILE "        <subfield code='a'>$dategmt</subfield>\n";
+        print OUTFILE "        <subfield code='a'>$cataloged</subfield>\n";
+        print OUTFILE "        <subfield code='c'>$created</subfield>\n";
+        print OUTFILE "        <subfield code='u'>$updated</subfield>\n";
         print OUTFILE "      </datafield>\n";
     }
     $cat_date_sth->finish();
