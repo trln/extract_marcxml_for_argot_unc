@@ -1,7 +1,7 @@
 MARC tag,Ind 1,Ind 2,Record type,Subfield code,Subfield type,Repeats?,Notes,Transformation notes
-999,0,0,Bib,a,Date Cataloged,n,"Date record was completed/finalized by catalog staff. Some records---such as on-the-fly record for reserves or equipment, etc.---are never \"fully cataloged\" and will not have a value here. Acquisitions staff bring in initial, provisional stub records for items on order, which are later cataloged and receive a cat date.",.
-999,0,0,Bib,a,Record Creation Date,n,"Date record was created. All records in the system should have this date.",.
-999,0,0,Bib,a,Record Updated Date,n,"Date of most recent bib record update.",.
+999,0,0,Bib,a,Date Cataloged,n,"Date record was completed/finalized by catalog staff. Some records---such as on-the-fly record for reserves or equipment, etc.---are never fully cataloged and will not have a value here. Acquisitions staff bring in initial provisional stub records for items on order which are later cataloged and receive a cat date.",Expect blank values in this subfield.
+999,0,0,Bib,a,Record Creation Date,n,Date record was created. All records in the system should have this date.,.
+999,0,0,Bib,a,Record Updated Date,n,Date of most recent bib record update.,.
 999,9,1,Item,b,Barcode,y,"Shouldn't repeat, but can and does.",.
 999,9,1,Item,c,Copy number,n,.,.
 999,9,1,Item,d,Due Date,n,Will be blank if not checked out.,.
@@ -18,11 +18,11 @@ MARC tag,Ind 1,Ind 2,Record type,Subfield code,Subfield type,Repeats?,Notes,Tran
 999,9,2,Holdings-Record info,b,Location code,n,.,.
 999,9,2,Holdings-Record info,c,Holdings card count,n,"Just the holdings record number? Presence or absence of this may trigger link to ""Recent volumes"" view in Classic Catalog",.
 999,9,3,Holdings-Field,0,ILS holdings record number,n,.,.
-999,9,3,Holdings-Field,2,Holdings field tag,n,"The MARC holdings format variable field tag for the data in this 999 93",.
-999,9,3,Holdings-Field,3,III tag,n,"The III field tag of the variable field represented by the 999 93",.
+999,9,3,Holdings-Field,2,Holdings field tag,n,The MARC holdings format variable field tag for the data in this 999 93,.
+999,9,3,Holdings-Field,3,III tag,n,The III field tag of the variable field represented by the 999 93,.
 999,9,3,Holdings-Field,[5-9a-z],Subfield as defined in MARC holdings format,y,"Any 852 field is extracted. 86[345678] fields with III tag = h are extracted. According to Kurt Blythe, if these fields are coded otherwise (usually g for DRA Holdings), they should NOT display to the public.",.
 999,9,4,Order,a,Order record number,n,.,.
-999,9,4,Order,b,Order code 3,n,"Look this up and name it better.",.
+999,9,4,Order,b,Order code 3,n,Look this up and name it better.,.
 999,9,4,Order,c,Number of copies,n,.,.
 999,9,4,Order,d,Received date,n,.,.
 999,9,4,Order,e,Cat date,n,.,.

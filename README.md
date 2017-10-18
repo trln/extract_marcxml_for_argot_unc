@@ -37,28 +37,61 @@ LIMIT 100000;
 Split giant output file into 10,000 record files: 
 
 ``` awk
-awk '/^ +<record>$/ { delim++ } { file = sprintf("splitfile%s.xml", int(delim / 10000)); print >> file; }' < output.xml
+awk '/^ +<record>$/ { delim++ } { file = sprintf("UNC%s.xml", int(delim / 10000)); print >> file; }' < output.xml
 ```
 
-Rename the split files representing the head and tail of the original file (replace 9999 with largest number assigned to a split file name):
+If there's an extra 1-record file at the end:
 
 ``` bash
-mv splitfile0.txt split_head.xml
-mv splitfile99999.txt split_tail.xml
+cat UNC9.xml UNC10.xml >> tail.xml
+rm -f UNC9.xml
+rm -f UNC10.xml
+```
+
+Rename the split file representing the head of the original file:
+
+``` bash
+mv UNC0.xml head.xml
 ```
 
 Add the xml declaration and collection opening element to the beginning of all splitfile files and the tail file: 
 
 ``` sed
-sed -i "1 i\<?xml version='1.0'?>\n<collection xmlns='http://www.loc.gov/MARC21/slim' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd'>" splitfile*.xml
+sed -i "1 i\<?xml version='1.0'?>\n<collection xmlns='http://www.loc.gov/MARC21/slim' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd'>" UNC*.xml
 
-sed -i "1 i\<?xml version='1.0'?>\n<collection xmlns='http://www.loc.gov/MARC21/slim' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd'>" split_tail.xml
+sed -i "1 i\<?xml version='1.0'?>\n<collection xmlns='http://www.loc.gov/MARC21/slim' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd'>" tail.xml
 ```
 
 Add the collection closing element to the end of all splitfile files and the head file: 
 
 ``` bash
-for file in splitfile*.xml; do echo '</collection>' >> "$file"; done
+for file in UNC*.xml; do echo '</collection>' >> "$file"; done
 
-echo '</collection>' >> split_head.xml
+echo '</collection>' >> head.xml
 ```
+
+Rename head and tail files: 
+
+``` bash
+mv head.xml UNC0.xml ; mv tail.xml UNC9.xml
+```
+
+Validate resulting XML files: 
+
+``` bash
+xmllint --valid --noout UNC*.xml
+```
+
+If the only "errors" look like the following, you are good: 
+
+```
+UNC5.xml:2: validity error : Validation failed: no DTD found !
+.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd'
+```
+
+Zip the files (one .gz per file): 
+
+``` bash
+gzip UNC*.xml
+```
+
