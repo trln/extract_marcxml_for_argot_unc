@@ -460,7 +460,7 @@ RECORD: while (<INFILE>) {
                 my @ivarfields;
                 my $ivar_sql = "SELECT
                                    varfield_type_code,
-                                   marc_tag,
+                                   marc_tag || coalesce(nullif(marc_ind1, ''), '#') || coalesce(nullif(marc_ind2, ''), '#'),
                                    field_content
                                  FROM
                                    sierra_view.varfield

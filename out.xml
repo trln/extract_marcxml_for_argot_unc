@@ -117,7 +117,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>HAYZ-5955-00001</subfield>
-        <subfield code='p'>086</subfield>
+        <subfield code='p'>0860#</subfield>
         <subfield code='q'>|aHE 1.1008:H 75/5</subfield>
       </datafield>
       <datafield ind1='0' ind2='0' tag='999'>
@@ -241,7 +241,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00047641015</subfield>
-        <subfield code='p'>099</subfield>
+        <subfield code='p'>099#9</subfield>
         <subfield code='q'>|aJ|aVillar</subfield>
       </datafield>
       <datafield ind1='0' ind2='0' tag='999'>
@@ -316,7 +316,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>1</subfield>
         <subfield code='b'>00009823818</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aML96.4 .B3</subfield>
         <subfield code='v'>Bd.2</subfield>
       </datafield>
@@ -328,7 +328,7 @@
         <subfield code='c'>2</subfield>
         <subfield code='o'>5</subfield>
         <subfield code='b'>00012707519</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aML96.4 .B3</subfield>
         <subfield code='v'>Bd.2</subfield>
       </datafield>
@@ -424,7 +424,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>3</subfield>
         <subfield code='b'>00010334630</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aML50.V484 O82 1925</subfield>
       </datafield>
       <datafield ind1='0' ind2='0' tag='999'>
@@ -580,7 +580,7 @@
         <subfield code='t'>0</subfield>
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
-        <subfield code='p'>099</subfield>
+        <subfield code='p'>099#9</subfield>
         <subfield code='q'>|aStuart|a130070</subfield>
         <subfield code='n'>1860-1863</subfield>
       </datafield>
@@ -796,7 +796,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00046659597</subfield>
-        <subfield code='p'>050</subfield>
+        <subfield code='p'>050#4</subfield>
         <subfield code='q'>|aB693.A35|bA24 2012</subfield>
         <subfield code='v'>t.1,v.1</subfield>
       </datafield>
@@ -989,7 +989,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>1</subfield>
         <subfield code='b'>00048772470</subfield>
-        <subfield code='p'>050</subfield>
+        <subfield code='p'>05014</subfield>
         <subfield code='q'>|aPS3511.E7246|bZ466 2013</subfield>
       </datafield>
       <datafield ind1='0' ind2='0' tag='999'>
@@ -1066,7 +1066,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00029589749</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aPS3511.E557|bZ999h suppl. 2000 no. 1</subfield>
       </datafield>
       <datafield ind1='9' ind2='2' tag='999'>
@@ -1154,7 +1154,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00022963349</subfield>
-        <subfield code='p'>092</subfield>
+        <subfield code='p'>092##</subfield>
         <subfield code='q'>|a781.9733 M939a2</subfield>
       </datafield>
       <datafield ind1='0' ind2='0' tag='999'>
@@ -1363,7 +1363,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>1</subfield>
         <subfield code='b'>00036388532</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1993:A-F</subfield>
       </datafield>
@@ -1375,7 +1375,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429481</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1979:v.1</subfield>
       </datafield>
@@ -1387,7 +1387,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429490</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1980:v.1</subfield>
       </datafield>
@@ -1399,7 +1399,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429506</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1980:v.1</subfield>
       </datafield>
@@ -1411,7 +1411,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429515</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1981:v.1</subfield>
       </datafield>
@@ -1423,7 +1423,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429524</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1981:v.2</subfield>
       </datafield>
@@ -1435,7 +1435,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429533</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1981:v.3</subfield>
       </datafield>
@@ -1447,7 +1447,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429542</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1982:v.1</subfield>
       </datafield>
@@ -1459,7 +1459,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429551</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1982:v.2</subfield>
       </datafield>
@@ -1471,7 +1471,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429560</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1982:v.3</subfield>
       </datafield>
@@ -1483,7 +1483,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429686</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1983:v.1</subfield>
       </datafield>
@@ -1495,7 +1495,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429677</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1983:v.2</subfield>
       </datafield>
@@ -1507,7 +1507,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429668</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1983:v.3</subfield>
       </datafield>
@@ -1519,7 +1519,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429659</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1984:v.1</subfield>
       </datafield>
@@ -1531,7 +1531,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429640</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1984:v.2</subfield>
       </datafield>
@@ -1543,7 +1543,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429631</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1984:v.3</subfield>
       </datafield>
@@ -1555,7 +1555,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429622</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1985:A-F</subfield>
       </datafield>
@@ -1567,7 +1567,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429613</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1985:G-O</subfield>
       </datafield>
@@ -1579,7 +1579,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429604</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1985:P-Z</subfield>
       </datafield>
@@ -1591,7 +1591,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429597</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1985:Series Cross-Reference</subfield>
       </datafield>
@@ -1603,7 +1603,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429588</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1986:A-F</subfield>
       </datafield>
@@ -1615,7 +1615,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429579</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1986:G-O</subfield>
       </datafield>
@@ -1627,7 +1627,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429695</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1986:P-Z</subfield>
       </datafield>
@@ -1639,7 +1639,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036429702</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1986:Series Cross-Reference</subfield>
       </datafield>
@@ -1651,7 +1651,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00016222801</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1987:A-F</subfield>
       </datafield>
@@ -1663,7 +1663,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036388596</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1991:Industry</subfield>
       </datafield>
@@ -1675,7 +1675,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036388569</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1992:P-Z</subfield>
       </datafield>
@@ -1687,7 +1687,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036388550</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1992:Geography</subfield>
       </datafield>
@@ -1699,7 +1699,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036388541</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1992:Industry</subfield>
       </datafield>
@@ -1711,7 +1711,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036388658</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1993:G-O</subfield>
       </datafield>
@@ -1723,7 +1723,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036388667</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1993:P-Z</subfield>
       </datafield>
@@ -1735,7 +1735,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036388676</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1993:Geography</subfield>
       </datafield>
@@ -1747,7 +1747,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036388685</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1993:Industry</subfield>
       </datafield>
@@ -1759,7 +1759,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>1</subfield>
         <subfield code='b'>00012117327</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1994:A-F</subfield>
       </datafield>
@@ -1771,7 +1771,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00012117728</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1994:G-O</subfield>
       </datafield>
@@ -1783,7 +1783,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00012117522</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1994:P-Z</subfield>
       </datafield>
@@ -1795,7 +1795,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00012117130</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1994:Geography</subfield>
       </datafield>
@@ -1807,7 +1807,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00012117924</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1994:Industry</subfield>
       </datafield>
@@ -1819,7 +1819,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>1</subfield>
         <subfield code='b'>00013027501</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1995:A-F</subfield>
       </datafield>
@@ -1831,7 +1831,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>1</subfield>
         <subfield code='b'>00013027100</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1995:G-O</subfield>
       </datafield>
@@ -1843,7 +1843,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00013027707</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1995:Geography</subfield>
       </datafield>
@@ -1855,7 +1855,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00013027306</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1995:Industry</subfield>
       </datafield>
@@ -1867,7 +1867,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00013649233</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1996:G-O</subfield>
       </datafield>
@@ -1879,7 +1879,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00013649215</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1996:P-Z</subfield>
       </datafield>
@@ -1891,7 +1891,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00013649607</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1996:Geography</subfield>
       </datafield>
@@ -1903,7 +1903,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00013649224</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1996:Industry</subfield>
       </datafield>
@@ -1915,7 +1915,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>10001524708</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1987:P-Z</subfield>
       </datafield>
@@ -1927,7 +1927,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385633</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1987:Geography</subfield>
       </datafield>
@@ -1939,7 +1939,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385651</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1989:Geography</subfield>
       </datafield>
@@ -1951,7 +1951,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385535</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1989:Industry</subfield>
       </datafield>
@@ -1963,7 +1963,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385660</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1990:A-F</subfield>
       </datafield>
@@ -1975,7 +1975,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385679</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1990:G-O</subfield>
       </datafield>
@@ -1987,7 +1987,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385688</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1990:P-Z</subfield>
       </datafield>
@@ -1999,7 +1999,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385697</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1990:Geography</subfield>
       </datafield>
@@ -2011,7 +2011,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385704</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1990:Industry</subfield>
       </datafield>
@@ -2023,7 +2023,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385713</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1991:A-F</subfield>
       </datafield>
@@ -2035,7 +2035,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385722</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1991:G-O</subfield>
       </datafield>
@@ -2047,7 +2047,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385731</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1991:P-Z</subfield>
       </datafield>
@@ -2059,7 +2059,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385740</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1991:Geography</subfield>
       </datafield>
@@ -2071,7 +2071,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036388587</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1992:A-F</subfield>
       </datafield>
@@ -2083,7 +2083,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036388578</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1992:G-O</subfield>
       </datafield>
@@ -2095,7 +2095,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>1</subfield>
         <subfield code='b'>00013027903</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1995:P-Z</subfield>
       </datafield>
@@ -2107,7 +2107,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00013649242</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102 .D8</subfield>
         <subfield code='v'>1996:A-F</subfield>
       </datafield>
@@ -2119,7 +2119,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385624</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1987:A-F</subfield>
       </datafield>
@@ -2131,7 +2131,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385526</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1987:G-O</subfield>
       </datafield>
@@ -2143,7 +2143,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385615</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1987:G-O</subfield>
       </datafield>
@@ -2155,7 +2155,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385642</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1987:Industry</subfield>
       </datafield>
@@ -2167,7 +2167,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385606</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1988:P-Z</subfield>
       </datafield>
@@ -2179,7 +2179,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385599</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1988:Geography</subfield>
       </datafield>
@@ -2191,7 +2191,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385580</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1988:Industry</subfield>
       </datafield>
@@ -2203,7 +2203,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385562</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1989:A-F</subfield>
       </datafield>
@@ -2215,7 +2215,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385553</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1989:G-O</subfield>
       </datafield>
@@ -2227,7 +2227,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385544</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>1989:P-Z</subfield>
       </datafield>
@@ -2239,7 +2239,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00036385571</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHC102|b.D8</subfield>
         <subfield code='v'>Index: 1988</subfield>
       </datafield>
@@ -2251,7 +2251,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00041592543</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|a338.058|bD897m</subfield>
         <subfield code='v'>Suppl.:1960:Sept.</subfield>
       </datafield>
@@ -2263,7 +2263,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00041592552</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|a338.058|bD897m</subfield>
         <subfield code='v'>Suppl.:1963:May </subfield>
       </datafield>
@@ -6404,7 +6404,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00042637673</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aQ1|b.S35</subfield>
         <subfield code='v'>new ser.:v.9(1899)</subfield>
       </datafield>
@@ -6416,7 +6416,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00042638011</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aQ1|b.S35</subfield>
         <subfield code='v'>new ser.:v.43(1916)</subfield>
       </datafield>
@@ -6428,7 +6428,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00042637628</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aQ1|b.S35</subfield>
         <subfield code='v'>v.20:no.493-517(1892)</subfield>
       </datafield>
@@ -6440,7 +6440,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00042637619</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aQ1|b.S35</subfield>
         <subfield code='v'>v.21:no.518-543(1893)</subfield>
       </datafield>
@@ -6452,7 +6452,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00051589020</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHF5001|b.F6</subfield>
         <subfield code='v'>new ser.:v.351(2016)</subfield>
       </datafield>
@@ -6464,7 +6464,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00051588904</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHF5001|b.F6</subfield>
         <subfield code='v'>new ser.:v.352(2016)</subfield>
       </datafield>
@@ -6476,7 +6476,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00051589397</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aHF5001|b.F6</subfield>
         <subfield code='v'>new ser.:v.353(2016)</subfield>
       </datafield>
@@ -6815,7 +6815,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>18</subfield>
         <subfield code='b'>00007525537</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aPB1423.C8 G7</subfield>
       </datafield>
       <datafield ind1='0' ind2='0' tag='999'>
@@ -6940,7 +6940,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>10000200550</subfield>
-        <subfield code='p'>099</subfield>
+        <subfield code='p'>099#9</subfield>
         <subfield code='q'>|aQJ784.L83 Lomax</subfield>
       </datafield>
       <datafield ind1='9' ind2='1' tag='999'>
@@ -6951,7 +6951,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00019654349</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aM1629.L85 F6 1947a</subfield>
       </datafield>
       <datafield ind1='9' ind2='1' tag='999'>
@@ -6962,7 +6962,7 @@
         <subfield code='c'>2</subfield>
         <subfield code='o'>1</subfield>
         <subfield code='b'>00010893722</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aM1629.L85 F6 1947a</subfield>
       </datafield>
       <datafield ind1='9' ind2='1' tag='999'>
@@ -6973,7 +6973,7 @@
         <subfield code='c'>3</subfield>
         <subfield code='o'>3</subfield>
         <subfield code='b'>10001565405</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aM1629.L85 F6 1947a</subfield>
       </datafield>
       <datafield ind1='9' ind2='1' tag='999'>
@@ -6984,7 +6984,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>HAGK-4386-00001</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aM1629.L85 F6 1947a</subfield>
       </datafield>
       <datafield ind1='9' ind2='1' tag='999'>
@@ -6995,7 +6995,7 @@
         <subfield code='c'>4</subfield>
         <subfield code='o'>0</subfield>
         <subfield code='b'>00020631292</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aM1629.L85 F6 1947a</subfield>
         <subfield code='n'>2nd edition</subfield>
       </datafield>
@@ -7221,7 +7221,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>14</subfield>
         <subfield code='b'>10001939814</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aPA6156 .G4 1927</subfield>
         <subfield code='v'>v.1</subfield>
       </datafield>
@@ -7233,7 +7233,7 @@
         <subfield code='c'>1</subfield>
         <subfield code='o'>4</subfield>
         <subfield code='b'>10001948298</subfield>
-        <subfield code='p'>090</subfield>
+        <subfield code='p'>090##</subfield>
         <subfield code='q'>|aPA6156 .G4 1927</subfield>
         <subfield code='v'>v.3</subfield>
       </datafield>
