@@ -3,7 +3,7 @@ MARC tag,Ind 1,Ind 2,Record type,Subfield code,Subfield type,Repeats?,Notes,Tran
 999,0,0,Bib,a,Record Creation Date,n,Date record was created. All records in the system should have this date.,.
 999,0,0,Bib,a,Record Updated Date,n,Date of most recent bib record update.,.
 999,9,1,Item,b,Barcode,y,"Shouldn't repeat, but can and does.",.
-999,9,1,Item,c,Copy number,n,.,.
+999,9,1,Item,c,Copy number,n,.,"Ignore if blank or 1. Otherwise, prefix with: 'c. '"
 999,9,1,Item,d,Due Date,n,Will be blank if not checked out.,.
 999,9,1,Item,i,ILS item record number (without check digit),n,Used for linking back into Classic system for some functionality,.
 999,9,1,Item,l,Location code,n,.,.
