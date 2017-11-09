@@ -1,0 +1,19 @@
+b1190749 #digits only in 001, no 003 -- is OCN
+b8980466 #digits in 001, 003 = OCoLC -- is OCN
+b8976653 #digit-only 001, 003 = ItFiC -- NOT OCN
+b8323826 #digit-only 001, 003 = DLC -- NOT OCN
+b7842583 #digit-only 001, 003 = LOFM -- NOT OCN
+b8945292 #digit-only 001, 003 = PWmBRO -- NOT OCN
+b4672963 #digit-only 001, 003 = NhCcYBP -- is OCN
+b4462321 #tmp54543095 in 001, 003 = OCoLC - minus prefix, OCN is right
+b5197072 #digits + wcm in 001, OCoLC in 003 - strip suffix
+b3832871 #alpha prefix 001, OCoLC 003 M-ESTCN14821814 - OCLC rec is for print. This is microfilm
+b4920184 #moml11907452 in 001, OCoLC 003 - 001# is for microfilm. This is ebook
+b6446651 #001 = hsl228308541, 003 = OCoLC - minus prefix, OCN is right
+b8264076 #001 = WHO669756139, 003 = OCoLC - minus prefix, OCN is right
+b5834407 #ssj in 001
+b7987982 #ssib in 001
+b8958965 #sse\d in 001
+b8760672 #sseb in 001
+b8028425 #001 = EBC308382sub, 035 = (OCoLC)560404564
+b6053922 #001 = ASP1000005106/psyc, 035 = (OCoLC)593657737

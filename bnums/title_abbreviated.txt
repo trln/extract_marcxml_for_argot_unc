@@ -1,0 +1,3 @@
+b1327560 #i1 = 1, extraneous subfields
+b1221084 #i1 = 1, $b present
+b1188667 #i1 = 0

@@ -1,4 +1,5 @@
-*.txt
+/output
+\#*
 *.mrc
 *.mrk
 *.xml
