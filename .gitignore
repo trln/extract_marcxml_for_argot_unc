@@ -1,4 +1,4 @@
-/output
 \#*
 *.mrc
 *.mrk
+\output\bib_errors.txt
