@@ -1,0 +1,14 @@
+b5122036 #2nd ind 0 -- sfs 3, y, x
+b1684651 #2nd ind 0 -- sf 3 only
+b1045762 #2nd ind 1 -- sf y only
+b1238434 #2nd ind 1 -- no sf 3 or y, not .gov, .us, .mil
+b1059806 #2nd ind 2 -- 3 begins with finding aid
+b1302106 #2nd ind 2 -- 3 prominent related
+b6855646 #2nd ind 2 -- 3 thumbnail
+b6477066 #2nd ind 8 -- no sf3
+b4781511 #2nd ind 8 -- has sf3
+b1329180 #2nd ind 1 -- no sf 3 or y, is .gov, .us, .mil
+b1329180 #2nd ind 0 -- no sf 3 or y, not .gov, .us, .mil
+b8407076 #2nd ind 2 -- no u
+b6977632 #2nd ind 0 -- no u
+b3761431 #2nd ind 1 -- no u
