@@ -1,0 +1,1098 @@
+<?xml version='1.0'?>
+<collection xmlns='http://www.loc.gov/MARC21/slim' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd'>
+  <record>
+    <leader>00000cgm a2200649Ia 4500</leader>
+      <controlfield tag='008'>861120p19861950cau094 g          vlfre d</controlfield>
+      <controlfield tag='007'>vf bbahom</controlfield>
+      <controlfield tag='001'>14777570</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20120503012716.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='019'>
+        <subfield code='a'>15265418</subfield>
+        <subfield code='a'>21821302</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)14777570</subfield>
+        <subfield code='z'>(OCoLC)15265418</subfield>
+        <subfield code='z'>(OCoLC)21821302</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>PNX</subfield>
+        <subfield code='b'>eng</subfield>
+        <subfield code='c'>PNX</subfield>
+        <subfield code='d'>OCL</subfield>
+        <subfield code='d'>VA@</subfield>
+        <subfield code='d'>CUY</subfield>
+        <subfield code='d'>TAI</subfield>
+        <subfield code='d'>INT</subfield>
+        <subfield code='d'>OCL</subfield>
+        <subfield code='d'>OCLCQ</subfield>
+        <subfield code='d'>OCLCG</subfield>
+        <subfield code='d'>TXJ</subfield>
+        <subfield code='d'>OCLCQ</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='041'>
+        <subfield code='a'>fre</subfield>
+        <subfield code='j'>eng</subfield>
+        <subfield code='h'>fre</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='049'>
+        <subfield code='a'>[Video-][cassette]NOC3</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='4' tag='050'>
+        <subfield code='a'>PQ2605.O15</subfield>
+        <subfield code='b'>O7</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='4' tag='082'>
+        <subfield code='a'>791.4372</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='245'>
+        <subfield code='a'>Orphée</subfield>
+        <subfield code='h'>[videocassette] /</subfield>
+        <subfield code='c'>a Janus Films presentation ; André Paulvé presents.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='246'>
+        <subfield code='i'>Title on tape label:</subfield>
+        <subfield code='a'>Orpheus</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='257'>
+        <subfield code='a'>France.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Los Angeles, Calif. :</subfield>
+        <subfield code='b'>Embassy Home Entertainment,</subfield>
+        <subfield code='c'>c1986.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>1 videocassette (94 min.) :</subfield>
+        <subfield code='b'>sd., b&amp;w ;</subfield>
+        <subfield code='c'>1/2 in.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Run time: approx. 94 min.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>&quot;3.5&quot; --Tape label.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Videocassette release of the 1950 motion picture.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='508'>
+        <subfield code='a'>Director and screenplay, Jean Cocteau ; cinematographer, Nicholas Hayer ; music, Georges Auric.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='511'>
+        <subfield code='a'>Jean Marais, Maria Casarès, Marie Dea, François Périer.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='520'>
+        <subfield code='a'>&quot;Depicts the love of a poet for a princess who travels constantly from this world to the next. A legendary tale in a modern Parisian setting&quot;--</subfield>
+        <subfield code='c'>Video source book.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='538'>
+        <subfield code='a'>VHS, Hi-fi mono.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='546'>
+        <subfield code='a'>French with English subtitles.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Feature films.</subfield>
+        <subfield code='2'>lcgft</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Fiction films.</subfield>
+        <subfield code='2'>lcgft</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Fantasy films.</subfield>
+        <subfield code='2'>lcgft</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Drama.</subfield>
+        <subfield code='2'>local</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>French Cinema.</subfield>
+        <subfield code='2'>local</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Foreign films</subfield>
+        <subfield code='z'>France.</subfield>
+        <subfield code='2'>local</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='691'>
+        <subfield code='a'>France.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Marais, Jean,</subfield>
+        <subfield code='d'>1913-1998.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Casarès, Maria.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Déa, Marie.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Cocteau, Jean,</subfield>
+        <subfield code='d'>1889-1963.</subfield>
+        <subfield code='4'>drt</subfield>
+        <subfield code='4'>aus</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Paulvé, André.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Périer, François.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Janus Films.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Embassy Home Entertainment (Firm)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='830'>
+        <subfield code='a'>International collection (Los Angeles, Calif.)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b2458126</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i9559175</subfield>
+        <subfield code='l'>truls</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>57</subfield>
+        <subfield code='c'>2</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00041297943</subfield>
+        <subfield code='p'>099#9</subfield>
+        <subfield code='q'>|a65-V582</subfield>
+        <subfield code='n'>Ask at Media Resources Desk for assistance. Phone: (919)-962-2559. Email address: mrc@unc.edu</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i3528468</subfield>
+        <subfield code='l'>uldaz</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>57</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>56</subfield>
+        <subfield code='b'>00006505338</subfield>
+        <subfield code='p'>099#9</subfield>
+        <subfield code='q'>|a65-V582</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2012-05-03 00:00:00-04</subfield>
+        <subfield code='c'>2004-10-02 08:17:00-04</subfield>
+        <subfield code='u'>2017-11-15 15:50:34-05</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000ngm a2200481Ia 4500</leader>
+      <controlfield tag='008'>110429p198u1963mou093            vleng d</controlfield>
+      <controlfield tag='007'>vf bbaho|</controlfield>
+      <controlfield tag='001'>717282809</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20110429091535.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)717282809</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>NOC</subfield>
+        <subfield code='c'>NOC</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='041'>
+        <subfield code='a'>eng</subfield>
+        <subfield code='h'>ger</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='049'>
+        <subfield code='a'>[Video-][cassette]NOC3</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='130'>
+        <subfield code='a'>Zinker (Motion picture)</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='4' tag='245'>
+        <subfield code='a'>The squeaker</subfield>
+        <subfield code='h'>[videocassette] /</subfield>
+        <subfield code='c'>an Alfred Vohrer film.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Jamestown, Mo. :</subfield>
+        <subfield code='b'>The Incredibly Strange Filmworks,</subfield>
+        <subfield code='c'>[198-?]</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>1 videocassette (93 min.) :</subfield>
+        <subfield code='b'>sd., b&amp;w ;</subfield>
+        <subfield code='c'>1/2 in.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Based on the novel by Edgar Wallace.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Originally released as a motion picture in 1963.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Run time: approx. 93 min.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='508'>
+        <subfield code='a'>Screenplay, H. G. Petersson ; camera, Karl Lob ; music, Peter Thomas.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='511'>
+        <subfield code='a'>Heinz Drache, Barbara Rütting.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='520'>
+        <subfield code='a'>&quot;The tracking down of a master criminal in London leads to bitter fighting among the crooks.&quot;</subfield>
+        <subfield code='c'>Film Index International website.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='538'>
+        <subfield code='a'>VHS.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='546'>
+        <subfield code='a'>English dubbed soundtrack from the original German.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Crime</subfield>
+        <subfield code='z'>England</subfield>
+        <subfield code='z'>London</subfield>
+        <subfield code='v'>Drama.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Film Adaptations.</subfield>
+        <subfield code='2'>local</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Crime &amp; Police Drama.</subfield>
+        <subfield code='2'>local</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>German Cinema.</subfield>
+        <subfield code='2'>local</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Foreign films</subfield>
+        <subfield code='z'>Germany.</subfield>
+        <subfield code='2'>local</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Drama.</subfield>
+        <subfield code='2'>local</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='691'>
+        <subfield code='a'>Germany.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Drache, Heinz,</subfield>
+        <subfield code='d'>1923-2002.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Rütting, Barbara,</subfield>
+        <subfield code='d'>1927-</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Wallace, Edgar,</subfield>
+        <subfield code='d'>1875-1932.</subfield>
+        <subfield code='t'>Zinker.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Vohrer, Alfred,</subfield>
+        <subfield code='d'>1918-</subfield>
+        <subfield code='4'>drt</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Incredibly Strange Filmworks.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b4724937</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i8904375</subfield>
+        <subfield code='l'>truls</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>57</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00024829296</subfield>
+        <subfield code='p'>099#9</subfield>
+        <subfield code='q'>|a65-V9447</subfield>
+        <subfield code='n'>Ask at Media Resources Desk for assistance. Phone: (919)-962-2559. Email address: mrc@unc.edu</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2011-04-29 00:00:00-04</subfield>
+        <subfield code='c'>2005-05-09 15:27:00-04</subfield>
+        <subfield code='u'>2016-10-23 22:19:36-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200493 i 4500</leader>
+      <controlfield tag='008'>150803s2015    dcua          000 1 eng  </controlfield>
+      <controlfield tag='001'>910334287</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20151120114826.6</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>2015029841</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>9781563686030</subfield>
+        <subfield code='q'>paperback</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>1563686031</subfield>
+        <subfield code='q'>paperback</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='z'>9781563686047</subfield>
+        <subfield code='q'>electronic book</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)910334287</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>DLC</subfield>
+        <subfield code='e'>rda</subfield>
+        <subfield code='b'>eng</subfield>
+        <subfield code='c'>DLC</subfield>
+        <subfield code='d'>YDX</subfield>
+        <subfield code='d'>YDXCP</subfield>
+        <subfield code='d'>BTCTA</subfield>
+        <subfield code='d'>BDX</subfield>
+        <subfield code='d'>OCLCF</subfield>
+        <subfield code='d'>CDX</subfield>
+        <subfield code='d'>TMK</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='042'>
+        <subfield code='a'>pcc</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='050'>
+        <subfield code='a'>PS3603.O536</subfield>
+        <subfield code='b'>D43 2015</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='082'>
+        <subfield code='a'>813/.6</subfield>
+        <subfield code='2'>23</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='084'>
+        <subfield code='a'>FIC043000</subfield>
+        <subfield code='a'>FIC000000</subfield>
+        <subfield code='a'>FIC029000</subfield>
+        <subfield code='2'>bisacsh</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Conley, Willy,</subfield>
+        <subfield code='e'>author.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='4' tag='245'>
+        <subfield code='a'>The deaf heart :</subfield>
+        <subfield code='b'>a novel /</subfield>
+        <subfield code='c'>Willy Conley.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='1' tag='264'>
+        <subfield code='a'>Washington, DC :</subfield>
+        <subfield code='b'>Gallaudet University Press,</subfield>
+        <subfield code='c'>[2015]</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>xviii, 233 pages ;</subfield>
+        <subfield code='c'>22 cm</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='336'>
+        <subfield code='a'>text</subfield>
+        <subfield code='2'>rdacontent</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='337'>
+        <subfield code='a'>unmediated</subfield>
+        <subfield code='2'>rdamedia</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='338'>
+        <subfield code='a'>volume</subfield>
+        <subfield code='2'>rdacarrier</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='520'>
+        <subfield code='a'>&quot;Told through a series of quirky, irreverent short stories and letters home during the early 1980s, The Deaf Heart chronicles a year in the life of Dempsey &quot;Max&quot; McCall, a Deaf biomedical photography resident at a teaching hospital on the island of Galveston, Texas. Max strives to become certified as a Registered Biological Photographer while straddling the deaf and hearing worlds. He befriends Reynaldo, an impoverished Deaf Mexican, and they go on a number of unusual escapades around the island. At the hospital, Max has to contend with hearing doctors, nurses, scientists, and teachers. While struggling through the rigors of his residency and running into bad luck in meeting women, Max discovers an ally in his hearing housemate Zag, a fellow resident who is also vying for certification. Toward the end of his residency, Max meets Maddy, a Deaf woman who helps bring balance to his life. Author Willy Conley&apos;s stories, some humorous, some poignant, reveal Max&apos;s struggles and triumphs as he attempts to succeed in the hearing world while at the same time navigating the multicultural and linguistic diversity within the Deaf world&quot;--</subfield>
+        <subfield code='c'>Provided by publisher.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='520'>
+        <subfield code='a'>&quot;Chronicles a year in the life of Dempsey McCall, a deaf biomedical photography resident living in Galveston, Texas&quot;--</subfield>
+        <subfield code='c'>Provided by publisher.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Deaf culture</subfield>
+        <subfield code='v'>Fiction.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>People with disabilities</subfield>
+        <subfield code='v'>Fiction.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Interpersonal relations</subfield>
+        <subfield code='v'>Fiction.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>FICTION / Coming of Age.</subfield>
+        <subfield code='2'>bisacsh</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>FICTION / General.</subfield>
+        <subfield code='2'>bisacsh</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>FICTION / Short Stories (single author).</subfield>
+        <subfield code='2'>bisacsh</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Deaf culture.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01764313</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Interpersonal relations.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst00977397</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>People with disabilities.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01057245</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Fiction.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01423787</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b8389707</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10908357</subfield>
+        <subfield code='l'>ddda</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00049578269</subfield>
+        <subfield code='p'>05000</subfield>
+        <subfield code='q'>|aPS3603.O536|bD43 2015</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2015-12-09 00:00:00-05</subfield>
+        <subfield code='c'>2015-12-09 10:37:18-05</subfield>
+        <subfield code='u'>2015-12-17 19:54:46-05</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam  2200277Ia 4500</leader>
+      <controlfield tag='008'>900710s1988    flua   j      000 1 eng d</controlfield>
+      <controlfield tag='001'>19583588</controlfield>
+      <controlfield tag='005'>19900710000000.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>0897777018</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>UUZ</subfield>
+        <subfield code='c'>UUZ</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Weingarten, Elaine.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='4' tag='245'>
+        <subfield code='a'>The robin who was afraid to fly /</subfield>
+        <subfield code='c'>by Elaine Weingarten ; ill. by Phyllis Sweeney.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Boca Raton, Fla. :</subfield>
+        <subfield code='b'>Social Issues Resources Series,</subfield>
+        <subfield code='c'>c1988.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>[50] p. :</subfield>
+        <subfield code='b'>col. ill. ;</subfield>
+        <subfield code='c'>26 cm.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='520'>
+        <subfield code='a'>Summary: A young robin fears to leave the nest, but finds courage and realizes he will never again be afraid to try a new experience.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Children&apos;s stories, American.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='1' tag='650'>
+        <subfield code='a'>Stories in rhyme.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='1' tag='650'>
+        <subfield code='a'>Birds</subfield>
+        <subfield code='v'>Fiction.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Sweeney, Phyllis,</subfield>
+        <subfield code='e'>illustrator.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Social Issues Resources Series, inc.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='800'>
+        <subfield code='a'>Weingarten, Elaine.</subfield>
+        <subfield code='t'>SIRS stories in rhyme.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b2296659</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i3306142</subfield>
+        <subfield code='l'>lljd</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>22</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>6</subfield>
+        <subfield code='b'>00004928617</subfield>
+        <subfield code='p'>099#9</subfield>
+        <subfield code='q'>|aJE Weingarten</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-10-01 09:18:04-04</subfield>
+        <subfield code='u'>2013-10-04 11:02:20-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200277 a 4500</leader>
+      <controlfield tag='008'>860219c19851977nyu           000 1 eng  </controlfield>
+      <controlfield tag='001'>12103347</controlfield>
+      <controlfield tag='005'>19860219000000.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>85011246</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>0877957681 :</subfield>
+        <subfield code='c'>$22.50</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>DLC</subfield>
+        <subfield code='c'>DLC</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='082'>
+        <subfield code='a'>813/.54</subfield>
+        <subfield code='2'>19</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Leonard, Elmore,</subfield>
+        <subfield code='d'>1925-2013.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='240'>
+        <subfield code='a'>Dutch treat</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Elmore Leonard&apos;s Dutch treat :</subfield>
+        <subfield code='b'>3 novels /</subfield>
+        <subfield code='c'>introduction by George F. Will.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>New York :</subfield>
+        <subfield code='b'>Arbor House,</subfield>
+        <subfield code='c'>[1985] c1977.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>xiv, 568 p. ;</subfield>
+        <subfield code='c'>24 cm.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='505'>
+        <subfield code='a'>The hunted -- Swag -- Mr. Majestyk.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='520'>
+        <subfield code='a'>Here from Elmore &quot;Dutch&quot; Leonard, the bestselling author of Glitz, is a wonderful treat: three early novels, long unavailable, bound together in one volume. The Hunted, Swag, and Mr.Majestyk are classic Leonards, with his trademarks of an &quot;uncanny sense of plot, pace, and an inexhaustible flair for the nervous rhythms of contemporary urban speech&quot;.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Leonard, Elmore,</subfield>
+        <subfield code='d'>1925-2013.</subfield>
+        <subfield code='t'>Hunted.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Leonard, Elmore,</subfield>
+        <subfield code='d'>1925-2013.</subfield>
+        <subfield code='t'>Ryan&apos;s rules.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Leonard, Elmore,</subfield>
+        <subfield code='d'>1925-2013.</subfield>
+        <subfield code='t'>Mr. Majestyk.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b2037604</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i2944588</subfield>
+        <subfield code='l'>uada</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>6</subfield>
+        <subfield code='b'>00003213141</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPS3562.E55 A6 1985</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-10-01 08:34:00-04</subfield>
+        <subfield code='u'>2014-07-19 13:57:17-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam  2200265K  4500</leader>
+      <controlfield tag='008'>910612s1928    nyu           000 0 eng d</controlfield>
+      <controlfield tag='001'>279594</controlfield>
+      <controlfield tag='005'>19910612000000.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>28031116</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>WSU</subfield>
+        <subfield code='c'>WSU</subfield>
+        <subfield code='d'>OCL</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Benchley, Robert,</subfield>
+        <subfield code='d'>1889-1945.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>20,000 leagues under the sea, or, David Copperfield /</subfield>
+        <subfield code='c'>by Robert Benchley, with illustrations by Gluyas Williams.</subfield>
+      </datafield>
+      <datafield ind1='3' ind2='0' tag='246'>
+        <subfield code='a'>20,000 leagues under the sea</subfield>
+      </datafield>
+      <datafield ind1='3' ind2='0' tag='246'>
+        <subfield code='a'>David Copperfield</subfield>
+      </datafield>
+      <datafield ind1='3' ind2=' ' tag='246'>
+        <subfield code='a'>Twenty thousand leagues under the sea, or, David Copperfield</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>New York :</subfield>
+        <subfield code='b'>H. Holt and company,</subfield>
+        <subfield code='c'>[c1928].</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>vi, 233 p. :</subfield>
+        <subfield code='b'>ill. ;</subfield>
+        <subfield code='c'>20 cm.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='505'>
+        <subfield code='a'>Political parties and their growth -- The low state of whippet racing -- Add folk plays -- Meeting the boats -- &quot;In this corner--&quot; -- &apos;Round and &apos;round and &apos;round -- The cooper cycle in American folk songs -- Hockey tonight! -- &quot;I am in the book&quot; -- A short history of American politics -- The bridge of sans Gene -- Try-outs -- African sculpture -- Football sagas -- Mr. Mencken reviews Mr. Nathan and vice versa -- Clinical notes -- The new social blight -- Passport dope -- &quot;Island Irish&quot; -- On the air -- Fascinating crimes -- The problems of the used car -- Checking up -- A short (what there is of it) history of American political problems -- Cease firing! -- The great American folly -- Junior drama -- The passing of the cow -- Back to the game -- It seems there were a couple of cells -- No results whatever in our own straw vote -- Two editorials for &quot;The Nation&quot; -- Mr. Kellogg&apos;s dilemma -- The four-in-hand outrage -- Significant results in second week of our own straw vote -- The packer&apos;s assistant -- The birth of a college comic paper -- A Christmas garland of books -- The woolen mitten situation -- The typical New Yorker.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='520'>
+        <subfield code='a'>40 Benchley essays previously published in The Bookman, The Detroit Athletic Club News, The Forum, Life, The New Yorker, and The Yale Review.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>American wit and humor.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Williams, Gluyas,</subfield>
+        <subfield code='d'>1888-1982.</subfield>
+        <subfield code='4'>ill</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b1073901</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1129170</subfield>
+        <subfield code='l'>ddda</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10001649156</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPS3503.E49 T8 1928</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-09-27 13:11:00-04</subfield>
+        <subfield code='u'>2016-09-23 12:26:14-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200421Ii 4500</leader>
+      <controlfield tag='008'>750228s1974    dcua         f000 0 eng d</controlfield>
+      <controlfield tag='001'>1194197</controlfield>
+      <controlfield tag='005'>19920918091901.5</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='c'>STU</subfield>
+        <subfield code='d'>NOH</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Marshall, Harold E.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Analysis of cost sharing programs for pollution abatement of municipal wastewater,</subfield>
+        <subfield code='c'>by Harold E. Marshall, Rosalie T. Ruegg; Project Officer: Marshall Rose, Washington Environmental Research Center...; prepared for Office of Research and Development...</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Washington,</subfield>
+        <subfield code='b'>Office of Research and Development, U.S. Environmental Protection Agency; [for sale by the Supt. of Docs., U.S. Govt. Print. Off.]</subfield>
+        <subfield code='c'>1974.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>vii, 137 p.</subfield>
+        <subfield code='b'>illus.</subfield>
+        <subfield code='c'>27 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>&quot;Project officer, Dr. Marshall Rose, Washington Environmental Research Center, Environmental Protection Agency.&quot;</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>&quot;November 1974&quot;</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Figures: Combined and separate municipal sewer systems -- Alternative approaches to reduction of wastewater pollution -- Indifference curves and budget constraints -- Demand for pollution abatement -- Demand for pollution abatement, with and without enforcement -- Insufficient demand for pollution abatement -- Cost share for efficient technique(s) -- Cost share for efficient scale -- Average cost and efficient scale of pollution abatement -- Efficient scale with regional abatement.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Tables: Cost of some alternative techniques for meeting the dissolved oxygen objectives of 4 PPM in the Potomac Estuary -- Eligibility for EPA construction grants of alternative techniques by cost category -- Grants by EPA and other federal agencies as a share of eligibale and total project costs as of December 31, 1972 -- Maximum federal cost shares for sewer facilities provided by HUD, FHA, and EDA -- Impact on local project cost of different cost-sharing rules : an illustration -- Impact on choice of techniques of a cost-sharing rule which does not apply equally to all categories of cost -- Determination of cost-sharing constraint to reduce potential bias in selection of abatement techniques -- federal and nonfederal expenditure requirements of alternative cost-sharing rules viewed historically -- Illustration of a grantee&apos;s costs for a hypothetical abatement project with and without retention of user fees -- Application of pollution abatement techniques to major problems of municipal waste treatment systems -- Some waste treatment plant operations and processes applicable to treatment of wastewater.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='504'>
+        <subfield code='a'>Includes bibliographical references (pages 135-137).</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='505'>
+        <subfield code='a'>Executive summary -- Introduction -- Description of existing cost-sharing program and institutional contraints. Construction grant program. Eligibility for grants as defined in legislation ; Eligibility for grants in practice -- Cost sharing by other agencies -- Institutional constraints to abatement -- Theoretical relationships. Selective survey of the literature ; Derivation of demand ; Conditions for efficiency. Techniques ; Scale -- Characteristics of equity -- Efficiency implications of existing and alternative cost sharing programs. Techniques ; Scale -- Effects of user fees on cost shares/ Legislated user fees ; Alternative interpretations ; Interest charges in user fees ; User fee implications -- Summary, findings and suggestions for further research. Summary ; Findings ; Suggestions for further research.</subfield>
+      </datafield>
+      <datafield ind1='3' ind2=' ' tag='520'>
+        <subfield code='a'>&quot;This study evaluates existing cost-sharing programs for wastewater pollution abatement as described in the Federal Water Pollution Control Act Amendments of 1972, describes alternative cost-sharing programs that provide improvements in terms of national efficiency and equity criteria as defined herein, and suggests related areas for further research. Emphasis is on how federal cost sharing biases communities in favor of certain kinds of techniques. The approach is to describe the current cost-sharing programs for both plant and nonplant techniques; to examine cost-sharing, legal, and other institution biases against certain techniques; to analyze efficiency and equity effects of alternative cost-sharing programs; and to describe the incentive effects of cost sharing on nonfederal interests with respect to their choices among abatement techniques. Findings of the study are that more efficient abatement will result if the same percentage cost share applies to all plant and nonplant techniques of abatement; the same percentage also applies to all categories of cost (e.g., capital, land, operation and maintenance) for a given technique; the same percentage applies to large and small communities; institutional constraints on the selection of nonplant techniques are removed; and if the program provides for federal cost sharing of every abatement technique that is technically viable. This report was submitted in fulfillment of program element PE 1BA030 and work order number EPA-IAG D4 H 374 by the National Bureau of Standards, Building Economics Section.&quot;--P. iv.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Sewage disposal</subfield>
+        <subfield code='z'>United States</subfield>
+        <subfield code='x'>Finance.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='2' tag='650'>
+        <subfield code='a'>Sewage</subfield>
+        <subfield code='x'>economics.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Sewage disposal plants</subfield>
+        <subfield code='x'>Costs.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Sewage disposal</subfield>
+        <subfield code='x'>Finance.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01113879</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='2' tag='650'>
+        <subfield code='a'>Water Pollution</subfield>
+        <subfield code='x'>economics.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Sewage disposal plants</subfield>
+        <subfield code='x'>Costs.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01113941</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='2' tag='651'>
+        <subfield code='a'>United States.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='651'>
+        <subfield code='a'>United States.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01204155</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Ruegg, Rosalie T.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='710'>
+        <subfield code='a'>United States.</subfield>
+        <subfield code='b'>Environmental Protection Agency.</subfield>
+        <subfield code='b'>Office of Research and Development.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='830'>
+        <subfield code='a'>Research reporting series.</subfield>
+        <subfield code='n'>5,</subfield>
+        <subfield code='p'>Socioeconomic environmental studies series ;</subfield>
+        <subfield code='v'>EPA-600/5-74-031.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b1250594</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1439152</subfield>
+        <subfield code='l'>nohh</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>H00129864U</subfield>
+        <subfield code='p'>096##</subfield>
+        <subfield code='q'>|aWA 689|bM368a 1974</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-09-27 16:30:00-04</subfield>
+        <subfield code='u'>2016-09-24 19:23:43-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cgm  2200925Ia 4500</leader>
+      <controlfield tag='008'>130104s2013    cau108            vleng d</controlfield>
+      <controlfield tag='007'>vd cvaizq</controlfield>
+      <controlfield tag='001'>823344527</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20130314105008.0</controlfield>
+      <datafield ind1='1' ind2=' ' tag='024'>
+        <subfield code='a'>025192107696</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='024'>
+        <subfield code='a'>025192143199</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='1' tag='028'>
+        <subfield code='a'>61119169</subfield>
+        <subfield code='b'>Universal Studios Home Entertainment (container)</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='1' tag='028'>
+        <subfield code='a'>61122471</subfield>
+        <subfield code='b'>Universal Studios Home Entertainment</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='1' tag='028'>
+        <subfield code='a'>495374</subfield>
+        <subfield code='b'>Universal Studios Home Entertainment (disc)</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='1' tag='028'>
+        <subfield code='a'>2025862</subfield>
+        <subfield code='b'>Universal Studios Home Entertainment (disc)</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='1' tag='028'>
+        <subfield code='a'>2025648</subfield>
+        <subfield code='b'>Universal Studios Home Entertainment (container)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)823344527</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='037'>
+        <subfield code='b'>Midwest Tape</subfield>
+        <subfield code='n'>http://www.midwesttapes.com</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>TEFMT</subfield>
+        <subfield code='c'>TEFMT</subfield>
+        <subfield code='d'>TEF</subfield>
+        <subfield code='d'>IHY</subfield>
+        <subfield code='d'>IEU</subfield>
+        <subfield code='d'>JP3</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='041'>
+        <subfield code='a'>eng</subfield>
+        <subfield code='a'>fre</subfield>
+        <subfield code='a'>spa</subfield>
+        <subfield code='j'>eng</subfield>
+        <subfield code='j'>fre</subfield>
+        <subfield code='j'>spa</subfield>
+        <subfield code='h'>eng</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='049'>
+        <subfield code='a'>[Digital][Video][Disc]NOC3</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='4' tag='050'>
+        <subfield code='a'>PN1997.2</subfield>
+        <subfield code='b'>.M36 2013</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='4' tag='082'>
+        <subfield code='a'>791.43/72</subfield>
+        <subfield code='2'>23</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='4' tag='245'>
+        <subfield code='a'>The man with the iron fists</subfield>
+        <subfield code='h'>[videorecording] /</subfield>
+        <subfield code='c'>Universal Pictures and Quentin Tarantino present ; Strike Entertainment ; Arcade Pictures ; produced by Marc Abraham, Eric Newman, Eli Roth ; screenplay by The RZA and Eli Roth ; story and directed by RZA.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='246'>
+        <subfield code='i'>French title :</subfield>
+        <subfield code='a'>Homme aux poings de fer</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='250'>
+        <subfield code='a'>Unrated extended ed.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Universal City, Calif. :</subfield>
+        <subfield code='b'>Universal Studios Home Entertainment,</subfield>
+        <subfield code='c'>c2013.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>1 videodisc (108 min.) :</subfield>
+        <subfield code='b'>sd., col. ;</subfield>
+        <subfield code='c'>4 3/4 in.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Title from container.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Originally released as a motion picture in 2012.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Run time: approx. 108 min.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Includes both unrated version (108 min.) and theatrical version (96 min.)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Special features: deleted scenes; a path to the East; a look inside The man with the iron fists; on the set with RZA.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='508'>
+        <subfield code='a'>Editor, Joe D&apos;Augustine; director of photography Chang Chi Ying; music by RZA and Howard Drossin.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='511'>
+        <subfield code='a'>RZA, Russell Crowe, Lucy Liu, Rick Yune, Dave Bautista, Jamie Chung, Cung Le, Byron Mann.</subfield>
+      </datafield>
+      <datafield ind1='4' ind2=' ' tag='520'>
+        <subfield code='a'>Bloody violence, strong sexuality, language, and brief drug use.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='520'>
+        <subfield code='a'>On the hunt for a fabled treasure of gold, a band of warriors, assassins, and a rogue British soldier descend upon a village in feudal China, where a humble blacksmith looks to defend himself and his fellow villagers.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='538'>
+        <subfield code='a'>DVD, NTSC, region 1, widescreen (2.40:1) presentation; Dolby Digital 5.1.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='546'>
+        <subfield code='a'>English, French or Spanish dialogue; Spanish or French subtitles; English subtitles for the deaf and hard of hearing. English described video (DVS) on theatrical version only.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Martial arts</subfield>
+        <subfield code='v'>Drama.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Blacksmiths</subfield>
+        <subfield code='v'>Drama.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Treasure troves</subfield>
+        <subfield code='v'>Drama.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Artes marciales</subfield>
+        <subfield code='v'>Teatro.</subfield>
+        <subfield code='2'>bidex</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Herreros</subfield>
+        <subfield code='v'>Teatro.</subfield>
+        <subfield code='2'>bidex</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Martial arts films.</subfield>
+        <subfield code='2'>lcgft</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Action and adventure films.</subfield>
+        <subfield code='2'>lcgft</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Fiction films.</subfield>
+        <subfield code='2'>lcgft</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Feature films.</subfield>
+        <subfield code='2'>lcgft</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Video recordings for the hearing impaired.</subfield>
+        <subfield code='2'>lcgft</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Video recordings for people with visual disabilities.</subfield>
+        <subfield code='2'>lcgft</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Action &amp; Adventure.</subfield>
+        <subfield code='2'>local</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Martial Arts &amp; Kung Fu.</subfield>
+        <subfield code='2'>local</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='691'>
+        <subfield code='a'>USA.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Roth, Eli,</subfield>
+        <subfield code='d'>1972-</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='700'>
+        <subfield code='a'>RZA</subfield>
+        <subfield code='c'>(Rapper)</subfield>
+        <subfield code='4'>drt</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Abraham, Marc,</subfield>
+        <subfield code='d'>1949 May 28-</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Newman, Eric.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Tarantino, Quentin.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Crowe, Russell,</subfield>
+        <subfield code='d'>1964-</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Liu, Lucy,</subfield>
+        <subfield code='d'>1968-</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Yune, Rick,</subfield>
+        <subfield code='d'>1971-</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Batista, Dave,</subfield>
+        <subfield code='d'>1969-</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Chung, Jamie,</subfield>
+        <subfield code='d'>1983-</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Le, Cung,</subfield>
+        <subfield code='d'>1972-</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Mann, Byron.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Strike Entertainment (Firm)</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Arcade Pictures (Firm)</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Universal Pictures (Firm)</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Universal Studios Home Entertainment (Firm)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b7325791</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i9923997</subfield>
+        <subfield code='l'>uldag</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>60</subfield>
+        <subfield code='c'>2</subfield>
+        <subfield code='o'>30</subfield>
+        <subfield code='b'>00045225326</subfield>
+        <subfield code='p'>099#9</subfield>
+        <subfield code='q'>|a65-DVD15729</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i9923996</subfield>
+        <subfield code='l'>uldal</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>60</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>00045225317</subfield>
+        <subfield code='p'>099#9</subfield>
+        <subfield code='q'>|a65-DVD15729</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2013-03-14 00:00:00-04</subfield>
+        <subfield code='c'>2013-02-13 11:34:00-05</subfield>
+        <subfield code='u'>2013-10-31 19:25:31-04</subfield>
+      </datafield>
+  </record>
+</collection>
