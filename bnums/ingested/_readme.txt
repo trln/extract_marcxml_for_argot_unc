@@ -1,0 +1,1 @@
+This directory contains xml files that went on to become argot json and get ingested into spofford. The intent is that we can retrieve uniqueid's from these files, and send them back through the ingest process (with current specs, argot, etc.) so that there aren't records in Discovery with out-of-date specs.
