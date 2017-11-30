@@ -1,0 +1,8 @@
+b2458126 #i1 = _, $c preceded by --
+b4724937 #i1 = _, no punctuation preceding $c
+b8389707 #i1 = _, 2 520 fields
+b2296659 #i1 = 0, $a begins with Summary:
+b2037604 #i1 = 1
+b1073901 #i1 = 2
+b1250594 #i1 = 3
+b7325791 #i1 = 4
