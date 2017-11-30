@@ -1,0 +1,687 @@
+<?xml version='1.0'?>
+<collection xmlns='http://www.loc.gov/MARC21/slim' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd'>
+  <record>
+    <leader>00000cam a2200385Mi 4500</leader>
+      <controlfield tag='006'>m        d</controlfield>
+      <controlfield tag='007'>cr |n|||||||||</controlfield>
+      <controlfield tag='008'>171124s2015    xx      o     000 0 eng d</controlfield>
+      <controlfield tag='001'>1012851705deg</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20171129111324.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>1934078492</subfield>
+        <subfield code='q'>(ebk)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>9781934078495</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)1012851705</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='037'>
+        <subfield code='a'>1050154</subfield>
+        <subfield code='b'>MIL</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>IDEBK</subfield>
+        <subfield code='b'>eng</subfield>
+        <subfield code='e'>rda</subfield>
+        <subfield code='c'>IDEBK</subfield>
+        <subfield code='d'>EBLCP</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='049'>
+        <subfield code='a'>NOCC</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='4' tag='050'>
+        <subfield code='a'>DG221</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='4' tag='082'>
+        <subfield code='a'>937.5</subfield>
+        <subfield code='2'>23</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Naso, Alessandro,</subfield>
+        <subfield code='e'>author.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Etruscology /</subfield>
+        <subfield code='c'>edited by Alessandro Naso.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='1' tag='264'>
+        <subfield code='a'>Boston, US :</subfield>
+        <subfield code='b'>De Gruyter,</subfield>
+        <subfield code='c'>2015.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>1 online resource (1856 p.)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='336'>
+        <subfield code='a'>text</subfield>
+        <subfield code='b'>txt</subfield>
+        <subfield code='2'>rdacontent</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='337'>
+        <subfield code='a'>computer</subfield>
+        <subfield code='b'>c</subfield>
+        <subfield code='2'>rdamedia</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='338'>
+        <subfield code='a'>online resource</subfield>
+        <subfield code='b'>cr</subfield>
+        <subfield code='2'>rdacarrier</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='506'>
+        <subfield code='a'>Access limited to UNC Chapel Hill-authenticated users.</subfield>
+        <subfield code='f'>Unlimited simultaneous users</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='520'>
+        <subfield code='a'>This handbook has two purposes: it is intended (1) as a handbook of Etruscology or Etruscan Studies, offering a state-of-the-art and comprehensive overview of the history of the discipline and its development, and (2) it serves as an authoritative reference work representing the current state of knowledge on Etruscan civilization. The organization of the volume reflects this dual purpose. The first part of the volume is dedicated to methodology and leading themes in current research, organized thematically, whereas the second part offers a diachronic account of Etruscan history, culture, religion, art &amp; archaeology, and social and political relations and structures, as well as a systematic treatment of the topography of the Etruscan civilization and sphere of influence.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='588'>
+        <subfield code='a'>Description based on print version record.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='773'>
+        <subfield code='t'>De Gruyter ebooks (online collection). Title-by-title via OCLC</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='0' tag='856'>
+        <subfield code='y'>Full text available via the UNC-Chapel Hill Libraries</subfield>
+        <subfield code='u'>http://libproxy.lib.unc.edu/login?url=http://www.degruyter.com/isbn/9781934078495</subfield>
+        <subfield code='x'>De Gruyter ebooks</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b8983658</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2017-11-29 00:00:00-05</subfield>
+        <subfield code='c'>2017-11-16 10:03:17-05</subfield>
+        <subfield code='u'>2017-11-29 11:19:05-05</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam  2200277Ia 4500</leader>
+      <controlfield tag='008'>850731s1859    sp            000 0 spa d</controlfield>
+      <controlfield tag='001'>12328204</controlfield>
+      <controlfield tag='005'>19910918152549.2</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>NOC</subfield>
+        <subfield code='c'>NOC</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Rossi, Lauro,</subfield>
+        <subfield code='d'>1812-1885.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='4' tag='245'>
+        <subfield code='a'>Los monederos falsos :</subfield>
+        <subfield code='b'>zarzuela en cuatro actos y en verso /</subfield>
+        <subfield code='c'>acomodada la letra a la música del maestro Rossi.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Madrid :</subfield>
+        <subfield code='b'>Impr. de J.M. Ducazcal,</subfield>
+        <subfield code='c'>1859.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>70 p. ;</subfield>
+        <subfield code='c'>20 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='530'>
+        <subfield code='a'>Also available via the World Wide Web.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Pastorfido, Miguel.</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='1' tag='856'>
+        <subfield code='u'>https://archive.org/search.php?sort=publicdate&amp;query=scanningcenter%3Achapelhill+AND+mediatype%3Atexts+AND+call_number%3Ab2050091</subfield>
+        <subfield code='x'>https://archive.org/details/tributestomyfath00batt</subfield>
+        <subfield code='y'>Full text available via the UNC-Chapel Hill Libraries</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='1' tag='856'>
+        <subfield code='u'>https://archive.org/details/losmonederosfals00ross</subfield>
+        <subfield code='y'>Full text available via the UNC-Chapel Hill Libraries</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b2050091</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i7640809</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00032875372</subfield>
+        <subfield code='p'>092##</subfield>
+        <subfield code='q'>|a862.8 O12 v.44</subfield>
+        <subfield code='n'>Spine title: Obras dramáticas</subfield>
+        <subfield code='n'>Bound together</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i2962296</subfield>
+        <subfield code='l'>wcda</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>HAKI-1447-00001</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPQ6217 .T44 v. 363, no. 6</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i2962297</subfield>
+        <subfield code='l'>wcda</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>2</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>HAKI-1447-00002</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPQ6217.T443 v. 182, no. 20</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='2' tag='999'>
+        <subfield code='a'>c2287901</subfield>
+        <subfield code='b'>wcda</subfield>
+        <subfield code='c'>0</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c2287901</subfield>
+        <subfield code='2'>852</subfield>
+        <subfield code='3'>c</subfield>
+        <subfield code='b'>572211</subfield>
+        <subfield code='h'>PQ6217</subfield>
+        <subfield code='i'>.T44 v. 363, no. 6</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c2287901</subfield>
+        <subfield code='2'>852</subfield>
+        <subfield code='3'>e</subfield>
+        <subfield code='p'>HAKI-1447-00001</subfield>
+        <subfield code='t'>1</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='2' tag='999'>
+        <subfield code='a'>c4698905</subfield>
+        <subfield code='b'>wcda</subfield>
+        <subfield code='c'>0</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='3' tag='999'>
+        <subfield code='0'>c4698905</subfield>
+        <subfield code='2'>852</subfield>
+        <subfield code='3'>c</subfield>
+        <subfield code='h'>PQ6217</subfield>
+        <subfield code='i'>.T443 v. 182, no. 20</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-10-01 08:35:00-04</subfield>
+        <subfield code='u'>2017-11-21 17:03:57-05</subfield>
+      </datafield>
+  </record>
+  <record>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Jobe, Henry R.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Henry R. Jobe papers  ,</subfield>
+        <subfield code='f'>1944-2010.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>3</subfield>
+        <subfield code='f'>linear feet</subfield>
+        <subfield code='a'></subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='506'>
+        <subfield code='a'>This summary description was created to provide information about unprocessed materials in Wilson Special Collections Library. This collection is not available for immediate or same day access. Please contact Research and Instructional Service staff at wilsonlibrary@unc.edu to discuss options for consulting this collection.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='520'>
+        <subfield code='a'>Papers of Henry R. Lobe are primarily letters, March 1944-September 1945 from Lobe to his wife, Sylvia Shellenbenger, while he served in the United States Army and was stationed in China, India, and other locations. The collection also contains photographs, photograph albums, postcards, and a self-published memoir.</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='2' tag='856'>
+        <subfield code='3'>Finding aid:</subfield>
+        <subfield code='u'>http://finding-aids.lib.unc.edu/05636</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b8986781</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i11501854</subfield>
+        <subfield code='l'>wadc</subfield>
+        <subfield code='s'>j</subfield>
+        <subfield code='t'>24</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='p'>099#9</subfield>
+        <subfield code='q'>|a05636</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2017-11-30 00:00:00-05</subfield>
+        <subfield code='c'>2017-11-30 12:38:21-05</subfield>
+        <subfield code='u'>2017-11-30 12:38:55-05</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cem  2200529 i 4500</leader>
+      <controlfield tag='007'>aj canzn</controlfield>
+      <controlfield tag='008'>170530s2017    dcub      a  f  1   eng c</controlfield>
+      <controlfield tag='001'>988328399</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20171108112025.0</controlfield>
+      <datafield ind1='1' ind2=' ' tag='034'>
+        <subfield code='a'>a</subfield>
+        <subfield code='b'>15000</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)988328399</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>GPO</subfield>
+        <subfield code='b'>eng</subfield>
+        <subfield code='e'>rda</subfield>
+        <subfield code='c'>GPO</subfield>
+        <subfield code='d'>AZP</subfield>
+        <subfield code='d'>HLS</subfield>
+        <subfield code='d'>OCLCQ</subfield>
+        <subfield code='d'>RIU</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='042'>
+        <subfield code='a'>pcc</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='043'>
+        <subfield code='a'>n-us-wv</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='4' tag='050'>
+        <subfield code='a'>G3792.H3 2017</subfield>
+        <subfield code='b'>.U5</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='052'>
+        <subfield code='a'>3792</subfield>
+        <subfield code='b'>H3</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='052'>
+        <subfield code='a'>3894</subfield>
+        <subfield code='b'>H25</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='074'>
+        <subfield code='a'>0650</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='086'>
+        <subfield code='a'>I 29.21:H 23/2017</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='110'>
+        <subfield code='a'>United States.</subfield>
+        <subfield code='b'>National Park Service,</subfield>
+        <subfield code='e'>cartographer.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Harpers Ferry, Harpers Ferry National Historical Park, West Virginia, Maryland, Virginia /</subfield>
+        <subfield code='c'>National Park Service, U.S. Department of the Interior.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='246'>
+        <subfield code='i'>Title in upper margin:</subfield>
+        <subfield code='a'>Visiting Harpers Ferry National Historical Park</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='255'>
+        <subfield code='a'>Scale approximately 1:15,000.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='1' tag='264'>
+        <subfield code='a'>[Washington, D.C.] :</subfield>
+        <subfield code='b'>National Park Service, U.S. Department of the Interior,</subfield>
+        <subfield code='c'>2017.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>1 map :</subfield>
+        <subfield code='b'>color ;</subfield>
+        <subfield code='c'>42 x 57 cm, folded to 10 x 21 cm</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='336'>
+        <subfield code='a'>cartographic image</subfield>
+        <subfield code='b'>cri</subfield>
+        <subfield code='2'>rdacontent</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='337'>
+        <subfield code='a'>unmediated</subfield>
+        <subfield code='b'>n</subfield>
+        <subfield code='2'>rdamedia</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='338'>
+        <subfield code='a'>sheet</subfield>
+        <subfield code='b'>nb</subfield>
+        <subfield code='2'>rdacarrier</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Relief shown by shading.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Includes text and timeline.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Test, illustrations (some color), index to sites of interest, and bird&apos;s eye view map on verso.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Shipping list no.: 2017-0257-P.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2='7' tag='610'>
+        <subfield code='a'>Harpers Ferry National Historical Park (Agency : U.S.)</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01729755</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='651'>
+        <subfield code='a'>Harpers Ferry National Historical Park</subfield>
+        <subfield code='v'>Maps.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='651'>
+        <subfield code='a'>Harpers Ferry (W. Va.)</subfield>
+        <subfield code='v'>Maps.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='651'>
+        <subfield code='a'>Harpers Ferry (W. Va.)</subfield>
+        <subfield code='v'>Aerial views.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='651'>
+        <subfield code='a'>West Virginia</subfield>
+        <subfield code='z'>Harpers Ferry.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01212444</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Tourist maps.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01423809</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Aerial views.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01423687</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Maps.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01423704</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Tourist maps.</subfield>
+        <subfield code='2'>lcgft</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Aerial views.</subfield>
+        <subfield code='2'>lcgft</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='856'>
+        <subfield code='3'>(paper)</subfield>
+        <subfield code='u'>https://catalog.gpo.gov/fdlpdir/locate.jsp?ItemNumber=0650&amp;SYS=001018121</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b8883180</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i11406682</subfield>
+        <subfield code='l'>dcpf</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>20</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='p'>0860#</subfield>
+        <subfield code='q'>|aI 29.21:H 23/2017</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i11493093</subfield>
+        <subfield code='l'>dcpf</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>20</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00051684211</subfield>
+        <subfield code='p'>0860#</subfield>
+        <subfield code='q'>|aI 29.21:H 23/2017</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2017-11-08 00:00:00-05</subfield>
+        <subfield code='c'>2017-06-13 08:08:57-04</subfield>
+        <subfield code='u'>2017-11-08 11:20:26-05</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam  2201057 i 4500</leader>
+      <controlfield tag='008'>151029s2017    caua     b    001 0 eng  </controlfield>
+      <controlfield tag='001'>927241453</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>2015040051</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='019'>
+        <subfield code='a'>918925075</subfield>
+        <subfield code='a'>968690973</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>9781483340401</subfield>
+        <subfield code='q'>(pbk. ;</subfield>
+        <subfield code='q'>alk. paper)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>1483340406</subfield>
+        <subfield code='q'>(pbk. ;</subfield>
+        <subfield code='q'>alk. paper)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>DLC</subfield>
+        <subfield code='b'>eng</subfield>
+        <subfield code='e'>rda</subfield>
+        <subfield code='c'>DLC</subfield>
+        <subfield code='d'>OCLCF</subfield>
+        <subfield code='d'>YDXCP</subfield>
+        <subfield code='d'>IUL</subfield>
+        <subfield code='d'>BDX</subfield>
+        <subfield code='d'>CDX</subfield>
+        <subfield code='d'>P4A</subfield>
+        <subfield code='d'>OCLCQ</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='042'>
+        <subfield code='a'>pcc</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='050'>
+        <subfield code='a'>H62</subfield>
+        <subfield code='b'>.R344 2017</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='082'>
+        <subfield code='a'>001.4/2</subfield>
+        <subfield code='2'>23</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Ravitch, Sharon M.,</subfield>
+        <subfield code='e'>author.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Reason &amp; rigor :</subfield>
+        <subfield code='b'>how conceptual frameworks guide research /</subfield>
+        <subfield code='c'>Sharon M. Ravitch, Matthew Riggan.</subfield>
+      </datafield>
+      <datafield ind1='3' ind2=' ' tag='246'>
+        <subfield code='a'>Reason and rigor</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='250'>
+        <subfield code='a'>Second edition.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='1' tag='264'>
+        <subfield code='a'>Los Angeles :</subfield>
+        <subfield code='b'>SAGE,</subfield>
+        <subfield code='c'>[2017]</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>xxiv, 234 pages :</subfield>
+        <subfield code='b'>illustrations ;</subfield>
+        <subfield code='c'>24 cm</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='336'>
+        <subfield code='a'>text</subfield>
+        <subfield code='b'>txt</subfield>
+        <subfield code='2'>rdacontent</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='337'>
+        <subfield code='a'>unmediated</subfield>
+        <subfield code='b'>n</subfield>
+        <subfield code='2'>rdamedia</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='338'>
+        <subfield code='a'>volume</subfield>
+        <subfield code='b'>nc</subfield>
+        <subfield code='2'>rdacarrier</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='504'>
+        <subfield code='a'>Includes bibliographical references (pages 219-225) and index.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='505'>
+        <subfield code='a'>Introduction to conceptual frameworks -- Why conceptual frameworks? -- Origins of a conceptual framework: the birth of grit -- Excavating questions: conceptual frameworks, research questions, and research design -- The role of the conceptual framework in data collection and fieldwork -- Conceptual frameworks and the analysis of data -- Expanding the conversation, extending the argument: the role of conceptual frameworks in presenting, explaining, and contextualizing findings -- Reflections on the making and re-making of a conceptual framework -- The conceptual framework as guide and ballast.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Social sciences</subfield>
+        <subfield code='x'>Research</subfield>
+        <subfield code='x'>Methodology.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Research</subfield>
+        <subfield code='x'>Methodology.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Qualitative research.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Qualitative research.</subfield>
+        <subfield code='2'>fast</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Research</subfield>
+        <subfield code='x'>Methodology.</subfield>
+        <subfield code='2'>fast</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Social sciences</subfield>
+        <subfield code='x'>Research</subfield>
+        <subfield code='x'>Methodology.</subfield>
+        <subfield code='2'>fast</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Riggan, Matthew,</subfield>
+        <subfield code='e'>author.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='907'>
+        <subfield code='a'>b8985389</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='4' tag='999'>
+        <subfield code='a'>o1839065</subfield>
+        <subfield code='b'> </subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='d'></subfield>
+        <subfield code='e'></subfield>
+        <subfield code='f'>dd</subfield>
+        <subfield code='g'>o</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'></subfield>
+        <subfield code='c'>2017-11-28 11:36:33-05</subfield>
+        <subfield code='u'>2017-11-28 11:38:52-05</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200361Ii 4500</leader>
+      <controlfield tag='008'>160503s2105    hu a     b    001 0 hun d</controlfield>
+      <controlfield tag='001'>948782767</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20161213012930.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>9789637082559</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>9637082557</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)948782767</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>HUL</subfield>
+        <subfield code='b'>eng</subfield>
+        <subfield code='e'>rda</subfield>
+        <subfield code='c'>HUL</subfield>
+        <subfield code='d'>OCLCO</subfield>
+        <subfield code='d'>ZCU</subfield>
+        <subfield code='d'>OCLCF</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='049'>
+        <subfield code='a'>NOCC</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='4' tag='050'>
+        <subfield code='a'>PH3281.M15</subfield>
+        <subfield code='b'>Z46 2015</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='245'>
+        <subfield code='a'>Madách Imre napjai a magyar irodalomban, 1861-1864 /</subfield>
+        <subfield code='c'>gyűjtötte, sajtó alá rendezte, és a jegyzeteket írta Praznovszky Mihály.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='1' tag='264'>
+        <subfield code='a'>Budapest :</subfield>
+        <subfield code='b'>SikerX BT,</subfield>
+        <subfield code='c'>2015.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>432 pages :</subfield>
+        <subfield code='b'>illustrations ;</subfield>
+        <subfield code='c'>25 cm</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='336'>
+        <subfield code='a'>text</subfield>
+        <subfield code='b'>txt</subfield>
+        <subfield code='2'>rdacontent</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='337'>
+        <subfield code='a'>unmediated</subfield>
+        <subfield code='b'>n</subfield>
+        <subfield code='2'>rdamedia</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='338'>
+        <subfield code='a'>volume</subfield>
+        <subfield code='b'>nc</subfield>
+        <subfield code='2'>rdacarrier</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='504'>
+        <subfield code='a'>Includes bibliographical references and index.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='600'>
+        <subfield code='a'>Madách, Imre,</subfield>
+        <subfield code='d'>1823-1864</subfield>
+        <subfield code='x'>Criticism and interpretation.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='7' tag='600'>
+        <subfield code='a'>Madách, Imre,</subfield>
+        <subfield code='d'>1823-1864.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst00067548</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Criticism, interpretation, etc.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01411635</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Praznovszky, Mihály,</subfield>
+        <subfield code='e'>editor.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b8598539</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i11216497</subfield>
+        <subfield code='l'>ddda</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00050963590</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPH3281.M15|bZ82 2015</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2016-12-13 00:00:00-05</subfield>
+        <subfield code='c'>2016-10-04 16:42:25-04</subfield>
+        <subfield code='u'>2017-01-09 19:17:59-05</subfield>
+      </datafield>
+  </record>
+</collection>
