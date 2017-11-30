@@ -1,0 +1,6 @@
+b8983658 #ebook, online only
+b2050091 #digitized print material, 856 i2=1, has items, online and at library
+b8986781 #archival collection, 856 i2=2, has item, at library only
+b8883180 #print map, 856 i2=b, has items, at library only
+b8985389 #print book, on order, at library only
+b8598539 #print book, owned, at library only
