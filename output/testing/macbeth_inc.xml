@@ -1,0 +1,1717 @@
+<?xml version='1.0'?>
+<collection xmlns='http://www.loc.gov/MARC21/slim' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd'>
+  <record>
+    <leader>00000cam  2200265 i 4500</leader>
+      <controlfield tag='008'>760426s1976    moua          000 0 eng  </controlfield>
+      <controlfield tag='001'>2213206</controlfield>
+      <controlfield tag='005'>19850206000000.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>76015589</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>0826202128</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>DLC</subfield>
+        <subfield code='c'>DLC</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='082'>
+        <subfield code='a'>822.3/3</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Shaw, Glen Byam.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Macbeth onstage :</subfield>
+        <subfield code='b'>an annotated facsimile of Glen Byam Shaw&apos;s 1955 promptbook /</subfield>
+        <subfield code='c'>edited by Michael Mullin.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Columbia :</subfield>
+        <subfield code='b'>University of Missouri Press,</subfield>
+        <subfield code='c'>1976.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>256 p. :</subfield>
+        <subfield code='b'>ill. ;</subfield>
+        <subfield code='c'>29 x 32 cm.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='600'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='600'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616</subfield>
+        <subfield code='x'>Dramatic production.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+        <subfield code='f'>1976.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Mullin, Michael,</subfield>
+        <subfield code='d'>1944-2003.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b1377538</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1883122</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10002062571</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPR2823 .S48</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-09-27 18:48:58-04</subfield>
+        <subfield code='u'>2016-09-26 13:14:15-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200325Ia 4500</leader>
+      <controlfield tag='008'>820802s1978    fr            000 0 fre d</controlfield>
+      <controlfield tag='001'>8649678</controlfield>
+      <controlfield tag='005'>19820802000000.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>2718601124</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>NOC</subfield>
+        <subfield code='c'>NOC</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='041'>
+        <subfield code='a'>fre</subfield>
+        <subfield code='h'>eng</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='240'>
+        <subfield code='a'>Hamlet.</subfield>
+        <subfield code='l'>French</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Pour Shakespeare :</subfield>
+        <subfield code='b'>Hamlet, Macbeth /</subfield>
+        <subfield code='c'>Vercors.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Paris :</subfield>
+        <subfield code='b'>Éditions Galilée,</subfield>
+        <subfield code='c'>1978.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>281 p. ;</subfield>
+        <subfield code='c'>22 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Translations of: Hamlet, Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='700'>
+        <subfield code='a'>Vercors,</subfield>
+        <subfield code='d'>1902-1991.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Hamlet.</subfield>
+        <subfield code='l'>French.</subfield>
+        <subfield code='f'>1978.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+        <subfield code='l'>French.</subfield>
+        <subfield code='f'>1978.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='800'>
+        <subfield code='a'>Vercors,</subfield>
+        <subfield code='d'>1902-1991.</subfield>
+        <subfield code='t'>Plays ;</subfield>
+        <subfield code='v'>2.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='830'>
+        <subfield code='a'>Théâtre/rupture.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b1839413</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i2658454</subfield>
+        <subfield code='l'>ddda</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>2</subfield>
+        <subfield code='b'>10002108862</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPR2779.H3 V47 1978</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-09-30 09:25:57-04</subfield>
+        <subfield code='u'>2017-11-15 15:38:30-05</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200229Ia 4500</leader>
+      <controlfield tag='008'>890907s1983    it       b    001 0 ita d</controlfield>
+      <controlfield tag='001'>10873382</controlfield>
+      <controlfield tag='005'>19890921091431.9</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>UIU</subfield>
+        <subfield code='c'>UIU</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Corti, Claudia,</subfield>
+        <subfield code='d'>1946-</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Macbeth :</subfield>
+        <subfield code='b'>la parola e l&apos;immagine /</subfield>
+        <subfield code='c'>Claudia Corti.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Pisa :</subfield>
+        <subfield code='b'>Pacini,</subfield>
+        <subfield code='c'>c1983.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>221 p. ;</subfield>
+        <subfield code='c'>24 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Contains excerpts with accompanying Italian translations.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='504'>
+        <subfield code='a'>Includes bibliographical references and index.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='600'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+        <subfield code='k'>Selections.</subfield>
+        <subfield code='l'>Italian &amp; English.</subfield>
+        <subfield code='f'>1983.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b1967290</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i2846009</subfield>
+        <subfield code='l'>ddda</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00006061129</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPR2823 .C648 1983</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-09-30 09:44:35-04</subfield>
+        <subfield code='u'>2013-11-10 12:48:59-05</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200277 a 4500</leader>
+      <controlfield tag='008'>891101s1985    miua     b    000 0 eng  </controlfield>
+      <controlfield tag='001'>13069476</controlfield>
+      <controlfield tag='005'>19891101000000.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>84060779</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>0873590392 (pbk.)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>DLC</subfield>
+        <subfield code='c'>DLC</subfield>
+        <subfield code='d'>m/c</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='082'>
+        <subfield code='a'>792.9/2</subfield>
+        <subfield code='2'>19</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Mitchell, John D.</subfield>
+        <subfield code='q'>(John Dietrich),</subfield>
+        <subfield code='d'>1917-2005.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Macbeth unjinxed /</subfield>
+        <subfield code='c'>by John D. Mitchell.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='250'>
+        <subfield code='a'>1st ed.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Midland, Mich. :</subfield>
+        <subfield code='b'>Northwood Institute Press,</subfield>
+        <subfield code='c'>c1985.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>xxvi, 313 p. :</subfield>
+        <subfield code='b'>ill. ;</subfield>
+        <subfield code='c'>23 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Includes text of Shakespeare&apos;s play.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='504'>
+        <subfield code='a'>Bibliography: p. 312-313.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='600'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='600'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616</subfield>
+        <subfield code='x'>Dramatic production.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+        <subfield code='f'>1985.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b2089358</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i3020030</subfield>
+        <subfield code='l'>ddda</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>19</subfield>
+        <subfield code='b'>00006020511</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPR2823 .M58 1985</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-10-01 08:39:03-04</subfield>
+        <subfield code='u'>2015-04-13 21:55:36-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200265I  4500</leader>
+      <controlfield tag='008'>881102s1961    it ac    b    000 0 ita d</controlfield>
+      <controlfield tag='001'>18701694</controlfield>
+      <controlfield tag='005'>19941209164510.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>WAU</subfield>
+        <subfield code='c'>WAU</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Baldini, Gabriele,</subfield>
+        <subfield code='d'>1919-1969.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='3' tag='245'>
+        <subfield code='a'>Le tragedie di Shakespeare.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>[Torino]</subfield>
+        <subfield code='b'>Edizioni RAI Radiotelevisione italiana</subfield>
+        <subfield code='c'>[c1961]</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>198 p.</subfield>
+        <subfield code='b'>illus., port.</subfield>
+        <subfield code='c'>18 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Includes selections from Richard III and Macbeth in Italian translation.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='504'>
+        <subfield code='a'>Bibliography: p. [189]-196.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='600'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616</subfield>
+        <subfield code='x'>Tragedies.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>King Richard III.</subfield>
+        <subfield code='k'>Selections.</subfield>
+        <subfield code='l'>Italian.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+        <subfield code='k'>Selections.</subfield>
+        <subfield code='l'>Italian.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='830'>
+        <subfield code='a'>Classeunica ;</subfield>
+        <subfield code='v'>65.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b2649113</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i3810658</subfield>
+        <subfield code='l'>ddda</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00009457358</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPR2983 .B25 1964</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-10-02 09:37:53-04</subfield>
+        <subfield code='u'>2013-10-16 21:14:11-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200313Ia 4500</leader>
+      <controlfield tag='008'>840423s1823    mau           000 0 eng d</controlfield>
+      <controlfield tag='001'>10652987</controlfield>
+      <controlfield tag='005'>19950328140940.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>IXA</subfield>
+        <subfield code='c'>IXA</subfield>
+        <subfield code='d'>OCL</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Vanbrugh, John,</subfield>
+        <subfield code='d'>1664-1726.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='4' tag='245'>
+        <subfield code='a'>The confederacy :</subfield>
+        <subfield code='b'>a comedy /</subfield>
+        <subfield code='c'>by Sir John Vanbrugh ; with prefatory remarks ; the only edition existing which is faithfully marked with the stage business, and stage directions, as it is performed at the Theatres Royal, by W. Oxberry, comedian.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='8' tag='246'>
+        <subfield code='a'>Oxberry&apos;s edition of plays, vol. x</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='250'>
+        <subfield code='a'>Oxberry&apos;s ed.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Boston :</subfield>
+        <subfield code='b'>Wells and Lily,</subfield>
+        <subfield code='c'>1823.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>107 p. ;</subfield>
+        <subfield code='c'>15 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Adapted from Dancourt&apos;s Les bourgeoises à la mode.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='501'>
+        <subfield code='a'>With: Douglas : a tragedy / J. Home. Boston : Wells &amp; Lilly, 1823. --  Know your own mind : a comedy / A. Murphy. Boston : Wells &amp; Lilly, 1823. --  Macbeth : a tragedy / W. Shakespeare. Boston : Wells &amp; Lilly, 1823. --  Tobacconist : a farce / F. Gentleman. Boston : Wells &amp; Lilly, 1823.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Dancourt, Florent Carton,</subfield>
+        <subfield code='d'>1661-1725.</subfield>
+        <subfield code='t'>Bourgeoises à la mode.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Home, John,</subfield>
+        <subfield code='d'>1722-1808.</subfield>
+        <subfield code='t'>Douglas.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Murphy, Arthur,</subfield>
+        <subfield code='d'>1727-1805.</subfield>
+        <subfield code='t'>Know your own mind.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Gentleman, Francis,</subfield>
+        <subfield code='d'>1728-1784.</subfield>
+        <subfield code='t'>Tobacconist.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b2691602</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i3873103</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00020928784</subfield>
+        <subfield code='p'>092##</subfield>
+        <subfield code='q'>|a822 V21c</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-10-02 10:59:00-04</subfield>
+        <subfield code='u'>2016-10-29 21:17:33-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam  2200265Ia 4500</leader>
+      <controlfield tag='008'>750625s1970    nyu           000 0 eng d</controlfield>
+      <controlfield tag='001'>1410263</controlfield>
+      <controlfield tag='005'>20010321171626.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>0590087843</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>BFJ</subfield>
+        <subfield code='c'>BFJ</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='240'>
+        <subfield code='a'>Plays.</subfield>
+        <subfield code='k'>Selections</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Three tragedies /</subfield>
+        <subfield code='c'>William Shakespeare.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>New York :</subfield>
+        <subfield code='b'>Scholastic,</subfield>
+        <subfield code='c'>c1970.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>383 p. ;</subfield>
+        <subfield code='c'>18 cm.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='505'>
+        <subfield code='a'>Hamlet -- Macbeth -- King Lear.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Hamlet.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>King Lear.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='2' tag='740'>
+        <subfield code='a'>Hamlet.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='2' tag='740'>
+        <subfield code='a'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='2' tag='740'>
+        <subfield code='a'>King Lear.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b3790829</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i5266185</subfield>
+        <subfield code='l'>ddda</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>2</subfield>
+        <subfield code='b'>00018767997</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPR2763  1970</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-10-06 10:13:52-04</subfield>
+        <subfield code='u'>2013-10-23 08:26:40-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam  2200289Ka 4500</leader>
+      <controlfield tag='008'>840208s1823    mau           000 d eng d</controlfield>
+      <controlfield tag='001'>10388225</controlfield>
+      <controlfield tag='005'>20020730105401.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>DRB</subfield>
+        <subfield code='c'>DRB</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Home, John,</subfield>
+        <subfield code='d'>1722-1808.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Douglas :</subfield>
+        <subfield code='b'>A tragedy /</subfield>
+        <subfield code='c'>by John Home. With prefatory remarks ... Faithfully marked with the stage business, and stage directions, as it is performed at the Theatres Royal. By W. Oxberry, comedian.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='8' tag='246'>
+        <subfield code='a'>Oxberry&apos;s edition of plays, vol. x</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='250'>
+        <subfield code='a'>Oxberry&apos;s edition</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Boston :</subfield>
+        <subfield code='b'>Wells &amp; Lilly,</subfield>
+        <subfield code='c'>1823.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>69 p. ;</subfield>
+        <subfield code='c'>14 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Founded upon the old Scotch ballad of Gil Morrice.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='501'>
+        <subfield code='a'>With: Confederacy : a comedy / J. Vanbrugh. Boston : Wells &amp; Lilly, 1823. -- Know your own mind : a comedy / A. Murphy. Boston : Wells &amp; Lilly, 1823. -- Macbeth : a tragedy / W. Shakespeare. Boston : Wells &amp; Lilly, 1823. -- Tobacconist : a farce / F. Gentleman. Boston : Wells &amp; Lilly, 1823.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Vanbrugh, John,</subfield>
+        <subfield code='d'>1664-1726.</subfield>
+        <subfield code='t'>Confederacy.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Murphy, Arthur,</subfield>
+        <subfield code='d'>1727-1805.</subfield>
+        <subfield code='t'>Know your own mind.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Gentleman, Francis,</subfield>
+        <subfield code='d'>1728-1784.</subfield>
+        <subfield code='t'>Tobacconist.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b4172820</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i3873103</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00020928784</subfield>
+        <subfield code='p'>092##</subfield>
+        <subfield code='q'>|a822 V21c</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-10-06 23:17:00-04</subfield>
+        <subfield code='u'>2013-10-23 17:38:10-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam  2200277Ia 4500</leader>
+      <controlfield tag='008'>840323s1823    mau           000 d eng d</controlfield>
+      <controlfield tag='001'>10556662</controlfield>
+      <controlfield tag='005'>20020730105745.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>IXA</subfield>
+        <subfield code='c'>IXA</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Murphy, Arthur,</subfield>
+        <subfield code='d'>1727-1805.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Know your own mind :</subfield>
+        <subfield code='b'>a comedy in five acts /</subfield>
+        <subfield code='c'>by Arthur Murphy ; with prefatory remarks ; the only edition existing which is faithfully marked with the stage business, and stage directions, as it is performed at the Theatres Royal, by W. Oxberry.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='8' tag='246'>
+        <subfield code='a'>Oxberry&apos;s edition of plays, vol. x</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='250'>
+        <subfield code='a'>Oxberry&apos;s ed.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Boston ;</subfield>
+        <subfield code='a'>New York :</subfield>
+        <subfield code='b'>Wells and Lilly ;</subfield>
+        <subfield code='b'>A.T. Goodrich,</subfield>
+        <subfield code='c'>1823.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>110 p. ;</subfield>
+        <subfield code='c'>15 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='501'>
+        <subfield code='a'>With: Confederacy : a comedy / J. Vanbrugh. Boston : Wells &amp; Lilly, 1823. -- Douglas : a tragedy / J. Home. Boston : Wells &amp; Lilly, 1823. -- Macbeth : a tragedy / W. Shakespeare. Boston : Wells &amp; Lilly, 1823. -- Tobacconist : a farce / F. Gentleman. Boston : Wells &amp; Lilly, 1823.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Vanbrugh, John,</subfield>
+        <subfield code='d'>1664-1726.</subfield>
+        <subfield code='t'>Confederacy.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Home, John,</subfield>
+        <subfield code='d'>1722-1808.</subfield>
+        <subfield code='t'>Douglas.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Gentleman, Francis,</subfield>
+        <subfield code='d'>1728-1784.</subfield>
+        <subfield code='t'>Tobacconist.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b4172821</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i3873103</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00020928784</subfield>
+        <subfield code='p'>092##</subfield>
+        <subfield code='q'>|a822 V21c</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-10-06 23:17:00-04</subfield>
+        <subfield code='u'>2013-10-23 17:38:10-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam  2200289Ia 4500</leader>
+      <controlfield tag='008'>840215s1823    mau           000 d eng d</controlfield>
+      <controlfield tag='001'>10417688</controlfield>
+      <controlfield tag='005'>20020730110758.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>IXA</subfield>
+        <subfield code='c'>IXA</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Gentleman, Francis,</subfield>
+        <subfield code='d'>1728-1784.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='4' tag='245'>
+        <subfield code='a'>The tobacconist :</subfield>
+        <subfield code='b'>a farce /</subfield>
+        <subfield code='c'>altered from Ben Johnson by Francis Gentleman ; with prefatory remarks ; the only edition existing which is faithfully marked with the stage business, and stage directions, as it is performed at the Theatres Royal by W. Oxberry, comedian.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='246'>
+        <subfield code='a'>Oxberry&apos;s edition of plays, vol. x</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='250'>
+        <subfield code='a'>Oxberry&apos;s ed.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Boston ;</subfield>
+        <subfield code='a'>New York :</subfield>
+        <subfield code='b'>Wells and Lilly ;</subfield>
+        <subfield code='b'>A.T. Goodrich,</subfield>
+        <subfield code='c'>1823.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>44 p. ;</subfield>
+        <subfield code='c'>15 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='501'>
+        <subfield code='a'>With: Confederacy : a comedy / J. Vanbrugh. Boston : Wells &amp; Lilly, 1823. -- Douglas : a tragedy / J. Home. Boston : Wells &amp; Lilly, 1823. -- Know your own mind : a comedy / A. Murphy. Boston : Wells &amp; Lilly, 1823. -- Macbeth : a tragedy / W. Shakespeare. Boston : Wells &amp; Lilly, 1823.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Jonson, Ben,</subfield>
+        <subfield code='d'>1573?-1637.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Vanbrugh, John,</subfield>
+        <subfield code='d'>1664-1726.</subfield>
+        <subfield code='t'>Confederacy.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Home, John,</subfield>
+        <subfield code='d'>1722-1808.</subfield>
+        <subfield code='t'>Douglas.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Murphy, Arthur,</subfield>
+        <subfield code='d'>1727-1805.</subfield>
+        <subfield code='t'>Know your own mind.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b4172825</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i3873103</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00020928784</subfield>
+        <subfield code='p'>092##</subfield>
+        <subfield code='q'>|a822 V21c</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-10-06 23:17:00-04</subfield>
+        <subfield code='u'>2013-10-23 17:38:11-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam  2200433 a 4500</leader>
+      <controlfield tag='008'>040517s2004    nyu           000 0 eng  </controlfield>
+      <controlfield tag='001'>55511454</controlfield>
+      <controlfield tag='005'>20050207144530.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>2004050848</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>1594480087 (pbk.)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>DLC</subfield>
+        <subfield code='c'>DLC</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='043'>
+        <subfield code='a'>e-uk-st</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='050'>
+        <subfield code='a'>PR2823</subfield>
+        <subfield code='b'>.B56 2004</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='082'>
+        <subfield code='a'>822.3/3</subfield>
+        <subfield code='2'>22</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Bloom, Harold.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Shakespeare&apos;s Macbeth /</subfield>
+        <subfield code='c'>Harold Bloom.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='250'>
+        <subfield code='a'>Riverhead trade pbk. ed.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>New York :</subfield>
+        <subfield code='b'>Riverhead Books,</subfield>
+        <subfield code='c'>2004.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>135 p. ;</subfield>
+        <subfield code='c'>21 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>The essay &quot;Macbeth&quot; was previously published as part of Shakespeare : the invention of the human, by Harold Bloom, published by Riverhead in 1998.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Includes the full text of the play, with editorial revisions by Harold Bloom.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='600'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='600'>
+        <subfield code='a'>Macbeth,</subfield>
+        <subfield code='c'>King of Scotland,</subfield>
+        <subfield code='d'>active 11th century</subfield>
+        <subfield code='x'>In literature.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='600'>
+        <subfield code='a'>Macbeth,</subfield>
+        <subfield code='c'>King of Scotland,</subfield>
+        <subfield code='d'>active 11th century</subfield>
+        <subfield code='v'>Drama.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Kings and rulers in literature.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Regicides in literature.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Regicides</subfield>
+        <subfield code='v'>Drama.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='651'>
+        <subfield code='a'>Scotland</subfield>
+        <subfield code='x'>Kings and rulers</subfield>
+        <subfield code='v'>Drama.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='651'>
+        <subfield code='a'>Scotland</subfield>
+        <subfield code='x'>In literature.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Bloom, Harold.</subfield>
+        <subfield code='t'>Shakespeare.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='791'>
+        <subfield code='a'>Alfred G. Engstrom and Mary Claire Randolph Engstrom Fund.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b4681816</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i6275107</subfield>
+        <subfield code='l'>ddda</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>2</subfield>
+        <subfield code='o'>3</subfield>
+        <subfield code='b'>00025293726</subfield>
+        <subfield code='p'>050##</subfield>
+        <subfield code='q'>|aPR2823|b.B56 2004</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i6151976</subfield>
+        <subfield code='l'>uada</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>10</subfield>
+        <subfield code='b'>00024629369</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPR2823 .B56 2004</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2005-04-28 00:00:00-04</subfield>
+        <subfield code='c'>2005-04-28 09:05:18-04</subfield>
+        <subfield code='u'>2017-11-10 14:46:01.706-05</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cgm a2200649Ia 4500</leader>
+      <controlfield tag='006'>m        c</controlfield>
+      <controlfield tag='008'>100120p20091982nyu148        s   vleng d</controlfield>
+      <controlfield tag='007'>cr cna||||||||</controlfield>
+      <controlfield tag='007'>vz czazuu</controlfield>
+      <controlfield tag='001'>501023228</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20100401102919.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>NDD</subfield>
+        <subfield code='c'>NDD</subfield>
+        <subfield code='d'>OCLCQ</subfield>
+        <subfield code='d'>OCLCA</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='049'>
+        <subfield code='a'>NOCC</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='245'>
+        <subfield code='a'>Macbeth</subfield>
+        <subfield code='h'>[electronic resource] /</subfield>
+        <subfield code='c'>by William Shakespeare ; Time life Video ; presented by the British Broadcasting Corporation ; a BBC-Television production in association with Time-Life Television ; produced by Shaun Sutton ; directed by Jack Gold.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>[New York, N.Y.] :</subfield>
+        <subfield code='b'>Ambrose Video Publishing, Inc.,</subfield>
+        <subfield code='c'>[2009]</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>1 streaming video file (ca. 148 min.) :</subfield>
+        <subfield code='b'>digital, FLV file, sd., col.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Ambrose Video 2.0.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Originally produced for television broadcast in 1982.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Title from title frames on streaming video.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='506'>
+        <subfield code='a'>Access limited to UNC Chapel Hill-authenticated users.</subfield>
+        <subfield code='f'>Unlimited simultaneous users</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='508'>
+        <subfield code='a'>Script editor, David Snodin ; music, Carl Davis.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='511'>
+        <subfield code='a'>Nicol Williamson, Ian Hogg, Jane Lapotaire, Tony Doyle.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='520'>
+        <subfield code='a'>Driven by ambition and an unscrupulous wife, Macbeth murders the King of Scotland and claims the throne for himself. Haunted by ghosts and vexed by witches, he and his wife descend into the depths of madness and paranoia as they crumble beneath the weight of their crimes.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='538'>
+        <subfield code='a'>System requirements: Web browser with Adobe Flash player extension.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='546'>
+        <subfield code='a'>Closed captioned for the hearing impaired.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='600'>
+        <subfield code='a'>Macbeth,</subfield>
+        <subfield code='c'>King of Scotland,</subfield>
+        <subfield code='d'>active 11th century</subfield>
+        <subfield code='v'>Drama.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='600'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616</subfield>
+        <subfield code='v'>Film adaptations.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Regicides</subfield>
+        <subfield code='z'>Scotland</subfield>
+        <subfield code='v'>Drama.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Streaming video.</subfield>
+        <subfield code='2'>local</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Television adaptations.</subfield>
+        <subfield code='2'>lcgft</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='655'>
+        <subfield code='a'>Video recordings.</subfield>
+        <subfield code='2'>lcgft</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Doyle, Tony,</subfield>
+        <subfield code='d'>1942-2000.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Gold, Jack,</subfield>
+        <subfield code='d'>1930-2015.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Hogg, Ian.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Lapotaire, Jane.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Plays.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Sutton, Shaun.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Williamson, Nicol.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Ambrose Video Publishing.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>British Broadcasting Corporation.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>British Broadcasting Corporation.</subfield>
+        <subfield code='b'>Television Service.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Time-Life Television.</subfield>
+      </datafield>
+      <datafield ind1='2' ind2=' ' tag='710'>
+        <subfield code='a'>Time-Life Video.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='730'>
+        <subfield code='a'>Shakespeare plays (Television program)</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='773'>
+        <subfield code='t'>BBC Shakespeare plays (online collection)</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='800'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>BBC TV Shakespeare (London, England)</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='800'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Works.</subfield>
+        <subfield code='f'>2000.</subfield>
+        <subfield code='s'>Ambrose Video.</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='0' tag='856'>
+        <subfield code='y'>Streaming video available via the UNC-Chapel Hill Libraries</subfield>
+        <subfield code='x'>BBC Shakespeare Plays</subfield>
+        <subfield code='u'>http://libproxy.lib.unc.edu/login?url=http://www.ambrosevideo.com/video/?SH-026&amp;license=cf21a700e5645d527d4858643e3fafcb</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='919'>
+        <subfield code='a'>filmfinder</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b6284377</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2010-04-07 00:00:00-04</subfield>
+        <subfield code='c'>2010-04-07 19:48:00-04</subfield>
+        <subfield code='u'>2017-03-20 10:30:12-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200409Ma 4500</leader>
+      <controlfield tag='006'>m        d</controlfield>
+      <controlfield tag='008'>090810s1759    enk     s     000 0 eng d</controlfield>
+      <controlfield tag='007'>cr |n||||||||n</controlfield>
+      <controlfield tag='001'>moml506043031</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20100429113740.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)506043031</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>TGPSM</subfield>
+        <subfield code='c'>BOL</subfield>
+        <subfield code='d'>MIGCL</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='043'>
+        <subfield code='a'>e-uk---</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='049'>
+        <subfield code='a'>TEFA</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Aram, Eugene,</subfield>
+        <subfield code='d'>1704-1759.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='4' tag='245'>
+        <subfield code='a'>The genuine account of the trial of Eugene Aram, for the murder of Daniel Clark, late of Knaresbrough, in the county of York, who was convicted at York assizes, August 3, 1759, before the Honourable William Noel, Esq., one of His Majesty&apos;s justices of the Court of Common Pleas</subfield>
+        <subfield code='h'>[electronic resource] :</subfield>
+        <subfield code='b'>to which, after a short narration of the fact is prefixed, an account of the remarkable discovery of the human skeleton at St. Robert&apos;s cave, where it had lain upwards of thirteen years, a detail of all the judicial proceedings from the time of the bones being found, to the commitment of Richard Houseman, Eugene Aram, and Henry Terry to York-Castle, the depositions of Anna Aram, Philip Coates, John Yates, &amp;c., the examination and confession of Richard Houseman, the apprehending of Eugene Aram, at Lynn, in Norfolk, with his examination and commitment : to which are added, the remarkable defence he made on his trial, his own account of himself, written after his condemnation, with the apology, which he left in his cell, for the attempt he made on his own life : all taken immediately from the original depositions, papers, &amp;c.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='250'>
+        <subfield code='a'>3rd ed.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>279 p. in various pagings :</subfield>
+        <subfield code='b'>ill.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Reproduction of the original from Harvard Law School Library.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='533'>
+        <subfield code='a'>Electronic reproduction.</subfield>
+        <subfield code='b'>Farmington Hills, Mich. :</subfield>
+        <subfield code='c'>Gale, a part of Cengage Learning,</subfield>
+        <subfield code='d'>2007.</subfield>
+        <subfield code='n'>Available via the World Wide Web.</subfield>
+        <subfield code='n'>Access limited by licensing agreements.</subfield>
+        <subfield code='7'>s2007    miunns</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='600'>
+        <subfield code='a'>Clark, Daniel,</subfield>
+        <subfield code='d'>-1745</subfield>
+        <subfield code='v'>Early works to 1800.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Murderers</subfield>
+        <subfield code='z'>Great Britain</subfield>
+        <subfield code='v'>Early works to 1800.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Trials (Murder)</subfield>
+        <subfield code='z'>Great Britain</subfield>
+        <subfield code='v'>Early works to 1800.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Hoadly,</subfield>
+        <subfield code='c'>Dr.</subfield>
+        <subfield code='q'>(Benjamin),</subfield>
+        <subfield code='d'>1706-1757.</subfield>
+        <subfield code='t'>Suspicious husband, a comedy, as it is acted at the Theater-Royal in Drury-Lane.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth, a tragedy.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Cowley, Hannah,</subfield>
+        <subfield code='d'>1743-1809.</subfield>
+        <subfield code='t'>Belle&apos;s stratagem, a comedy, in five acts.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='710'>
+        <subfield code='a'>Great Britain.</subfield>
+        <subfield code='b'>Assizes (York)</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='2' tag='740'>
+        <subfield code='a'>The suspicious husband, a comedy, as it is acted at the Theater-Royal in Drury-Lane.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='2' tag='740'>
+        <subfield code='a'>Macbeth, a tragedy.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='2' tag='740'>
+        <subfield code='a'>Belle&apos;s stratagem, a comedy, in five acts.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='830'>
+        <subfield code='a'>Making of modern law.</subfield>
+        <subfield code='p'>Trials, 1600-1926.</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='0' tag='856'>
+        <subfield code='u'>http://libproxy.lib.unc.edu/login?url=http://galenet.galegroup.com/servlet/MMLT?af=RN&amp;ae=Q4200635114&amp;srchtp=a&amp;ste=14&amp;q=unc_main</subfield>
+        <subfield code='y'>Full text available via the UNC-Chapel Hill Libraries</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b6325751</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2010-05-28 00:00:00-04</subfield>
+        <subfield code='c'>2010-05-28 10:40:04-04</subfield>
+        <subfield code='u'>2017-06-08 15:25:12-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200385Ma 4500</leader>
+      <controlfield tag='006'>m    |o  d |</controlfield>
+      <controlfield tag='008'>960313s1828    fr      o     000 p fre d</controlfield>
+      <controlfield tag='007'>cr |n||||||||n</controlfield>
+      <controlfield tag='001'>NCCO007570</controlfield>
+      <controlfield tag='003'>MiFhGG</controlfield>
+      <controlfield tag='005'>20121120130010.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)830964834</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>MIGCL</subfield>
+        <subfield code='c'>UtOrBLW</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='245'>
+        <subfield code='a'>Poésies européennes, ou, Etudes sur Alfiéri ... [et al.]</subfield>
+        <subfield code='h'>[electronic resource] /</subfield>
+        <subfield code='c'>par Léon Halevy.</subfield>
+      </datafield>
+      <datafield ind1='3' ind2='0' tag='246'>
+        <subfield code='a'>Etudes sur Alfiéri</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Paris :</subfield>
+        <subfield code='b'>Ladvocat :</subfield>
+        <subfield code='b'>Delaforest,</subfield>
+        <subfield code='c'>1828</subfield>
+        <subfield code='f'>(Impr. A. Boucher)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>1 online resource (x, 328 p.).</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Originally issued in parts; the first &quot;livraison&quot; was announced in the Bibliographie de la France 5 Sept. 1827; the second. third &amp; fourth were announced 16 Aug. 1828, apparently issued together.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Free translations from the authors named in title; includes Schiller&apos;s Don Karlos, Shakespeare&apos;s Macbeth, and act 5 from Alfrieri&apos;s Bruto Primo.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='505'>
+        <subfield code='a'>Burger -- Robert Burns -- Gay -- Gonzaga -- Karamsin -- Koerner -- Jean Kollar -- Lessing -- G. Lewis -- Michel-Ange -- Thomas Moore -- Pope -- Shakespeare -- Schiller -- Walter-Scott -- Voss -- Yriarte -- Les poètes grecs modernes.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='506'>
+        <subfield code='a'>Access limited to UNC Chapel Hill-authenticated users.</subfield>
+        <subfield code='f'>Unlimited simultaneous users</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Poetry</subfield>
+        <subfield code='v'>Collections.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Halévy, Léon,</subfield>
+        <subfield code='d'>1802-1883.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Alfieri, Vittorio,</subfield>
+        <subfield code='d'>1749-1803.</subfield>
+        <subfield code='t'>Bruto primo.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Schiller, Friedrich,</subfield>
+        <subfield code='d'>1759-1805.</subfield>
+        <subfield code='t'>Don Carlos.</subfield>
+        <subfield code='l'>Greek.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='773'>
+        <subfield code='t'>Nineteenth century collections online (online collection). European literature, 1790-1840: the Corvey collection. E-books</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='0' tag='856'>
+        <subfield code='y'>Full text available via the UNC-Chapel Hill Libraries</subfield>
+        <subfield code='u'>http://libproxy.lib.unc.edu/login?url=http://ncco.galegroup.com/gdc/ncco/MonographsDetailsPage/MonographsDetailsWindow?disableHighlighting=false&amp;prodId=NCCO&amp;action=1&amp;activityType=BasicSearch&amp;javax.portlet.action=viewPortletAction&amp;documentId=GALE%7COEALBR106793580&amp;dviSelectedPage=1&amp;userGroupName=unc_main</subfield>
+        <subfield code='x'>NCCO</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='919'>
+        <subfield code='a'>NCCO</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='1' tag='907'>
+        <subfield code='a'>b7365255</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2013-04-05 00:00:00-04</subfield>
+        <subfield code='c'>2013-04-05 12:24:29-04</subfield>
+        <subfield code='u'>2017-03-20 10:55:27-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200469Ia 4500</leader>
+      <controlfield tag='008'>130313s2013    nyua          000 0 eng d</controlfield>
+      <controlfield tag='001'>829989388</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20131213135349.7</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>162636303X</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>9781626363038</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)829989388</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>YDXCP</subfield>
+        <subfield code='c'>YDXCP</subfield>
+        <subfield code='d'>OEM</subfield>
+        <subfield code='d'>OCLCO</subfield>
+        <subfield code='d'>VHP</subfield>
+        <subfield code='d'>IMF</subfield>
+        <subfield code='d'>NhCcYBP</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='4' tag='050'>
+        <subfield code='a'>PR2763</subfield>
+        <subfield code='b'>.M33 2013</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='4' tag='082'>
+        <subfield code='a'>822.33</subfield>
+        <subfield code='2'>23</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='245'>
+        <subfield code='a'>Brick Shakespeare :</subfield>
+        <subfield code='b'>the tragedies-- Hamlet, Macbeth, Romeo and Juliet, and Julius Caesar /</subfield>
+        <subfield code='c'>[construction and photography by John McCann ; edited and narrated by Monica Sweeney, and Becky Thomas.]</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='1' tag='264'>
+        <subfield code='a'>New York :</subfield>
+        <subfield code='b'>Skyhorse Publishing,</subfield>
+        <subfield code='c'>2013.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>344 p. :</subfield>
+        <subfield code='b'>col. ill. ;</subfield>
+        <subfield code='c'>28 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>&quot;Each play is modestly abridged&quot;--p. 6.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='520'>
+        <subfield code='a'>Whimsical visual adaptations of four Shakespearean tragedies, rendered in LEGO bricks, feature scene-by-scene reenactments accompanied by captioned excerpts from the plays.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='600'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616</subfield>
+        <subfield code='x'>Tragedies</subfield>
+        <subfield code='v'>Comic books, strips, etc.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>LEGO toys</subfield>
+        <subfield code='v'>Juvenile literature.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>LEGO toys</subfield>
+        <subfield code='v'>Pictorial works.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>McCann, John</subfield>
+        <subfield code='c'>(Photographer)</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Sweeney, Monica.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Thomas, Becky.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616,</subfield>
+        <subfield code='e'>author.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Hollan, Jack,</subfield>
+        <subfield code='e'>illustrator.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Hamlet.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Romeo and Juliet.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Julius Caesar.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b7638777</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10182337</subfield>
+        <subfield code='l'>lljd</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>22</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>4</subfield>
+        <subfield code='b'>00047147167</subfield>
+        <subfield code='p'>099#9</subfield>
+        <subfield code='q'>|aGraphic|aBrick</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10229561</subfield>
+        <subfield code='l'>uada</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>00047682131</subfield>
+        <subfield code='p'>05014</subfield>
+        <subfield code='q'>|aPR2763|b.M33 2013</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2014-01-10 00:00:00-05</subfield>
+        <subfield code='c'>2013-12-10 09:34:00-05</subfield>
+        <subfield code='u'>2014-03-16 13:05:56-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200313Ia 4500</leader>
+      <controlfield tag='007'>hg aob---b|||</controlfield>
+      <controlfield tag='008'>820927s1853    xx      c     000 0 eng d</controlfield>
+      <controlfield tag='001'>8810566</controlfield>
+      <controlfield tag='005'>19960618160827.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>2C</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>EAD</subfield>
+        <subfield code='c'>EAD</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='240'>
+        <subfield code='a'>Macbeth</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Shakespeare restored</subfield>
+        <subfield code='h'>[microform]</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Norwich :</subfield>
+        <subfield code='b'>C. Muskett,</subfield>
+        <subfield code='c'>1853.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>xxv, 107 p.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Imperfect:  title page wanting.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Edited by Hastings Elwin.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='533'>
+        <subfield code='a'>Microopaque.</subfield>
+        <subfield code='b'>New York :</subfield>
+        <subfield code='c'>Readex Microprint,</subfield>
+        <subfield code='d'>1971.</subfield>
+        <subfield code='e'>2 microopaques ; 23 x 15 cm.</subfield>
+        <subfield code='f'>(English and American drama of the nineteenth century. English)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='539'>
+        <subfield code='a'>s</subfield>
+        <subfield code='b'>1971</subfield>
+        <subfield code='d'>nyu</subfield>
+        <subfield code='e'>n</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Elwin, Hastings,</subfield>
+        <subfield code='d'>-1874,</subfield>
+        <subfield code='e'>editor.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='830'>
+        <subfield code='a'>English and American drama of the nineteenth century.</subfield>
+        <subfield code='p'>English.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b2860072</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i4098010</subfield>
+        <subfield code='l'>dgdaf</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>26</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>HATD-1395-00001</subfield>
+        <subfield code='p'>099#9</subfield>
+        <subfield code='q'>|a1-4 English.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-10-03 07:48:19-04</subfield>
+        <subfield code='u'>2018-01-12 18:03:07-05</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200349 a 4500</leader>
+      <controlfield tag='008'>840712r19841984nyu           001 d eng  </controlfield>
+      <controlfield tag='001'>10998515</controlfield>
+      <controlfield tag='005'>19850327000000.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>84015477</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>0070541744 :</subfield>
+        <subfield code='c'>$14.64</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>DLC</subfield>
+        <subfield code='c'>DLC</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='082'>
+        <subfield code='a'>822/.33</subfield>
+        <subfield code='2'>19</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='240'>
+        <subfield code='a'>Plays.</subfield>
+        <subfield code='k'>Selections</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Romeo and Juliet ; Julius Caesar ; Hamlet ; Macbeth :</subfield>
+        <subfield code='b'>modern texts with introductions /</subfield>
+        <subfield code='c'>William Shakespeare ; edited by A.L. Rowse.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='4' tag='246'>
+        <subfield code='a'>Four Shakespeare plays</subfield>
+      </datafield>
+      <datafield ind1='3' ind2=' ' tag='246'>
+        <subfield code='a'>4 Shakespeare plays</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>New York :</subfield>
+        <subfield code='b'>McGraw-Hill,</subfield>
+        <subfield code='c'>c1984.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>xxi, 368 p. ;</subfield>
+        <subfield code='c'>24 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Originally published as: four separate volumes by University Press of America in 1984.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Includes index.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Rowse, A. L.</subfield>
+        <subfield code='q'>(Alfred Leslie),</subfield>
+        <subfield code='d'>1903-1997,</subfield>
+        <subfield code='e'>editor.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Romeo and Juliet.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Julius Caesar.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Hamlet.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b1974712</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i2857372</subfield>
+        <subfield code='l'>ddda</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>5</subfield>
+        <subfield code='b'>00002669794</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPR2763 .R6 1984</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-09-30 09:45:53-04</subfield>
+        <subfield code='u'>2018-01-15 13:28:49-05</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200301I  4500</leader>
+      <controlfield tag='008'>800520m19151924mau           000 0 eng d</controlfield>
+      <controlfield tag='001'>6341005</controlfield>
+      <controlfield tag='005'>20011003080557.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>CCH</subfield>
+        <subfield code='c'>CCH</subfield>
+        <subfield code='d'>PBE</subfield>
+        <subfield code='d'>OCL</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='240'>
+        <subfield code='a'>Plays.</subfield>
+        <subfield code='k'>Selections</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Five tragedies:</subfield>
+        <subfield code='b'>Romeo and Juliet, Othello, Hamlet, Macbeth, King Lear.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Boston,</subfield>
+        <subfield code='b'>D.C. Heath</subfield>
+        <subfield code='c'>[1915-1924]</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>5 v. in 1.</subfield>
+        <subfield code='c'>19 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Vol. 1: 1916.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Romeo and Juliet.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Julius Caesar.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Hamlet.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Macbeth.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='2' tag='700'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>King Lear.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='800'>
+        <subfield code='a'>Shakespeare, William,</subfield>
+        <subfield code='d'>1564-1616.</subfield>
+        <subfield code='t'>Works.</subfield>
+        <subfield code='f'>1899.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b4060383</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i5574833</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>10000036186</subfield>
+        <subfield code='p'>092##</subfield>
+        <subfield code='q'>|a822.11 A676ft</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-10-06 23:03:56-04</subfield>
+        <subfield code='u'>2018-01-15 13:29:44-05</subfield>
+      </datafield>
+  </record>
+</collection>
