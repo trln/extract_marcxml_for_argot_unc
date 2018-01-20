@@ -1,0 +1,457 @@
+<?xml version='1.0'?>
+<collection xmlns='http://www.loc.gov/MARC21/slim' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd'>
+  <record>
+    <leader>00000cam a2200445Ia 4500</leader>
+      <controlfield tag='008'>900130s1945    nyu           000 1 engm </controlfield>
+      <controlfield tag='001'>312363</controlfield>
+      <controlfield tag='005'>19900705164641.4</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>46000555</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='019'>
+        <subfield code='a'>7544428</subfield>
+        <subfield code='a'>10289844</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>DLC</subfield>
+        <subfield code='c'>MSC</subfield>
+        <subfield code='d'>OCL</subfield>
+        <subfield code='d'>m.c.</subfield>
+        <subfield code='d'>OCL</subfield>
+        <subfield code='d'>PLF</subfield>
+        <subfield code='d'>RBN</subfield>
+        <subfield code='d'>LDL</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='050'>
+        <subfield code='a'>PZ3.D742</subfield>
+        <subfield code='b'>Sh</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Dostoyevsky, Fyodor,</subfield>
+        <subfield code='d'>1821-1881.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='240'>
+        <subfield code='a'>Novels.</subfield>
+        <subfield code='k'>Selections.</subfield>
+        <subfield code='l'>English</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='4' tag='245'>
+        <subfield code='a'>The short novels of Dostoevsky /</subfield>
+        <subfield code='c'>with an introduction by Thomas Mann.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>New York :</subfield>
+        <subfield code='b'>Dial Press,</subfield>
+        <subfield code='c'>1945.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>xx, 811 p. ;</subfield>
+        <subfield code='c'>22 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>&quot;A Permanent library book.&quot;</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='505'>
+        <subfield code='a'>The gambler -- Notes from underground -- Uncle&apos;s dream -- The eternal husband -- The double -- The friend of the family.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Mann, Thomas,</subfield>
+        <subfield code='d'>1875-1955,</subfield>
+        <subfield code='e'>author of introduction, etc.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='740'>
+        <subfield code='a'>Walker Percy Collection.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='740'>
+        <subfield code='a'>Gambler.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='740'>
+        <subfield code='a'>Notes from underground.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='740'>
+        <subfield code='a'>Uncle&apos;s dream.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='740'>
+        <subfield code='a'>Eternal husband.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='740'>
+        <subfield code='a'>Double.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='740'>
+        <subfield code='a'>Friend of the family.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b1082782</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1147297</subfield>
+        <subfield code='l'>ddda</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>21</subfield>
+        <subfield code='b'>10000589686</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPG3326.A15 M37</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1147298</subfield>
+        <subfield code='l'>ddda</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>2</subfield>
+        <subfield code='o'>25</subfield>
+        <subfield code='b'>00007855056</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPG3326.A15 M37</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1147300</subfield>
+        <subfield code='l'>ddcc</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>1</subfield>
+        <subfield code='c'>4</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00013468268</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPG3326.A15 M37</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10897773</subfield>
+        <subfield code='l'>wcps</subfield>
+        <subfield code='s'>o</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00042008237</subfield>
+        <subfield code='p'>099#9</subfield>
+        <subfield code='q'>|aPercy|a628</subfield>
+        <subfield code='n'>RBC Percy Library copy: Hardbound; &quot;Second printing, 1946&quot;--verso of title page; bookplate and very heavy annotations of Walker Percy; Percy&apos;s annotated pieces of white paper originally laid-in throughout the text of &quot;Notes from Underground&quot;. These pieces of paper removed to separate enclosure (call number: Percy 628 accompanying material) citing pages where notes placed in text. Tipped-in note between: pages 142-143 and pages 148-149.   Copying of notes or annotations in text is prohibited.</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1147299</subfield>
+        <subfield code='l'>uada</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>3</subfield>
+        <subfield code='o'>12</subfield>
+        <subfield code='b'>00007822252</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPG3326.A15 M37</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-09-27 13:12:00-04</subfield>
+        <subfield code='u'>2016-10-23 07:00:58-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam  2200325 a 4500</leader>
+      <controlfield tag='008'>720504s1971    cau      bs   000 0 eng  </controlfield>
+      <controlfield tag='001'>314780</controlfield>
+      <controlfield tag='005'>19970731195830.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>72181167</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>DLC</subfield>
+        <subfield code='c'>DLC</subfield>
+        <subfield code='d'>OCL</subfield>
+        <subfield code='d'>NDO</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='043'>
+        <subfield code='a'>n-us---</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='050'>
+        <subfield code='a'>HV8088</subfield>
+        <subfield code='b'>.K355 1971</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='082'>
+        <subfield code='a'>081 s</subfield>
+        <subfield code='a'>338.4/7/3632</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Kakalik, James S.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Private police in the United States :</subfield>
+        <subfield code='b'>findings and recommendations /</subfield>
+        <subfield code='c'>James S. Kakalik and Sorrel Wildhorn.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Santa Monica, Calif. :</subfield>
+        <subfield code='b'>Rand,</subfield>
+        <subfield code='c'>1971.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>xix, 109 p. ;</subfield>
+        <subfield code='c'>28 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Vol. 1 of a series of 5, comprising R-869-873.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>&quot;Prepared for the Department of Justice.&quot;</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='504'>
+        <subfield code='a'>Includes bibliographical references.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Police, Private</subfield>
+        <subfield code='z'>United States.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Wildhorn, Sorrel,</subfield>
+        <subfield code='e'>author.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='710'>
+        <subfield code='a'>United States.</subfield>
+        <subfield code='b'>Department of Justice.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='830'>
+        <subfield code='a'>R (Rand Corporation) ;</subfield>
+        <subfield code='v'>869/DOJ.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b1083421</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1148453</subfield>
+        <subfield code='l'>ksta</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>L00249124M</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aHV8088 .K355 1971</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1148454</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00045699948</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aAS36|b.R3 [R-869-R-873]</subfield>
+        <subfield code='v'>[R-869-R-873]</subfield>
+        <subfield code='n'>Incomplete</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2004-10-01 00:00:00-04</subfield>
+        <subfield code='c'>2004-09-27 13:12:24-04</subfield>
+        <subfield code='u'>2016-09-23 14:10:41-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200649I  4500</leader>
+      <controlfield tag='008'>720717s1941    dcu      b   f000 0 eng c</controlfield>
+      <controlfield tag='001'>358087</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20151012114232.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>41050145</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='019'>
+        <subfield code='a'>491866324</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='029'>
+        <subfield code='a'>AU@</subfield>
+        <subfield code='b'>000012424280</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='029'>
+        <subfield code='a'>AU@</subfield>
+        <subfield code='b'>000028339662</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='029'>
+        <subfield code='a'>DEBBG</subfield>
+        <subfield code='b'>BV007245466</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='029'>
+        <subfield code='a'>HEBIS</subfield>
+        <subfield code='b'>215781627</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='029'>
+        <subfield code='a'>ZWZ</subfield>
+        <subfield code='b'>086885324</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)358087</subfield>
+        <subfield code='z'>(OCoLC)491866324</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>CSU</subfield>
+        <subfield code='b'>eng</subfield>
+        <subfield code='c'>CSU</subfield>
+        <subfield code='d'>OCL</subfield>
+        <subfield code='d'>TAI</subfield>
+        <subfield code='d'>OCLCQ</subfield>
+        <subfield code='d'>OCLCG</subfield>
+        <subfield code='d'>CLU</subfield>
+        <subfield code='d'>QE2</subfield>
+        <subfield code='d'>COD</subfield>
+        <subfield code='d'>OCLCF</subfield>
+        <subfield code='d'>OCLCQ</subfield>
+        <subfield code='d'>OCLCO</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='043'>
+        <subfield code='a'>n-us---</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='049'>
+        <subfield code='a'>NOCC</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='4' tag='050'>
+        <subfield code='a'>HC106.3</subfield>
+        <subfield code='b'>.A5127 no.17</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='4' tag='082'>
+        <subfield code='a'>658</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='086'>
+        <subfield code='a'>Y 4.T 24:M 75/17</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Cover, John H.</subfield>
+        <subfield code='q'>(John Higson),</subfield>
+        <subfield code='d'>1891-1991.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Problems of small business.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Washington,</subfield>
+        <subfield code='b'>U.S. Govt. Print. Off.,</subfield>
+        <subfield code='c'>1941.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>xix, 412 pages</subfield>
+        <subfield code='b'>including tables, diagrams</subfield>
+        <subfield code='c'>23 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='336'>
+        <subfield code='a'>text</subfield>
+        <subfield code='b'>txt</subfield>
+        <subfield code='2'>rdacontent</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='337'>
+        <subfield code='a'>unmediated</subfield>
+        <subfield code='b'>n</subfield>
+        <subfield code='2'>rdamedia</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='338'>
+        <subfield code='a'>volume</subfield>
+        <subfield code='b'>nc</subfield>
+        <subfield code='2'>rdacarrier</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>At head of title: 76th Congress, 3d session. Senate Committee print.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Running title: Concentration of economic power.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>A study made under the auspices of the Department of Commerce and the Securities and Exchange Commission for the Temporary National Economic Committee, Seventy-sixth Congress, third session, pursuant to Public resolution no. 113 (Seventy-fifth Congress), authorizing and directing a select committee to make a full and complete study and investigation with respect to the concentration of economic power in, and financial control over, production and distribution of goods and services.&quot;</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>By John H. Cover, Nathanael H. Engle, Earl D. Strong and others. cf. Acknowledgment.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Printed for the use of the Temporary National Economic Committee.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='504'>
+        <subfield code='a'>Includes bibliographical references.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='648'>
+        <subfield code='a'>1918 - 1945</subfield>
+        <subfield code='2'>fast</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Business.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Credit</subfield>
+        <subfield code='z'>United States.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Business.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst00842262</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Credit.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst00882525</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Economic history.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst00901974</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='651'>
+        <subfield code='a'>United States</subfield>
+        <subfield code='x'>Economic conditions</subfield>
+        <subfield code='y'>1918-1945.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='651'>
+        <subfield code='a'>United States.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01204155</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Engle, Nathanael H.</subfield>
+        <subfield code='q'>(Nathanael Howard),</subfield>
+        <subfield code='d'>1893-</subfield>
+        <subfield code='e'>author.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Strong, Earl D.,</subfield>
+        <subfield code='e'>author.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='8' tag='776'>
+        <subfield code='i'>Online version:</subfield>
+        <subfield code='a'>Cover, John Higson, 1891-</subfield>
+        <subfield code='t'>Problems of small business.</subfield>
+        <subfield code='d'>Washington, U.S. Govt. Print. Off., 1941</subfield>
+        <subfield code='w'>(OCoLC)646213790</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='830'>
+        <subfield code='a'>Investigation of concentration of economic power ;</subfield>
+        <subfield code='v'>monograph no. 17.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b1095660</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10883232</subfield>
+        <subfield code='l'>dcpf</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>20</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00049473121</subfield>
+        <subfield code='p'>0860#</subfield>
+        <subfield code='q'>|aY4.T 24:M 75/17</subfield>
+        <subfield code='n'>Bound with no. 18</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i1170891</subfield>
+        <subfield code='l'>trln</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>0</subfield>
+        <subfield code='b'>00036383341</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aHC106.3 .A5127 no. 16-17</subfield>
+        <subfield code='v'>no.16-17(1941)</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2015-10-12 00:00:00-04</subfield>
+        <subfield code='c'>2004-09-27 13:13:00-04</subfield>
+        <subfield code='u'>2016-09-23 14:11:02-04</subfield>
+      </datafield>
+  </record>
+</collection>
