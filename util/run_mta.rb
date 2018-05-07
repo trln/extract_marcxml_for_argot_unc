@@ -3,6 +3,7 @@ outpath = '/mnt/c/code/data/argot/'
 
 if args.include?('-updatemta')
   Dir.chdir("/mnt/c/code/marc-to-argot") do
+    system("git checkout master")
     system("git pull")
     system("rake install")
   end
@@ -18,8 +19,8 @@ end
 end
 
 if args.include?('-spofford')
-Dir.chdir("/mnt/c/code/data/argot") do
-  Dir.glob("add_*").each do |f|
+Dir.chdir("/mnt/c/code/spofford-client") do
+  Dir.glob("/mnt/c/code/data/argot/add_*").each do |f|
     system("spofford ingest #{f}")
   end
 end
