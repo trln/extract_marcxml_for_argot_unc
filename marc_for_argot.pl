@@ -290,6 +290,10 @@ RECORD: while (<INFILE>) {
     $vcf_sth->bind_columns (undef, \$marc_tag, \$data);
 
   VCTRLFIELD: while ($vcf_sth->fetch()) {
+        if ($data =~ m/[<>&"']/) {
+            $data = escape_xml_reserved ($data);
+        }
+
         print OUTFILE "      <controlfield tag='$marc_tag'>$data</controlfield>\n";
     }                           #end VCTRLFIELD
 
