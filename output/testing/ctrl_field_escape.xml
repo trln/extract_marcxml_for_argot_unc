@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<collection xmlns='http://www.loc.gov/MARC21/slim' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd'>
+  <record>
+    <leader>00000nam a2200409Ia 4500</leader>
+      <controlfield tag='006'>m     o  d</controlfield>
+      <controlfield tag='008'>121001s2004    sp a    ob    001 0 spa d</controlfield>
+      <controlfield tag='007'>cr |n||||||||a</controlfield>
+      <controlfield tag='001'>DIGT&B0060</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='z'>8495602733 (pbk.)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='z'>9788495602732 (pbk.)</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='041'>
+        <subfield code='a'>spa</subfield>
+        <subfield code='h'>eng</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='043'>
+        <subfield code='a'>n-us---</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='4' tag='050'>
+        <subfield code='a'>PN1993.5.U6</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Taylor, John Russell.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='240'>
+        <subfield code='a'>Strangers in paradise.</subfield>
+        <subfield code='l'>Spanish</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Extraños en el paraíso</subfield>
+        <subfield code='h'>[electronic resource] :</subfield>
+        <subfield code='b'>los emigrados a Hollywood (1933-1950) /</subfield>
+        <subfield code='c'>John Russell Taylor ; traducción de Juan Carlos Frugone.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='4' tag='246'>
+        <subfield code='a'>Europeos en Hollywood</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='250'>
+        <subfield code='a'>1a. ed.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='260'>
+        <subfield code='a'>Madrid :</subfield>
+        <subfield code='b'>T&amp;B editores,</subfield>
+        <subfield code='c'>2004.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>1 online resource (253 p. ([16] p. of plates)) :</subfield>
+        <subfield code='b'>ill.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Cover title: Europeos en Hollywood</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='500'>
+        <subfield code='a'>Translation of: Strangers in paradise : the Hollywood émigrés 1933-1950. New York : Holt, Rinehart &amp; Winston, 1983.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='504'>
+        <subfield code='a'>Includes bibliographical references (p. [237]-240) and index.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='506'>
+        <subfield code='a'>Access limited to UNC Chapel Hill-authenticated users.</subfield>
+        <subfield code='f'>Unlimited simultaneous users</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Motion picture industry</subfield>
+        <subfield code='z'>United States</subfield>
+        <subfield code='x'>Foreign influences.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='651'>
+        <subfield code='a'>Hollywood (Los Angeles, Calif.)</subfield>
+        <subfield code='x'>Emigration and immigration.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='700'>
+        <subfield code='a'>Frugone, Juan Carlos.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='773'>
+        <subfield code='t'>Digitalia cinema studies collection (online collection)</subfield>
+      </datafield>
+      <datafield ind1='4' ind2='0' tag='856'>
+        <subfield code='u'>http://libproxy.lib.unc.edu/login?url=http://www.digitaliapublishing.com/a/12928</subfield>
+        <subfield code='x'>Digitalia Cinema Studies</subfield>
+        <subfield code='y'>Full text available via the UNC-Chapel Hill Libraries</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b7459098</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2013-08-15 00:00:00-04</subfield>
+        <subfield code='c'>2013-08-15 17:29:45-04</subfield>
+        <subfield code='u'>2017-11-15 15:36:02-05</subfield>
+      </datafield>
+  </record>
+</collection>
