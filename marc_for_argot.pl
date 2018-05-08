@@ -268,6 +268,10 @@ RECORD: while (<INFILE>) {
         if ($marc_tag =~ m/00[67]/) {
             $data =~ s/ *$//;
         }
+        if ($data =~ m/[<>&"']/) {
+            $data = escape_xml_reserved ($data);
+        }
+
         print OUTFILE "      <controlfield tag='$marc_tag'>$data</controlfield>\n";
     }                           #end CTRLFIELD
 
