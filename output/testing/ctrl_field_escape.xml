@@ -5,7 +5,7 @@
       <controlfield tag='006'>m     o  d</controlfield>
       <controlfield tag='008'>121001s2004    sp a    ob    001 0 spa d</controlfield>
       <controlfield tag='007'>cr |n||||||||a</controlfield>
-      <controlfield tag='001'>DIGT&B0060</controlfield>
+      <controlfield tag='001'>DIGT&amp;B0060</controlfield>
       <datafield ind1=' ' ind2=' ' tag='020'>
         <subfield code='z'>8495602733 (pbk.)</subfield>
       </datafield>
