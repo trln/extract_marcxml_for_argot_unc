@@ -1,0 +1,286 @@
+<?xml version='1.0'?>
+<collection xmlns='http://www.loc.gov/MARC21/slim' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd'>
+  <record>
+    <leader>00000cam a2200541 i 4500</leader>
+      <controlfield tag='008'>160428s2017    nyu      b    000 0 eng  </controlfield>
+      <controlfield tag='001'>953174945</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20170724090914.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='010'>
+        <subfield code='a'>2016016716ab</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='019'>
+        <subfield code='a'>947145273</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>9780190459895</subfield>
+        <subfield code='q'>(hardcover ;</subfield>
+        <subfield code='q'>alk. paper)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>0190459891</subfield>
+        <subfield code='q'>(hardcover ;</subfield>
+        <subfield code='q'>alk. paper)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='z'>9780190459901</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='z'>9780190459918</subfield>
+      </datafield>
+      <datafield ind1='8' ind2=' ' tag='024'>
+        <subfield code='a'>40026744306</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)953174945</subfield>
+        <subfield code='z'>(OCoLC)947145273</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>DLC</subfield>
+        <subfield code='b'>eng</subfield>
+        <subfield code='e'>rda</subfield>
+        <subfield code='c'>DLC</subfield>
+        <subfield code='d'>BDX</subfield>
+        <subfield code='d'>OCLCF</subfield>
+        <subfield code='d'>YDXCP</subfield>
+        <subfield code='d'>BTCTA</subfield>
+        <subfield code='d'>IGA</subfield>
+        <subfield code='d'>YDX</subfield>
+        <subfield code='d'>VP@</subfield>
+        <subfield code='d'>EYM</subfield>
+        <subfield code='d'>VA@</subfield>
+        <subfield code='d'>YUS</subfield>
+        <subfield code='d'>OCLCQ</subfield>
+        <subfield code='d'>FIE</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='042'>
+        <subfield code='a'>pcc</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='043'>
+        <subfield code='a'>n-us---</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='050'>
+        <subfield code='a'>JK1726</subfield>
+        <subfield code='b'>.R67 2017</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='082'>
+        <subfield code='a'>320.973</subfield>
+        <subfield code='2'>23</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>Roberts, Alasdair</subfield>
+        <subfield code='q'>(Alasdair Scott),</subfield>
+        <subfield code='e'>author.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Four crises of American democracy :</subfield>
+        <subfield code='b'>representation, mastery, discipline, anticipation /</subfield>
+        <subfield code='c'>Alasdair Roberts.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='1' tag='264'>
+        <subfield code='a'>New York, NY :</subfield>
+        <subfield code='b'>Oxford University Press,</subfield>
+        <subfield code='c'>[2017]</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>268 pages ;</subfield>
+        <subfield code='c'>22 cm</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='336'>
+        <subfield code='a'>text</subfield>
+        <subfield code='b'>txt</subfield>
+        <subfield code='2'>rdacontent</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='337'>
+        <subfield code='a'>unmediated</subfield>
+        <subfield code='b'>n</subfield>
+        <subfield code='2'>rdamedia</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='338'>
+        <subfield code='a'>volume</subfield>
+        <subfield code='b'>nc</subfield>
+        <subfield code='2'>rdacarrier</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='504'>
+        <subfield code='a'>Includes bibliographical references.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='505'>
+        <subfield code='a'>The return of democratic malaise -- Crises of democracy -- Representation -- Mastery -- Discipline -- Anticipation -- Adaptable democracy.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='520'>
+        <subfield code='a'>Since 2008, there has been a flood of literature worrying about the state of democracy in the United States and abroad. Observers complain that democratic institutions are captured by special interests, incompetent in delivering basic services, or overwhelmed by selfish voters. Lurking in the background is the global resurgence of authoritarianism, a wave bolstered by the Western democracies&apos; apparent mishandling of the global financial crisis. In Four Crises of Democracy, Alasdair Roberts locates the recent bout of democratic malaise in the US in historical context. Malaise is a recurrent condition in American politics, but each bout can have distinctive characteristics. Roberts focuses on four &quot;crises of democracy,&quot; explaining how they differed and how government evolved in response to each crisis. The &quot;crisis of representation&quot; occurred in the late nineteenth and early twentieth centuries, and was centered on the question of whether the people really controlled their government. This period was dominated by fears of plutocracy and debates about the rights of African Americans, women and immigrants. The &quot;crisis of mastery&quot; spanned the years 1917-1948, and was preoccupied with building administrative capabilities so that government could improve its control of economic and international affairs. The &quot;crisis of discipline,&quot; beginning in the 1970s, was triggered by the perception that voters and special interests were overloading governments with unreasonable demands. In the final part of his analysis, Roberts asks whether the United States is entering a &quot;crisis of anticipation,&quot; in which the question is whether democracies can handle long-term problems like global warming effectively. Democratic institutions are often said to be rigid and slow to change in response to new circumstances. But Roberts suggests that history shows otherwise. Preceding crises have always produced substantial changes in the architecture of American government. The essential features of the democratic model-societal openness, decentralization, and pragmatism-give it the edge over authoritarian alternatives. A powerful account of how successive crises have shaped American democracy, Four Crises of Democracy will be essential reading for anyone interested in the forces driving the current democratic malaise in the US and throughout the world.--</subfield>
+        <subfield code='c'>Provided by Publisher.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Democracy</subfield>
+        <subfield code='z'>United States.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>POLITICAL SCIENCE</subfield>
+        <subfield code='x'>History &amp; Theory.</subfield>
+        <subfield code='2'>bisacsh</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>POLITICAL SCIENCE</subfield>
+        <subfield code='x'>Political Ideologies</subfield>
+        <subfield code='x'>Democracy.</subfield>
+        <subfield code='2'>bisacsh</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>POLITICAL SCIENCE</subfield>
+        <subfield code='x'>Political Process.</subfield>
+        <subfield code='2'>bisacsh</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Democracy.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst00890077</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='650'>
+        <subfield code='a'>Politics and government.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01919741</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='651'>
+        <subfield code='a'>United States</subfield>
+        <subfield code='x'>Politics and government.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='7' tag='651'>
+        <subfield code='a'>United States.</subfield>
+        <subfield code='2'>fast</subfield>
+        <subfield code='0'>(OCoLC)fst01204155</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='8' tag='776'>
+        <subfield code='i'>Online version:</subfield>
+        <subfield code='a'>Roberts, Alasdair (Alasdair Scott).</subfield>
+        <subfield code='t'>Four crises of American democracy.</subfield>
+        <subfield code='d'>New York, NY : Oxford University Press, [2017]</subfield>
+        <subfield code='z'>9780190459901</subfield>
+        <subfield code='w'>(DLC)  2016031202</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b8903360</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i11425048</subfield>
+        <subfield code='l'>vada</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>00010658111</subfield>
+        <subfield code='p'>05000</subfield>
+        <subfield code='q'>|aJK1726|b.R67 2017</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2017-07-24 00:00:00-04</subfield>
+        <subfield code='c'>2017-07-24 09:10:55-04</subfield>
+        <subfield code='u'>2018-07-19 11:28:18-04</subfield>
+      </datafield>
+  </record>
+  <record>
+    <leader>00000cam a2200409Mi 4500</leader>
+      <controlfield tag='008'>130529s2013    enk      b    001 0 eng d</controlfield>
+      <controlfield tag='001'>865003327</controlfield>
+      <controlfield tag='003'>OCoLC</controlfield>
+      <controlfield tag='005'>20140114025709.0</controlfield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>9780199672783 (hbk.)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='020'>
+        <subfield code='a'>0199672784 (hbk.)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='035'>
+        <subfield code='a'>(OCoLC)865003327</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='040'>
+        <subfield code='a'>CaONFJC</subfield>
+        <subfield code='b'>eng</subfield>
+        <subfield code='e'>rda</subfield>
+        <subfield code='c'>STF</subfield>
+        <subfield code='d'>NOC</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='049'>
+        <subfield code='a'>NOCC</subfield>
+      </datafield>
+      <datafield ind1='1' ind2=' ' tag='100'>
+        <subfield code='a'>McCoy, Marina,</subfield>
+        <subfield code='d'>1968-,</subfield>
+        <subfield code='e'>author.</subfield>
+      </datafield>
+      <datafield ind1='1' ind2='0' tag='245'>
+        <subfield code='a'>Wounded heroes :</subfield>
+        <subfield code='b'>vulnerability as a virtue in ancient greek literature and philosophy /</subfield>
+        <subfield code='c'>Marina Berzins McCoy.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='250'>
+        <subfield code='a'>First edition.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='1' tag='264'>
+        <subfield code='a'>Oxford :</subfield>
+        <subfield code='b'>Oxford University Press,</subfield>
+        <subfield code='c'>2013.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='300'>
+        <subfield code='a'>xvi, 288 pages ;</subfield>
+        <subfield code='c'>22 cm.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='336'>
+        <subfield code='a'>text</subfield>
+        <subfield code='2'>rdacontent</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='337'>
+        <subfield code='a'>unmediated</subfield>
+        <subfield code='2'>rdamedia</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='338'>
+        <subfield code='a'>volume</subfield>
+        <subfield code='2'>rdacarrier</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='504'>
+        <subfield code='a'>Includes bibliographical references and index.</subfield>
+      </datafield>
+      <datafield ind1='0' ind2=' ' tag='505'>
+        <subfield code='a'>Woundedness, narrative, and community in the Iliad -- Oedipus and Theseus at the crossroads -- Pity as a civic virtue in Sophocles&apos; Philoctetes -- Wounding and wisdom in Plato&apos;s Gorgias -- Eros, woundedness, and creativity in Plato&apos;s Symposium -- Friendship and moral failure in Aristotle&apos;s Ethics -- Tragedy, katharsis, and community in Aristotle&apos;s Poetics.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Greek literature</subfield>
+        <subfield code='x'>History and criticism.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Vulnerability (Personality trait)</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Wounds and injuries in literature.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Philosophy, Ancient.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2='0' tag='650'>
+        <subfield code='a'>Virtues in literature.</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='919'>
+        <subfield code='a'>TROUP</subfield>
+      </datafield>
+      <datafield ind1=' ' ind2=' ' tag='907'>
+        <subfield code='a'>b7667380</subfield>
+      </datafield>
+      <datafield ind1='9' ind2='1' tag='999'>
+        <subfield code='i'>i10195859</subfield>
+        <subfield code='l'>troup</subfield>
+        <subfield code='s'>-</subfield>
+        <subfield code='t'>0</subfield>
+        <subfield code='c'>1</subfield>
+        <subfield code='o'>1</subfield>
+        <subfield code='b'>00047157565</subfield>
+        <subfield code='p'>090##</subfield>
+        <subfield code='q'>|aPA3015.V8|bM33 2013</subfield>
+        <subfield code='n'>90 Day Loan Period</subfield>
+      </datafield>
+      <datafield ind1='0' ind2='0' tag='999'>
+        <subfield code='a'>2014-01-14 00:00:00-05</subfield>
+        <subfield code='c'>2014-01-13 12:19:00-05</subfield>
+        <subfield code='u'>2016-01-11 12:15:21-05</subfield>
+      </datafield>
+  </record>
+</collection>
